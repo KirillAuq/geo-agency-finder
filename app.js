@@ -81,10 +81,11 @@
       : '';
     var badge = a.specialist ? '<span class="badge">GEO specialist</span>' : '';
     var disclosure = a.disclosure ? '<span class="badge badge-note">' + esc(a.disclosure) + '</span>' : '';
+    var profileUrl = 'agencies/' + esc(a.slug) + '/';
     return '<article class="card">' +
       '<div class="card-top">' +
         '<div>' +
-          '<h3>' + esc(a.name) + '</h3>' +
+          '<h3><a class="card-title" href="' + profileUrl + '">' + esc(a.name) + '</a></h3>' +
           '<p class="loc">' + esc(loc) + '</p>' +
         '</div>' +
         '<div class="card-badges">' + badge + disclosure + '</div>' +
@@ -94,8 +95,8 @@
       '<div class="tags">' + tags + '</div>' +
       clients +
       '<div class="card-foot">' +
-        '<span class="mono-label">' + esc(a.region) + '</span>' +
-        '<a class="visit" href="' + esc(a.website) + '" target="_blank" rel="noopener nofollow">Visit site &rarr;</a>' +
+        '<a class="visit" href="' + profileUrl + '">Profile &rarr;</a>' +
+        '<a class="visit" href="' + esc(a.website) + '" target="_blank" rel="noopener nofollow">Visit site &nearr;</a>' +
       '</div>' +
     '</article>';
   }
