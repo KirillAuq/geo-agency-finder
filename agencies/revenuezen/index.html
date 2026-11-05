@@ -48,6 +48,7 @@
   .crumb:hover { color: var(--c-magenta); }
   .hero h1 { margin: 10px 0 14px; }
   .hero .lede { font-size: 19px; line-height: 1.4; color: rgba(0,0,0,0.75); max-width: 60ch; margin-bottom: 24px; }
+  .hero .byline { color: rgba(0,0,0,0.75); max-width: 62ch; }
   .hero-badges { display: flex; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
   .badge { font-family: var(--f-mono); font-size: 10px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; padding: 4px 8px; border-radius: var(--r-sharp); background: linear-gradient(135deg, rgba(239,44,193,0.12), rgba(189,187,255,0.25)); color: var(--c-dark); }
   .badge-note { background: var(--c-fill-light); color: var(--c-muted-light); }
@@ -115,6 +116,25 @@
     .navmid { display: none; }
     .sw-grid { grid-template-columns: 1fr; gap: 12px; }
     .score-bar .seg { width: 24px; }
+  }
+
+  /* Collection (shortlist) pages */
+  .pick { border: 1px solid var(--c-border-light); border-radius: var(--r-comfort); background: #fff; padding: 24px 28px; margin-bottom: 16px; display: flex; gap: 20px; }
+  .pick .rank { font-family: var(--f-mono); font-weight: 500; color: var(--c-magenta); font-size: 15px; padding-top: 4px; min-width: 30px; }
+  .pick h3 { margin: 0 0 4px; font-size: 20px; }
+  .pick h3 a { color: inherit; text-decoration: none; }
+  .pick h3 a:hover { color: var(--c-magenta); }
+  .pick .meta { font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; color: rgba(0,0,0,0.55); margin: 0 0 10px; }
+  .pick p.why { margin: 0 0 12px; color: rgba(0,0,0,0.8); }
+  .pick .links a { font-size: 14px; color: var(--c-magenta); text-decoration: none; margin-right: 18px; }
+  .pick .links a:hover { text-decoration: underline; }
+  .pick .mine { display: inline-block; font-size: 11px; font-family: var(--f-mono); text-transform: uppercase; letter-spacing: 0.06em; border: 1px solid var(--c-magenta); color: var(--c-magenta); border-radius: var(--r-sharp); padding: 2px 8px; margin-left: 10px; vertical-align: 3px; }
+  .coll-nav { display: flex; flex-wrap: wrap; gap: 10px; margin: 32px 0 8px; }
+  .coll-nav a { font-size: 13px; font-family: var(--f-mono); border: 1px solid var(--c-border-light); background: #fff; border-radius: var(--r-sharp); padding: 6px 12px; color: var(--c-text); text-decoration: none; }
+  .coll-nav a:hover { border-color: var(--c-magenta); color: var(--c-magenta); }
+  .coll-main { max-width: 880px; padding-top: 40px; padding-bottom: 64px; }
+  @media (max-width: 640px) {
+    .pick { flex-direction: column; gap: 8px; padding: 20px; }
   }
 </style>
 </head>

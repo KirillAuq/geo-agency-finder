@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GEO Agency Finder</title>
-<meta name="description" content="Compare GEO (generative engine optimization) agencies by region, pricing, and focus. Every detail comes from each agency's own website.">
+<title>The Best GEO Agencies: Definitive List</title>
+<meta name="description" content="The definitive list of the best GEO agencies, ranked on published case studies, a ten-capability evidence scorecard, and verified third-party reviews.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
@@ -51,6 +51,12 @@
   .hero h1 { margin-bottom: 24px; max-width: 18ch; }
   .hero p.lede { max-width: 62ch; color: rgba(0,0,0,0.75); margin-bottom: 16px; }
   .hero p.byline { max-width: 62ch; color: rgba(0,0,0,0.75); }
+  .browse-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 24px; }
+  .browse-grid a { display: block; border: 1px solid var(--c-border-light); background: #fff; border-radius: var(--r-comfort); padding: 20px; color: var(--c-text); text-decoration: none; transition: border-color 0.15s ease; }
+  .browse-grid a:hover { border-color: var(--c-magenta); }
+  .browse-grid a strong { display: block; margin-bottom: 6px; }
+  .browse-grid a span { font-size: 14px; color: rgba(0,0,0,0.65); }
+  @media (max-width: 880px) { .browse-grid { grid-template-columns: 1fr; } }
 
   .filters { position: sticky; top: 61px; z-index: 40; background: rgba(255,255,255,0.92); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-top: 1px solid var(--c-border-light); border-bottom: 1px solid var(--c-border-light); padding: 16px 0; }
   .filters .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
@@ -130,8 +136,8 @@
 <header class="hero">
   <div class="container">
     <span class="eyebrow"><span class="pill"></span><span class="mono-label" style="color: var(--c-text);">GEO Agency Finder</span></span>
-    <h1>Find the right fit among <span id="total-count">these</span> GEO agencies</h1>
-    <p class="lede">GEO agencies get brands mentioned and cited by AI assistants: ChatGPT, Perplexity, Google AI Overviews, Gemini. This directory compares them by region, starting price, specialism, and focus. Every detail comes from each agency's own website.</p>
+    <h1>The definitive list of the best GEO agencies</h1>
+    <p class="lede">GEO agencies get brands mentioned and cited by AI assistants: ChatGPT, Perplexity, Google AI Overviews, Gemini. This directory ranks <span id="total-count">52</span> of them on evidence: the case studies each agency publishes, a ten-capability scorecard graded against public proof, and third-party sources like verified Clutch and G2 reviews and the Reddit threads where buyers name agencies. Every number traces to a page you can open.</p>
     <p class="byline">I'm Kirill Sajaev. I've been in SEO since 2010 and I run AUQ, a GEO agency, so I know this market from the inside. AUQ is listed below on the same terms as every other agency.</p>
   </div>
 </header>
@@ -181,6 +187,24 @@
     <div id="results"></div>
   </div>
 </main>
+
+<section class="section browse">
+  <div class="container">
+    <div class="section-head">
+      <span class="mono-label">Shortlists</span>
+      <h2>Best GEO agencies by need</h2>
+    </div>
+    <p>Six curated shortlists drawn from the evidence grades, each with a line on why the agency earned its spot. They update as new agencies enter the directory.</p>
+    <div class="browse-grid">
+      <a href="best-for-content/"><strong>Best for content</strong><span>Agencies whose case studies carry citation numbers, from content engineering to original research.</span></a>
+      <a href="best-for-off-page/"><strong>Best for off-page</strong><span>Links, brand mentions and community citations, with documented link counts and mention programs.</span></a>
+      <a href="best-for-plg/"><strong>Best for PLG SaaS</strong><span>Agencies with published sign-up, activation or pipeline numbers tied to AI search.</span></a>
+      <a href="best-for-startups/"><strong>Best for startups</strong><span>Published entry pricing and early-stage results fast enough to matter before the next raise.</span></a>
+      <a href="best-for-technical-geo/"><strong>Best for technical GEO</strong><span>Crawlability for AI bots, structured data, llms.txt and rendering, graded 5/5 on technical evidence.</span></a>
+      <a href="best-international-geo-agency/"><strong>Best international</strong><span>Documented GEO programs from the UK, Germany, India, Australia and the Middle East.</span></a>
+    </div>
+  </div>
+</section>
 
 <section class="section method">
   <div class="container">

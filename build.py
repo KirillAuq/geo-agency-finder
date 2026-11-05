@@ -91,6 +91,7 @@ CSS = """
   .crumb:hover { color: var(--c-magenta); }
   .hero h1 { margin: 10px 0 14px; }
   .hero .lede { font-size: 19px; line-height: 1.4; color: rgba(0,0,0,0.75); max-width: 60ch; margin-bottom: 24px; }
+  .hero .byline { color: rgba(0,0,0,0.75); max-width: 62ch; }
   .hero-badges { display: flex; gap: 8px; margin-bottom: 4px; flex-wrap: wrap; }
   .badge { font-family: var(--f-mono); font-size: 10px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; padding: 4px 8px; border-radius: var(--r-sharp); background: linear-gradient(135deg, rgba(239,44,193,0.12), rgba(189,187,255,0.25)); color: var(--c-dark); }
   .badge-note { background: var(--c-fill-light); color: var(--c-muted-light); }
@@ -158,6 +159,25 @@ CSS = """
     .navmid { display: none; }
     .sw-grid { grid-template-columns: 1fr; gap: 12px; }
     .score-bar .seg { width: 24px; }
+  }
+
+  /* Collection (shortlist) pages */
+  .pick { border: 1px solid var(--c-border-light); border-radius: var(--r-comfort); background: #fff; padding: 24px 28px; margin-bottom: 16px; display: flex; gap: 20px; }
+  .pick .rank { font-family: var(--f-mono); font-weight: 500; color: var(--c-magenta); font-size: 15px; padding-top: 4px; min-width: 30px; }
+  .pick h3 { margin: 0 0 4px; font-size: 20px; }
+  .pick h3 a { color: inherit; text-decoration: none; }
+  .pick h3 a:hover { color: var(--c-magenta); }
+  .pick .meta { font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; color: rgba(0,0,0,0.55); margin: 0 0 10px; }
+  .pick p.why { margin: 0 0 12px; color: rgba(0,0,0,0.8); }
+  .pick .links a { font-size: 14px; color: var(--c-magenta); text-decoration: none; margin-right: 18px; }
+  .pick .links a:hover { text-decoration: underline; }
+  .pick .mine { display: inline-block; font-size: 11px; font-family: var(--f-mono); text-transform: uppercase; letter-spacing: 0.06em; border: 1px solid var(--c-magenta); color: var(--c-magenta); border-radius: var(--r-sharp); padding: 2px 8px; margin-left: 10px; vertical-align: 3px; }
+  .coll-nav { display: flex; flex-wrap: wrap; gap: 10px; margin: 32px 0 8px; }
+  .coll-nav a { font-size: 13px; font-family: var(--f-mono); border: 1px solid var(--c-border-light); background: #fff; border-radius: var(--r-sharp); padding: 6px 12px; color: var(--c-text); text-decoration: none; }
+  .coll-nav a:hover { border-color: var(--c-magenta); color: var(--c-magenta); }
+  .coll-main { max-width: 880px; padding-top: 40px; padding-bottom: 64px; }
+  @media (max-width: 640px) {
+    .pick { flex-direction: column; gap: 8px; padding: 20px; }
   }
 """
 
@@ -465,6 +485,107 @@ def build_profile(a):
 """
 
 
+SCORE_KEYS_FLAT = [k for _, pairs in SCORE_GROUPS for k, _ in pairs]
+
+
+def build_collection(c, by_name, collections):
+    canonical = f"{BASE_URL}{c['slug']}/"
+    picks = ""
+    ld_items = []
+    for i, e in enumerate(c["entries"], 1):
+        a = by_name[e["name"]]
+        slug = slugify(a["name"])
+        loc = ", ".join(x for x in [a.get("city"), a.get("country")] if x) or a["region"]
+        price = f"from ${a['priceMonthlyUSD']:,}/mo" if a.get("priceMonthlyUSD") else "pricing on request"
+        sc = a.get("scores") or {}
+        grade_txt = ""
+        if sc:
+            grade = sum((sc.get(k) or {}).get("score", 1) for k in SCORE_KEYS_FLAT) / len(SCORE_KEYS_FLAT)
+            grade_txt = f" · evidence grade {grade:.1f}/5"
+        mine = '<span class="mine">My agency</span>' if e.get("disclosure") else ""
+        picks += (
+            '<div class="pick">'
+            f'<span class="rank">{i:02d}</span>'
+            "<div>"
+            f'<h3><a href="../agencies/{slug}/">{esc(a["name"])}</a>{mine}</h3>'
+            f'<p class="meta">{esc(loc)} · {esc(price)}{esc(grade_txt)}</p>'
+            f'<p class="why">{esc(e["why"])}</p>'
+            f'<span class="links"><a href="../agencies/{slug}/">Full profile &rarr;</a>'
+            f'<a href="{esc(a["website"])}" target="_blank" rel="noopener nofollow">Visit site &nearr;</a></span>'
+            "</div></div>"
+        )
+        ld_items.append({"@type": "ListItem", "position": i, "name": a["name"], "url": f"{BASE_URL}agencies/{slug}/"})
+
+    nav = '<div class="coll-nav"><a href="../">All GEO agencies</a>' + "".join(
+        f'<a href="../{o["slug"]}/">{esc(o["title"])}</a>' for o in collections if o["slug"] != c["slug"]
+    ) + "</div>"
+
+    ld_json = json.dumps(
+        {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": c["title"],
+            "url": canonical,
+            "itemListElement": ld_items,
+        },
+        indent=2,
+        ensure_ascii=False,
+    )
+    meta_desc = c["answer"][:152] + "…" if len(c["answer"]) > 155 else c["answer"]
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{esc(c["title"])}</title>
+<meta name="description" content="{esc(meta_desc)}">
+<link rel="canonical" href="{esc(canonical)}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>{CSS}</style>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="container">
+    <a class="brand" href="https://auq.io" target="_blank" rel="noopener"><span class="dot"></span>AUQ</a>
+    <span class="navmid"><a href="../">All GEO agencies</a></span>
+    <a class="btn-cta" href="https://auq.io/contact/" target="_blank" rel="noopener">Talk to AUQ</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <a class="crumb" href="../">&larr; GEO Agency Finder</a>
+    <h1>{esc(c["title"])}</h1>
+    <p class="lede">{esc(c["answer"])}</p>
+    <p class="byline">{esc(c["take"])}</p>
+  </div>
+</header>
+
+<div class="container coll-main">
+  {picks}
+  <p class="caption">Placements come from the directory&#39;s evidence scorecards and each agency&#39;s published case studies, checked {LAST_CHECKED}. Numbers are the agencies&#39; own published claims, quoted as found.</p>
+  {nav}
+</div>
+
+<footer>
+  <div class="container">
+    <span class="caption"><a href="../">GEO Agency Finder</a>, maintained by <a href="https://auq.io" target="_blank" rel="noopener">AUQ</a>.</span>
+    <span class="caption">Details verified {LAST_CHECKED}. Confirm everything with the agency.</span>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{ld_json}
+</script>
+</body>
+</html>
+"""
+
+
 def main():
     agencies = json.loads((ROOT / "agencies.json").read_text())
 
@@ -488,12 +609,24 @@ def main():
         (out / "index.html").write_text(page)
         urls.append(f"{BASE_URL}agencies/{slug}/")
 
+    # Curated shortlist pages from collections.json.
+    collections = json.loads((ROOT / "collections.json").read_text())
+    by_name = {a["name"]: a for a in agencies}
+    for c in collections:
+        missing = [e["name"] for e in c["entries"] if e["name"] not in by_name]
+        if missing:
+            raise SystemExit(f"collections.json: unknown agency names in {c['slug']}: {missing}")
+        out = ROOT / c["slug"]
+        out.mkdir(parents=True, exist_ok=True)
+        (out / "index.html").write_text(build_collection(c, by_name, collections))
+        urls.append(f"{BASE_URL}{c['slug']}/")
+
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sitemap += "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls)
     sitemap += "</urlset>\n"
     (ROOT / "sitemap.xml").write_text(sitemap)
 
-    print(f"Built {len(agencies)} profiles, data.js, sitemap.xml")
+    print(f"Built {len(agencies)} profiles, {len(collections)} shortlists, data.js, sitemap.xml")
 
 
 if __name__ == "__main__":
