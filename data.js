@@ -25,6 +25,14 @@ var AGENCIES = [
     "disclosure": "My agency",
     "contactUrl": "https://auq.io/contact-us/",
     "email": "hello@auq.io",
+    "reviews": [
+      {
+        "platform": "Clutch",
+        "rating": 4.9,
+        "count": 7,
+        "url": "https://clutch.co/profile/auq"
+      }
+    ],
     "slug": "auq"
   },
   {

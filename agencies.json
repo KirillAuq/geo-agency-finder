@@ -94,7 +94,15 @@
         "score": 4,
         "evidence": "Programmatic tool/comparison pages in Category Leader tier; web developers and technical director on team; free tools built on site"
       }
-    }
+    },
+    "reviews": [
+      {
+        "platform": "Clutch",
+        "rating": 4.9,
+        "count": 7,
+        "url": "https://clutch.co/profile/auq"
+      }
+    ]
   },
   {
     "name": "AEO Engine",
