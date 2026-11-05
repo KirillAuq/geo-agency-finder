@@ -3,9 +3,9 @@ var AGENCIES = [
   {
     "name": "AUQ",
     "website": "https://auq.io",
-    "city": "",
-    "country": "",
-    "region": "Remote / no HQ listed",
+    "city": "New York",
+    "country": "United States",
+    "region": "North America",
     "specialist": true,
     "priceMonthlyUSD": null,
     "description": "Organic growth agency for technical SaaS brands, working GEO and classic SEO together: content built for LLM citation, brand mentions and link development, and AI visibility audits.",
