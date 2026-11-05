@@ -13,7 +13,7 @@ import pathlib
 import re
 
 ROOT = pathlib.Path(__file__).parent
-BASE_URL = "https://kirillauq.github.io/geo-agency-finder/"
+BASE_URL = "https://auq.io/agency-finder/"
 LAST_CHECKED = "November 2026"
 
 SERVICE_BLURBS = {
