@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GEO Agency Finder</title>
+<meta name="description" content="Compare GEO (generative engine optimization) agencies by region, pricing, and focus. Every detail comes from each agency's own website.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --c-text: #000000; --c-text-dark: #ffffff; --c-bg: #ffffff; --c-dark: #010120;
+    --c-magenta: #ef2cc1; --c-orange: #fc4c02; --c-lavender: #bdbbff;
+    --c-border-light: rgba(0, 0, 0, 0.08);
+    --c-fill-light: rgba(0, 0, 0, 0.04);
+    --c-muted-light: rgba(0, 0, 0, 0.55);
+    --shadow: 0 4px 10px rgba(1, 1, 32, 0.10); --shadow-lg: 0 12px 32px rgba(1, 1, 32, 0.10);
+    --r-sharp: 4px; --r-comfort: 8px;
+    --f-display: "Inter", "Helvetica Neue", Arial, sans-serif;
+    --f-mono: "JetBrains Mono", Georgia, monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: var(--f-display); font-size: 16px; line-height: 1.3; letter-spacing: -0.16px; color: var(--c-text); background: var(--c-bg); -webkit-font-smoothing: antialiased; }
+  h1 { font-size: 56px; font-weight: 500; line-height: 1.05; letter-spacing: -1.68px; }
+  h2 { font-size: 40px; font-weight: 500; line-height: 1.1; letter-spacing: -0.8px; }
+  h3 { font-size: 22px; font-weight: 500; line-height: 1.2; letter-spacing: -0.22px; }
+  p { font-size: 16px; line-height: 1.45; letter-spacing: -0.16px; }
+  p.lede { font-size: 22px; line-height: 1.35; letter-spacing: -0.22px; }
+  .caption { font-size: 13px; line-height: 1.4; color: var(--c-muted-light); }
+  .mono-label { font-family: var(--f-mono); font-weight: 500; font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--c-muted-light); display: inline-block; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+  .section { padding: 80px 0; border-top: 1px solid var(--c-border-light); }
+  .section-head { display: flex; flex-direction: column; gap: 16px; margin-bottom: 40px; max-width: 820px; }
+
+  nav.topnav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(14px); -webkit-backdrop-filter: saturate(180%) blur(14px); background: rgba(255,255,255,0.75); border-bottom: 1px solid var(--c-border-light); }
+  nav.topnav .container { display: flex; justify-content: space-between; align-items: center; padding-top: 16px; padding-bottom: 16px; }
+  .brand { font-weight: 500; font-size: 18px; letter-spacing: -0.18px; display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--c-text); }
+  .brand .dot { width: 10px; height: 10px; border-radius: 2px; background: linear-gradient(135deg, var(--c-magenta), var(--c-lavender)); }
+  .btn-cta { display: inline-flex; align-items: center; gap: 8px; background: var(--c-dark); color: var(--c-text-dark); padding: 10px 18px; border-radius: var(--r-sharp); font-size: 14px; letter-spacing: -0.14px; font-weight: 500; text-decoration: none; transition: transform 0.15s ease; }
+  .btn-cta:hover { transform: translateY(-1px); }
+
+  .hero { position: relative; overflow: hidden; padding: 80px 0 56px; }
+  .hero::before, .hero::after { content: ""; position: absolute; pointer-events: none; filter: blur(60px); z-index: 0; }
+  .hero::before { width: 720px; height: 720px; top: -200px; right: -180px; background: radial-gradient(circle at 30% 30%, rgba(239, 44, 193, 0.32) 0%, transparent 60%), radial-gradient(circle at 70% 70%, rgba(189, 187, 255, 0.55) 0%, transparent 65%); border-radius: 50%; }
+  .hero::after { width: 560px; height: 560px; top: 60px; left: -140px; background: radial-gradient(circle at 40% 60%, rgba(189, 187, 255, 0.5) 0%, transparent 65%), radial-gradient(circle at 80% 30%, rgba(252, 76, 2, 0.16) 0%, transparent 60%); border-radius: 50%; }
+  .hero .container { position: relative; z-index: 1; }
+  .hero .eyebrow { display: inline-flex; align-items: center; gap: 12px; padding: 6px 12px; border-radius: var(--r-sharp); background: rgba(255,255,255,0.7); border: 1px solid var(--c-border-light); backdrop-filter: blur(8px); margin-bottom: 28px; }
+  .hero .eyebrow .pill { width: 6px; height: 6px; border-radius: 50%; background: var(--c-magenta); }
+  .hero h1 { margin-bottom: 24px; max-width: 18ch; }
+  .hero p.lede { max-width: 62ch; color: rgba(0,0,0,0.75); margin-bottom: 16px; }
+  .hero p.byline { max-width: 62ch; color: rgba(0,0,0,0.75); }
+
+  .filters { position: sticky; top: 61px; z-index: 40; background: rgba(255,255,255,0.92); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-top: 1px solid var(--c-border-light); border-bottom: 1px solid var(--c-border-light); padding: 16px 0; }
+  .filters .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .filters input[type="search"], .filters select { font-family: var(--f-display); font-size: 14px; letter-spacing: -0.14px; padding: 9px 12px; border: 1px solid var(--c-border-light); border-radius: var(--r-sharp); background: var(--c-bg); color: var(--c-text); }
+  .filters input[type="search"] { flex: 1 1 200px; min-width: 160px; }
+  .filters select { max-width: 220px; }
+  .toggle { display: inline-flex; align-items: center; gap: 7px; font-size: 14px; letter-spacing: -0.14px; cursor: pointer; white-space: nowrap; padding: 9px 4px; }
+  .toggle input { accent-color: var(--c-magenta); width: 15px; height: 15px; }
+  #f-clear { font-family: var(--f-display); font-size: 14px; padding: 9px 14px; border: 1px solid var(--c-border-light); border-radius: var(--r-sharp); background: var(--c-fill-light); cursor: pointer; }
+  #f-clear:hover { background: rgba(0,0,0,0.08); }
+  #result-count { margin-left: auto; }
+
+  .results-section { padding: 40px 0 80px; }
+  #results { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px; }
+  .card { border: 1px solid var(--c-border-light); border-radius: var(--r-comfort); padding: 24px; display: flex; flex-direction: column; gap: 12px; background: var(--c-bg); box-shadow: var(--shadow); transition: box-shadow 0.15s ease, transform 0.15s ease; }
+  .card:hover { box-shadow: var(--shadow-lg); transform: translateY(-2px); }
+  .card-top { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+  .card .loc { color: var(--c-muted-light); font-size: 14px; margin-top: 4px; }
+  .card-badges { display: flex; flex-direction: column; gap: 6px; align-items: flex-end; }
+  .badge { font-family: var(--f-mono); font-size: 10px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; padding: 4px 8px; border-radius: var(--r-sharp); background: linear-gradient(135deg, rgba(239,44,193,0.12), rgba(189,187,255,0.25)); color: var(--c-dark); white-space: nowrap; }
+  .badge-note { background: var(--c-fill-light); color: var(--c-muted-light); }
+  .card .price { font-weight: 600; font-size: 17px; }
+  .card .desc { color: rgba(0,0,0,0.75); font-size: 15px; flex-grow: 1; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag { font-size: 12px; letter-spacing: -0.12px; padding: 4px 9px; border-radius: 999px; background: var(--c-fill-light); border: 1px solid var(--c-border-light); }
+  .clients { font-size: 13px; color: var(--c-muted-light); }
+  .clients .mono-label { margin-right: 6px; }
+  .card-foot { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--c-border-light); padding-top: 12px; margin-top: 2px; }
+  .visit { color: var(--c-dark); font-weight: 500; font-size: 14px; text-decoration: none; }
+  .visit:hover { color: var(--c-magenta); }
+  .empty { grid-column: 1 / -1; text-align: center; padding: 64px 0; display: flex; flex-direction: column; gap: 10px; }
+
+  .method ul, .method ol { margin: 16px 0 0 20px; display: flex; flex-direction: column; gap: 10px; }
+  .method li { line-height: 1.45; }
+  .method p + p { margin-top: 12px; }
+  .method .container > p, .method li { max-width: 72ch; }
+
+  .faq-item { border-top: 1px solid var(--c-border-light); padding: 24px 0; max-width: 820px; }
+  .faq-item h3 { margin-bottom: 10px; }
+  .faq-item p { color: rgba(0,0,0,0.78); max-width: 72ch; }
+  .faq-item p + p { margin-top: 10px; }
+
+  .cta-band { background: var(--c-dark); color: var(--c-text-dark); border-radius: var(--r-comfort); padding: 48px; display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between; }
+  .cta-band h2 { font-size: 32px; letter-spacing: -0.64px; max-width: 22ch; }
+  .cta-band p { color: rgba(255,255,255,0.75); max-width: 56ch; margin-top: 8px; }
+  .btn-light { display: inline-flex; background: var(--c-text-dark); color: var(--c-dark); padding: 12px 22px; border-radius: var(--r-sharp); font-weight: 500; font-size: 15px; text-decoration: none; }
+  .btn-light:hover { background: var(--c-lavender); }
+
+  footer { border-top: 1px solid var(--c-border-light); padding: 40px 0; }
+  footer .container { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; align-items: center; }
+  footer a { color: var(--c-muted-light); text-decoration: none; font-size: 14px; }
+  footer a:hover { color: var(--c-text); }
+
+  @media (max-width: 820px) {
+    h1 { font-size: 38px; letter-spacing: -1px; }
+    h2 { font-size: 30px; }
+    .container { padding: 0 16px; }
+    .hero { padding: 56px 0 40px; }
+    .filters { position: static; }
+    .filters select { max-width: none; flex: 1 1 45%; }
+    #result-count { margin-left: 0; width: 100%; }
+    .cta-band { padding: 32px 24px; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="container">
+    <a class="brand" href="https://auq.io" target="_blank" rel="noopener"><span class="dot"></span>AUQ</a>
+    <a class="btn-cta" href="https://auq.io/contact/" target="_blank" rel="noopener">Talk to AUQ</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <span class="eyebrow"><span class="pill"></span><span class="mono-label" style="color: var(--c-text);">GEO Agency Finder</span></span>
+    <h1>Find the right fit among <span id="total-count">these</span> GEO agencies</h1>
+    <p class="lede">GEO agencies get brands mentioned and cited by AI assistants: ChatGPT, Perplexity, Google AI Overviews, Gemini. This directory compares them by region, starting price, specialism, and focus. Every detail comes from each agency's own website.</p>
+    <p class="byline">I'm Kirill Sajaev. I've been in SEO since 2010 and I run AUQ, a GEO agency, so I know this market from the inside. AUQ is listed below on the same terms as every other agency.</p>
+  </div>
+</header>
+
+<div class="filters">
+  <div class="container">
+    <div class="row">
+      <input type="search" id="f-q" placeholder="Search by name or location" aria-label="Search agencies">
+      <select id="f-region" aria-label="Region">
+        <option value="all">All regions</option>
+      </select>
+      <select id="f-type" aria-label="Agency type">
+        <option value="all">All agency types</option>
+        <option value="specialist">GEO specialists</option>
+        <option value="wider">Wider agencies</option>
+      </select>
+      <select id="f-budget" aria-label="Monthly budget">
+        <option value="any">Any budget</option>
+        <option value="3000">Up to $3,000/mo</option>
+        <option value="6000">Up to $6,000/mo</option>
+        <option value="10000">Up to $10,000/mo</option>
+      </select>
+      <select id="f-focus" aria-label="Focus">
+        <option value="any">Any focus</option>
+        <option value="AI visibility tracking">AI visibility tracking</option>
+        <option value="Content for LLM citation">Content for LLM citation</option>
+        <option value="Technical GEO">Technical GEO</option>
+        <option value="Digital PR & mentions">Digital PR &amp; mentions</option>
+        <option value="Listicle placements">Listicle placements</option>
+        <option value="Classic SEO">Classic SEO</option>
+        <option value="CRO">CRO</option>
+      </select>
+      <select id="f-sort" aria-label="Sort">
+        <option value="best">Best match</option>
+        <option value="priceAsc">Price: low to high</option>
+        <option value="priceDesc">Price: high to low</option>
+      </select>
+      <label class="toggle"><input type="checkbox" id="f-published"> Published prices only</label>
+      <button id="f-clear" type="button">Clear</button>
+      <span class="mono-label" id="result-count"></span>
+    </div>
+  </div>
+</div>
+
+<main class="results-section">
+  <div class="container">
+    <div id="results"></div>
+  </div>
+</main>
+
+<section class="section method">
+  <div class="container">
+    <div class="section-head">
+      <span class="mono-label">Methodology</span>
+      <h2>How agencies get on this list</h2>
+    </div>
+    <p>Three rules decide inclusion:</p>
+    <ol>
+      <li><strong>A real GEO service.</strong> The agency sells generative engine optimization, answer engine optimization, or AI search visibility as a named service on its own website. A single blog post about ChatGPT does not count.</li>
+      <li><strong>Verifiable details.</strong> Location, pricing, services, and clients come from the agency's own site. Where a price is unpublished, the card says "Pricing on request" and the agency still appears under every budget filter.</li>
+      <li><strong>A working website.</strong> Each listing was checked by hand against the agency's live site.</li>
+    </ol>
+    <p>Prices in other currencies are converted to US dollars at approximate rates and used only for filtering. Confirm current pricing and scope with each agency before signing anything.</p>
+    <p><strong>Disclosure:</strong> I run AUQ, which appears in this directory. It is listed under the same three rules as everyone else, and the sort order gives it no preference.</p>
+    <p class="caption" style="margin-top: 16px;">Last checked: November 2026. Know a GEO agency that belongs here? <a href="https://www.linkedin.com/in/kirill-sajaev/" target="_blank" rel="noopener" style="color: var(--c-magenta);">Message me on LinkedIn</a>.</p>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section-head">
+      <span class="mono-label">FAQ</span>
+      <h2>Questions people ask before hiring a GEO agency</h2>
+    </div>
+
+    <div class="faq-item">
+      <h3>What does a GEO agency do?</h3>
+      <p>A GEO agency increases how often AI assistants mention and cite a brand. The work covers tracking visibility across ChatGPT, Perplexity, Gemini, and Google AI Overviews, publishing content structured for citation, earning brand mentions on the pages assistants already pull from, and fixing technical issues that block AI crawlers.</p>
+      <p>In my experience the mentions work matters as much as anything on a client's own site. Assistants name brands they have seen named elsewhere, so presence in ranking listicles and community threads moves results faster than most teams expect.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How much does GEO cost?</h3>
+      <p>Published GEO retainers in this directory start between $1,600 and $10,000 per month, and the large majority of agencies price on request. One-off GEO audits are commonly sold in the $400 to $5,000 range.</p>
+      <p>Budget as you would for serious SEO. The deliverables overlap heavily: content, digital PR, and technical fixes, with AI visibility tracking layered on top.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Should I pick a GEO specialist or a wider agency?</h3>
+      <p>Specialists tend to have better measurement tooling and sharper opinions on what moves AI citations. Wider agencies bring existing SEO infrastructure, which matters because most GEO gains still run through the same pages search engines rank.</p>
+      <p>My take, as a specialist with an obvious bias: if your classic SEO is already handled, hire a specialist for the GEO layer. If you are starting from zero on organic, a wider agency that treats GEO seriously will cover more ground per dollar.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How is GEO different from SEO?</h3>
+      <p>SEO targets rankings in search results pages. GEO targets presence inside AI-generated answers, where the unit of success is a mention or citation rather than a position. The two share most of their inputs: crawlable pages, clear direct answers, and authority built through links and mentions.</p>
+      <p>In our client work at AUQ the overlap is the point. The fraud.net engagement produced 1,230 AI Overview citations and a 5.6% AI share of voice, and the pages that earned those citations were built with ordinary SEO discipline plus answer-first formatting.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Why do so many agencies say "pricing on request"?</h3>
+      <p>GEO scopes vary widely, and most agencies prefer to price after seeing the site, the category, and the competition. Agencies without published prices appear under every budget filter here so they stay visible.</p>
+      <p>I'd treat an unpublished price as neutral. A published floor is useful for filtering, and that is the only extra credit it earns in this directory.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta-band">
+      <div>
+        <h2>Want to know where you stand in AI search first?</h2>
+        <p>AUQ runs GEO audits that measure how AI assistants currently represent your brand: trigger rate, citation rate, and share of voice against named competitors. Useful before you brief any agency on this list, including us.</p>
+      </div>
+      <a class="btn-light" href="https://auq.io/contact/" target="_blank" rel="noopener">Get a GEO audit</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <span class="caption">GEO Agency Finder, maintained by <a href="https://auq.io" target="_blank" rel="noopener">AUQ</a>.</span>
+    <span class="caption">Details verified November 2026. Confirm pricing and scope with each agency.</span>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does a GEO agency do?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A GEO agency increases how often AI assistants mention and cite a brand. The work covers tracking visibility across ChatGPT, Perplexity, Gemini, and Google AI Overviews, publishing content structured for citation, earning brand mentions on pages assistants pull from, and fixing technical issues that block AI crawlers." }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does GEO cost?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Published GEO retainers start between $1,600 and $10,000 per month, and the large majority of agencies price on request. One-off GEO audits are commonly sold in the $400 to $5,000 range." }
+    },
+    {
+      "@type": "Question",
+      "name": "How is GEO different from SEO?",
+      "acceptedAnswer": { "@type": "Answer", "text": "SEO targets rankings in search results pages. GEO targets presence inside AI-generated answers, where the unit of success is a mention or citation rather than a position. The two share most of their inputs: crawlable pages, clear direct answers, and authority built through links and mentions." }
+    }
+  ]
+}
+</script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

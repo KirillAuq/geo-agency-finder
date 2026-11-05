@@ -1,0 +1,583 @@
+/* GEO Agency Finder dataset — 52 agencies, verified November 2026.
+   Every detail comes from each agency's own website. priceMonthlyUSD is set
+   only when the agency publishes a price itself; third-party-reported figures
+   stay out of it. Null price = "Pricing on request". Non-USD prices are
+   converted at approximate rates and used only for filtering. */
+var AGENCIES = [
+  /* ---------- GEO specialists ---------- */
+  {
+    name: "AUQ",
+    website: "https://auq.io",
+    city: "", country: "",
+    region: "Remote / no HQ listed",
+    specialist: true,
+    priceMonthlyUSD: null,
+    description: "Organic growth agency for technical SaaS brands, working GEO and classic SEO together: content built for LLM citation, brand mentions and link development, and AI visibility audits.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Digital PR & mentions", "Listicle placements", "Classic SEO"],
+    clients: ["DeepInfra", "fraud.net", "Microblink", "Vizard.ai"],
+    disclosure: "My agency"
+  },
+  {
+    name: "AEO Engine",
+    website: "https://aeoengine.ai",
+    city: "", country: "United States",
+    region: "United States",
+    specialist: true,
+    priceMonthlyUSD: 1597,
+    description: "Human-managed AEO and GEO agency that pairs senior strategists with AI agents to get brands cited and recommended in AI Overviews, ChatGPT and Google: entity optimization, schema, AI citation work and supporting SEO.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions", "Classic SEO"],
+    clients: ["TCL", "Morph Costumes", "Opposuits", "Broadview Federal Credit Union"]
+  },
+  {
+    name: "Mersel AI",
+    website: "https://www.mersel.ai",
+    city: "San Francisco", country: "United States",
+    region: "United States",
+    specialist: true,
+    priceMonthlyUSD: null,
+    description: "Managed GEO service for B2B companies that publishes high-intent content to win citations and inbound leads from AI search and Google, combining a done-for-you content engine with AI visibility analytics.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Classic SEO"],
+    clients: ["Solo Gallery"]
+  },
+  {
+    name: "OutreachBloom",
+    website: "https://outreachbloom.com",
+    city: "Olympia", country: "United States",
+    region: "United States",
+    specialist: true,
+    priceMonthlyUSD: null,
+    description: "Washington-based agency whose primary service is AI SEO: getting B2B clients cited in Reddit discussions and high-authority sources that AI tools draw on, supported by done-for-you outbound.",
+    services: ["Digital PR & mentions", "Content for LLM citation"],
+    clients: ["RevenueBase", "Vulcan7", "EmailAnalytics", "Labyrinth Learning"]
+  },
+  {
+    name: "Avenue Z",
+    website: "https://avenuez.com",
+    city: "New York", country: "United States",
+    region: "United States",
+    specialist: true,
+    priceMonthlyUSD: null,
+    description: "AI optimization company delivering earned, owned and performance media, with AEO and GEO services including AEO for PR, AEO for eCommerce and AEO for Spanish-language markets. Offices in New York, Miami and Orlando.",
+    services: ["Digital PR & mentions", "Content for LLM citation", "Classic SEO", "CRO"],
+    clients: ["Dave", "cocokind", "Better", "Prometeo"]
+  },
+  {
+    name: "UltraScout AI",
+    website: "https://www.ultrascout.ai",
+    city: "London", country: "United Kingdom",
+    region: "United Kingdom",
+    specialist: true,
+    priceMonthlyUSD: null,
+    description: "London firm combining AEO and GEO consultancy with its own AI-visibility analytics platform to help brands get recommended by assistants such as ChatGPT, Gemini and Claude. Publishes platform and service tiers from £49 to £1,999 per month.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO"],
+    clients: []
+  },
+  {
+    name: "Generate More",
+    website: "https://generatemore.ai",
+    city: "Helsinki", country: "Finland",
+    region: "Europe",
+    specialist: true,
+    priceMonthlyUSD: 2375,
+    description: "Helsinki AI SEO and answer engine optimization agency, founded in 2024, that helps established B2B software companies correct and improve how AI assistants like ChatGPT, Claude and Perplexity describe them. Measures success in sales meetings and revenue.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Digital PR & mentions"],
+    clients: ["ONEiO", "Suplari", "Teamspective", "Universum Global"]
+  },
+  {
+    name: "citabl.ai",
+    website: "https://citabl.ai",
+    city: "", country: "France",
+    region: "Europe",
+    specialist: true,
+    priceMonthlyUSD: 2430,
+    description: "French GEO-first studio that tests where brands appear in ChatGPT, Perplexity, Claude and Gemini answers and runs diagnostics on citation fidelity, AI-agent readiness and signal freshness. Positions itself as complementary to SEO agencies.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO"],
+    clients: []
+  },
+  {
+    name: "GEO Agentur",
+    website: "https://geoagentur.de",
+    city: "Herford", country: "Germany",
+    region: "Europe",
+    specialist: true,
+    priceMonthlyUSD: null,
+    description: "German agency dedicated to generative engine optimization: ChatGPT, Gemini and Perplexity optimization, semantic optimization and technical SEO for AI, sold as one-off GEO audits or ongoing retainers.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Classic SEO"],
+    clients: ["EcoFlow Europe", "Malt.com", "Fastic", "Metorbike"]
+  },
+  {
+    name: "NEXUS GEO",
+    website: "https://nexus-geo.fr",
+    city: "Marly-le-Roi", country: "France",
+    region: "Europe",
+    specialist: true,
+    priceMonthlyUSD: null,
+    description: "French agency working entirely on generative engine optimization, helping brands get named by ChatGPT, Claude, Gemini and Perplexity: 47-criteria GEO audits, content engineering and AI citation tracking. Publishes one-off packages from €1,750.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO"],
+    clients: ["Kickers", "Umbro"]
+  },
+  {
+    name: "PromptMarketing",
+    website: "https://www.promptmarketing.com",
+    city: "Amsterdam", country: "Netherlands",
+    region: "Europe",
+    specialist: true,
+    priceMonthlyUSD: 2160,
+    description: "Amsterdam GEO marketing agency and consultancy focused on brand visibility in ChatGPT, Google AI Mode, Gemini, Claude and Copilot: AI visibility measurement, GEO and AEO implementation, ChatGPT Ads and GEO readiness audits.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions"],
+    clients: ["Google", "ChannelEngine", "Independer", "GF Piping Systems"]
+  },
+  {
+    name: "GenOptima",
+    website: "https://www.gen-optima.com",
+    city: "Shanghai", country: "China",
+    region: "Asia-Pacific",
+    specialist: true,
+    priceMonthlyUSD: null,
+    description: "GEO firm founded in 2025 that helps brands get accurately cited and recommended by AI tools such as ChatGPT, Gemini and DeepSeek, with hubs in Warsaw, Singapore, Chicago and New York: audits, cross-platform GEO strategy and visibility monitoring.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO"],
+    clients: ["VANS", "Timberland", "icebreaker", "Emma"]
+  },
+  {
+    name: "DEJAN AI",
+    website: "https://dejan.ai",
+    city: "Brisbane", country: "Australia",
+    region: "Asia-Pacific",
+    specialist: true,
+    priceMonthlyUSD: 3250,
+    description: "Australian search firm operating since 2008, now positioned as an AI SEO agency: GEO, AEO and AI Overviews work, machine-readable technical SEO, selection-rate optimization and AI sentiment and hallucination mitigation.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Classic SEO"],
+    clients: ["Virgin Australia", "Atlassian", "Zendesk", "Xero"]
+  },
+  {
+    name: "W2B Agency",
+    website: "https://w2bagency.com",
+    city: "Barranquilla", country: "Colombia",
+    region: "Latin America",
+    specialist: true,
+    priceMonthlyUSD: null,
+    description: "Remote-first bilingual (English and Spanish) GEO agency helping businesses rank in Google and get cited in AI answers from ChatGPT and Perplexity, alongside website builds and workflow automations.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Classic SEO"],
+    clients: ["Club Fase II", "Serendipia Shop", "Amanda Demanda"]
+  },
+  {
+    name: "Northquery",
+    website: "https://northquery.com",
+    city: "", country: "",
+    region: "Remote / no HQ listed",
+    specialist: true,
+    priceMonthlyUSD: null,
+    description: "AI search optimization firm founded by an NLP researcher, engineering brands to be cited in answers from ChatGPT, Google AI, Gemini, Claude and Perplexity: AI visibility audits, query mapping, brand entity mapping and citation-ready content.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Digital PR & mentions"],
+    clients: ["CarCover.com", "JustPark", "Midtown Umbrellas"]
+  },
+  {
+    name: "Arobis AI",
+    website: "https://arobis.ai",
+    city: "", country: "",
+    region: "Remote / no HQ listed",
+    specialist: true,
+    priceMonthlyUSD: 2500,
+    description: "Done-for-you GEO, AEO and AI search optimization agency working exclusively with Series A to C B2B SaaS companies: AI visibility audits, answer optimization (rewrites, schema, llms.txt) and authority engineering via third-party placements.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions", "Classic SEO"],
+    clients: []
+  },
+  {
+    name: "Discovered Labs",
+    website: "https://discoveredlabs.com",
+    city: "", country: "",
+    region: "Remote / no HQ listed",
+    specialist: true,
+    priceMonthlyUSD: null,
+    description: "Organic search agency built for the AI era, serving B2B SaaS: AEO (citations in ChatGPT, Perplexity, Gemini) and SEO run as one integrated service, plus Reddit marketing and link building, with a proprietary AI visibility tracker.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Digital PR & mentions", "Classic SEO"],
+    clients: ["Instantly", "incident.io", "Teachable", "Granola"]
+  },
+
+  /* ---------- Wider agencies with a GEO service line ---------- */
+  {
+    name: "WebFX",
+    website: "https://www.webfx.com",
+    city: "Harrisburg", country: "United States",
+    region: "United States",
+    specialist: false,
+    priceMonthlyUSD: 3000,
+    description: "Large full-service SEO and digital agency whose GEO service centers on its OmniSEO platform for tracking citations, brand mentions and sentiment across AI search, plus schema, content and digital PR work to earn AI citations.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions", "Classic SEO", "CRO"],
+    clients: ["Northrop Grumman", "O'Reilly Auto Parts", "KOA", "Truckstop"]
+  },
+  {
+    name: "Thrive Internet Marketing Agency",
+    website: "https://thriveagency.com",
+    city: "Arlington", country: "United States",
+    region: "United States",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Established full-service SEO agency with a dedicated AI SEO service covering Google AI Mode, AI Overviews, ChatGPT, Gemini and Perplexity via passage-level content, schema, digital PR and its ThriveAI monitoring tool.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions", "Classic SEO"],
+    clients: []
+  },
+  {
+    name: "Go Fish Digital",
+    website: "https://gofishdigital.com",
+    city: "Raleigh", country: "United States",
+    region: "United States",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "20-year search agency with a dedicated GEO service line: semantic content audits, AI Overview and ChatGPT passage-level optimization, technical SEO for AI discovery, and digital PR for brand citations, backed by proprietary GEO tools.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions", "Classic SEO"],
+    clients: ["Lowe's", "LegalZoom", "Joybird", "K-Swiss"]
+  },
+  {
+    name: "iPullRank",
+    website: "https://ipullrank.com",
+    city: "New York", country: "United States",
+    region: "United States",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Enterprise technical SEO agency with a dedicated GEO services line built on its Relevance Engineering framework: AI visibility baselines, prompt and topic strategy, fan-out coverage, citation-frequency measurement and content engineering.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions", "Classic SEO"],
+    clients: ["Target", "Under Armour", "MLB", "American Express"]
+  },
+  {
+    name: "NoGood",
+    website: "https://nogood.io",
+    city: "New York", country: "United States",
+    region: "United States",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Growth marketing agency with a dedicated AEO service: LLM visibility audits, prompt research and monitoring, AEO content development, citation building and digital PR, schema and agentic commerce optimization. Hubs in New York, Miami and Dubai.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions", "CRO"],
+    clients: ["Nike", "Intuit", "MongoDB", "SteelSeries"]
+  },
+  {
+    name: "Seer Interactive",
+    website: "https://www.seerinteractive.com",
+    city: "Philadelphia", country: "United States",
+    region: "United States",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "B-Corp digital agency with a GEO practice focused on measurement and testing: prompt development and tracking plans, AI citation and source analysis, AI traffic predictive modeling and model comparison analysis. In AI search since January 2023.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Classic SEO"],
+    clients: []
+  },
+  {
+    name: "Single Grain",
+    website: "https://www.singlegrain.com",
+    city: "Miami", country: "United States",
+    region: "United States",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Full-service digital agency with a dedicated AEO service: answer-block content strategy, FAQ and HowTo schema, digital PR and unlinked-mention reclamation, AI citation monitoring, plus UX and CRO work.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions", "Classic SEO", "CRO"],
+    clients: ["Amazon Alexa", "Nextiva", "Lever.co", "SmartRent"]
+  },
+  {
+    name: "Ignite Visibility",
+    website: "https://ignitevisibility.com",
+    city: "San Diego", country: "United States",
+    region: "United States",
+    specialist: false,
+    priceMonthlyUSD: 2000,
+    description: "SEO and digital agency with a dedicated AI SEO service spanning AEO and GEO: content retrievability (structured data, llms.txt), answer-first content, entity mapping and authority signals, with AI share-of-voice and revenue tracking.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Classic SEO"],
+    clients: ["Neighborly", "Best Pick Reports", "ACAMS"]
+  },
+  {
+    name: "Amsive",
+    website: "https://www.amsive.com",
+    city: "", country: "United States",
+    region: "United States",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Performance marketing agency whose SEO and AEO service covers answer engine optimization for AI Overviews, LLMs and generative search alongside technical SEO, in partnership with the Profound AI-visibility platform.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Classic SEO"],
+    clients: []
+  },
+  {
+    name: "First Page Sage",
+    website: "https://firstpagesage.com",
+    city: "San Francisco", country: "United States",
+    region: "United States",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Thought-leadership SEO firm with a dedicated AEO service: full AEO audit, authoritative expert-led content, schema and structured-data implementation, and continuous optimization.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Classic SEO"],
+    clients: ["Logitech", "Salesforce", "U.S. Bancorp", "Corcoran"]
+  },
+  {
+    name: "Siege Media",
+    website: "https://www.siegemedia.com",
+    city: "Austin", country: "United States",
+    region: "United States",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Content marketing and SEO agency now positioned around GEO: mines prompt and citation data to find AI mention gaps, then creates content and coverage to earn them. Offices in Austin, New York, Chicago and San Francisco.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Digital PR & mentions", "Classic SEO"],
+    clients: ["Adidas", "Airbnb", "Zendesk", "Zillow"]
+  },
+  {
+    name: "Omniscient Digital",
+    website: "https://beomniscient.com",
+    city: "Austin", country: "United States",
+    region: "United States",
+    specialist: false,
+    priceMonthlyUSD: 10000,
+    description: "Organic growth agency for B2B software companies that turns SEO, GEO and content into growth channels; lists answer engine optimization among its services. Publishes full-service engagements from $120,000 per year.",
+    services: ["Content for LLM citation", "Technical GEO", "Digital PR & mentions", "Classic SEO", "CRO"],
+    clients: ["Jasper", "360Learning", "Smartling", "Order.co"]
+  },
+  {
+    name: "Graphite",
+    website: "https://graphite.io",
+    city: "", country: "",
+    region: "Remote / no HQ listed",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Research-driven growth agency whose AI research team identifies the small set of strategies that drive impact in AEO, SEO and performance marketing; AEO has its own dedicated service page.",
+    services: ["Content for LLM citation", "Classic SEO"],
+    clients: ["Webflow", "n8n", "Hinge Health", "MasterClass"]
+  },
+  {
+    name: "RevenueZen",
+    website: "https://revenuezen.com",
+    city: "Portland", country: "United States",
+    region: "United States",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "B2B organic growth agency offering AEO alongside SEO, content and LinkedIn-led demand generation.",
+    services: ["Content for LLM citation", "Classic SEO"],
+    clients: []
+  },
+  {
+    name: "Search Engine People",
+    website: "https://www.searchenginepeople.com",
+    city: "Toronto", country: "Canada",
+    region: "Canada",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Full-service Toronto digital agency founded in 2001, offering AI SEO services including answer engine optimization, generative engine optimization, Google AI Overviews optimization and SEO for ChatGPT, Gemini and Perplexity.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Classic SEO", "CRO"],
+    clients: ["Speedy Cash", "Levitt LLP", "PAR Technology"]
+  },
+  {
+    name: "The SEO Works",
+    website: "https://www.seoworks.co.uk",
+    city: "Sheffield", country: "United Kingdom",
+    region: "United Kingdom",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "UK SEO agency with a dedicated generative engine optimisation service: conversational question research, AI-readable content, schema and llms.txt, digital PR and credibility building, and tracking of AI mentions and LLM referrals.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions", "Classic SEO"],
+    clients: ["DHL"]
+  },
+  {
+    name: "Impression",
+    website: "https://www.impressiondigital.com",
+    city: "Nottingham", country: "United Kingdom",
+    region: "United Kingdom",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "UK performance marketing agency with a dedicated GEO service: brand building via links and digital PR, AI-ready content with entity clusters, technical GEO, and LLM visibility reporting of citations, mentions and sentiment.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions", "Classic SEO"],
+    clients: ["Tensar", "Queensmith"]
+  },
+  {
+    name: "Rise at Seven",
+    website: "https://riseatseven.com",
+    city: "Sheffield", country: "United Kingdom",
+    region: "United Kingdom",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "UK search and content agency whose AI SEO service aims to make brands the most cited in LLMs across ChatGPT, Gemini and Perplexity, combining entity mapping, structured data, PR, reviews and community signals.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions"],
+    clients: ["Parkdean Resorts", "Revolution Beauty"]
+  },
+  {
+    name: "SUSO Digital",
+    website: "https://susodigital.com",
+    city: "London", country: "United Kingdom",
+    region: "United Kingdom",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Full-service SEO agency with a dedicated GEO service: AI visibility audits, LLM content optimization, technical SEO, digital PR and Reddit marketing, with proprietary tracking via its AI Visibility Checker.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions", "Classic SEO"],
+    clients: ["Skyscanner", "Sainsbury's", "Compare the Market", "Nestlé"]
+  },
+  {
+    name: "Omnius",
+    website: "https://www.omnius.so",
+    city: "London", country: "United Kingdom",
+    region: "United Kingdom",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "B2B SEO and AI search optimization agency working exclusively with SaaS, fintech and AI companies; offices in London, Dubai and Belgrade, with services spanning GEO, AEO, AI search audits and CRO.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Classic SEO", "CRO"],
+    clients: ["ANNA Money", "Payoneer", "BigCommerce", "WorldFirst"]
+  },
+  {
+    name: "Position Digital",
+    website: "https://www.position.digital",
+    city: "London", country: "United Kingdom",
+    region: "United Kingdom",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "London SEO and GEO agency for B2B, SaaS and professional services companies: GEO audits, AI search optimization across AI Overviews, AI Mode, ChatGPT and Claude, AI citation outreach, digital PR and listicle placements.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Digital PR & mentions", "Listicle placements", "Classic SEO"],
+    clients: ["HR Datahub", "Decentriq", "Don't Panic", "ZERO 1"]
+  },
+  {
+    name: "Peak Ace",
+    website: "https://peakace.agency",
+    city: "Berlin", country: "Germany",
+    region: "Europe",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Berlin-based international search agency working in 25+ languages, with a dedicated LLM consulting and GEO service: prompt base building, LLM and AI Overview mention monitoring, citation-likelihood analysis, and entity-based content and schema optimization.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions", "Classic SEO"],
+    clients: []
+  },
+  {
+    name: "Claneo",
+    website: "https://www.claneo.com",
+    city: "Berlin", country: "Germany",
+    region: "Europe",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Berlin-based international SEO and content marketing agency with a dedicated GEO/LLMO service: AI visibility analysis and monitoring, GEO strategies and workshops, AI-bot log file analysis, technical consulting and digital PR.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions"],
+    clients: ["Henkel", "Coop", "HelloFresh", "Viessmann"]
+  },
+  {
+    name: "Radyant",
+    website: "https://www.radyant.io",
+    city: "Berlin", country: "Germany",
+    region: "Europe",
+    specialist: false,
+    priceMonthlyUSD: 7560,
+    description: "AI-native growth agency focused on SEO, AI search (AEO and GEO) and digital PR, with AI visibility monitoring, brand perception and agent analytics offerings. Publishes growth partnerships from €7,000 per month.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Digital PR & mentions", "Classic SEO", "CRO"],
+    clients: ["Allianz Suisse", "PostFinance", "Docplanner", "osapiens"]
+  },
+  {
+    name: "Eskimoz",
+    website: "https://www.eskimoz.com",
+    city: "Paris", country: "France",
+    region: "Europe",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "French SEO agency with offices across Europe and a dedicated GEO service: GEO audit, strategy, content, authority and mentions, semantic structuring and monitoring, supported by its own LLM ranking and crawler tooling.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions", "Classic SEO"],
+    clients: ["Sandro", "PwC", "Matterport", "Beqom"]
+  },
+  {
+    name: "Orainti",
+    website: "https://www.orainti.com",
+    city: "Madrid", country: "Spain",
+    region: "Europe",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Boutique SEO and AI search optimization consultancy founded by Aleyda Solis, providing enterprise and startup strategy, audits, training and on-demand advice covering SEO and AI search visibility.",
+    services: ["Technical GEO", "Classic SEO"],
+    clients: ["Turo", "Trade Republic", "Krisp", "Sniffspot"]
+  },
+  {
+    name: "Minuttia",
+    website: "https://minuttia.com",
+    city: "", country: "",
+    region: "Remote / no HQ listed",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Content marketing and search firm focused on B2B SaaS, running dedicated AEO, GEO and LLMO service lines plus agent analytics and reporting, from Google through ChatGPT.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Digital PR & mentions", "Classic SEO"],
+    clients: ["Toggl", "LearnWorlds", "Moosend", "Insense"]
+  },
+  {
+    name: "First Page (Australia)",
+    website: "https://firstpage.com.au",
+    city: "Melbourne", country: "Australia",
+    region: "Asia-Pacific",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Melbourne-headquartered digital agency with a dedicated AI SEO service covering ChatGPT, Gemini, Perplexity, Google AI Mode and Copilot: question-led content, schema, pillar and cluster hubs, and citation and share-of-voice tracking.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Classic SEO"],
+    clients: ["Mango Credit", "Bobbi Health", "Safework Health", "Liquimix"]
+  },
+  {
+    name: "Online Marketing Gurus",
+    website: "https://www.onlinemarketinggurus.com.au",
+    city: "Sydney", country: "Australia",
+    region: "Asia-Pacific",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "One of Australia's largest SEO agencies, with a dedicated generative engine optimisation service: AI search strategy, technical audits for AI crawlers, content optimization for AI visibility, community brand mentions, and AI visibility reporting.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions", "Classic SEO"],
+    clients: ["1001 Optometry", "Safety Xpress", "Synergie Skin", "Scorptec"]
+  },
+  {
+    name: "Prosperity Media",
+    website: "https://prosperitymedia.com.au",
+    city: "Sydney", country: "Australia",
+    region: "Asia-Pacific",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Sydney agency with a Melbourne office offering SEO, GEO, content and digital PR to medium and enterprise clients across Australia, Singapore and the US, focused on getting clients cited in LLMs at scale.",
+    services: ["Content for LLM citation", "Digital PR & mentions", "Classic SEO"],
+    clients: ["IAG", "Danone", "RateCity", "Binance"]
+  },
+  {
+    name: "TripleDart",
+    website: "https://www.tripledart.com",
+    city: "Bangalore", country: "India",
+    region: "Asia-Pacific",
+    specialist: false,
+    priceMonthlyUSD: 5000,
+    description: "B2B SaaS growth agency with offices in Bangalore and Plano, Texas, whose GEO service builds entities, schema, content structure and third-party authority so AI engines cite clients, with its Slate platform for GEO audits and citation tracking.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Digital PR & mentions", "Classic SEO"],
+    clients: ["Glean", "Airbase", "Helpshift", "Signeasy"]
+  },
+  {
+    name: "Techmagnate",
+    website: "https://www.techmagnate.com",
+    city: "New Delhi", country: "India",
+    region: "Asia-Pacific",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "SEO-first Indian digital agency with a dedicated AEO service combining AEO, GEO and LLM optimization for ChatGPT, Gemini, Perplexity and Copilot: audit and strategy, question mapping, content structuring, schema and cross-engine tracking.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Classic SEO"],
+    clients: ["Bajaj Finserv", "Hyundai", "Hero FinCorp", "GIIS"]
+  },
+  {
+    name: "Hashmeta",
+    website: "https://hashmeta.com",
+    city: "Singapore", country: "Singapore",
+    region: "Asia-Pacific",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Singapore digital agency with offices across Southeast Asia and China, marketing a GEO and AEO capability: AI-readable content optimization, citation monitoring, featured snippet and structured data work alongside broader SEO, social and influencer services.",
+    services: ["AI visibility tracking", "Content for LLM citation", "Technical GEO", "Classic SEO"],
+    clients: []
+  },
+  {
+    name: "Global Media Insight",
+    website: "https://www.globalmediainsight.com",
+    city: "Dubai", country: "United Arab Emirates",
+    region: "Africa & Middle East",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Full-service digital marketing company in Dubai, founded in 2001, serving businesses across the Middle East; lists a generative engine optimization service with ChatGPT, Perplexity, Claude and AI Overview optimization sub-offerings.",
+    services: ["Content for LLM citation", "Classic SEO"],
+    clients: []
+  },
+  {
+    name: "Elogia",
+    website: "https://mx.elogia.net",
+    city: "Mexico City", country: "Mexico",
+    region: "Latin America",
+    specialist: false,
+    priceMonthlyUSD: null,
+    description: "Digital commerce operator for Mexico and Latin America whose growth pillar lists GEO alongside SEO, ASO, CRO, CRM, paid media and marketing automation for leading retail and consumer brands.",
+    services: ["Classic SEO", "CRO"],
+    clients: ["Sephora", "Burger King", "Volvo", "Planet Fitness"]
+  }
+];
