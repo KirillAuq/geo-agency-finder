@@ -23,7 +23,78 @@
     ],
     "disclosure": "My agency",
     "contactUrl": "https://auq.io/contact-us/",
-    "email": "hello@auq.io"
+    "email": "hello@auq.io",
+    "caseStudies": [
+      {
+        "title": "Fraud.net: GEO & Content Automation",
+        "url": "https://auq.io/case-studies/fraud-net-content-automation-for-geo/",
+        "summary": "Fraud.net earned 1,000+ AI citations in 6 months through a GEO and content automation program."
+      },
+      {
+        "title": "Microblink: Identity Verification SaaS SEO + Content",
+        "url": "https://auq.io/case-studies/microblink/",
+        "summary": "Microblink grew B2B fintech organic traffic +173% with SEO and content work."
+      },
+      {
+        "title": "AKOOL: Solutions Page SEO",
+        "url": "https://auq.io/case-studies/akool-seo-for-ai-video-tools/",
+        "summary": "AKOOL gained +30,000 tool page visits in 6 months from solutions-page SEO."
+      }
+    ],
+    "strengths": [
+      "Publishes original GEO research hub with 6 data studies (e.g. 558-brand AI Overview audit, 14,922 cited pages labeled)",
+      "Nine case studies with named clients and hard numbers, including a GEO case with 1,000+ AI citations",
+      "Publishes starting retainer prices ($3,000 sprint, $4,500/mo, $10,000/mo)",
+      "13 named team members with roles across SEO, content, Reddit, analytics, dev and design"
+    ],
+    "weaknesses": [
+      "Only one of nine case studies is explicitly a GEO engagement (Fraud.net)",
+      "Case studies carry no dates",
+      "Pricing page lists 'starting at' minimums, not final fees",
+      "Research studies are credited to 'the team at AUQ', not individual authors"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "Technical Content Engine service; citation-ready pages in pricing; Fraud.net GEO case with 1,000+ AI citations"
+      },
+      "thoughtLeadership": {
+        "score": 5,
+        "evidence": "Dedicated technical thought leadership service plus /research/ hub with 6 original data studies (Oct-Nov 2026)"
+      },
+      "linkbuilding": {
+        "score": 4,
+        "evidence": "'Build Links & Mentions' service with monthly link reports; manual high-authority link building in Category Leader tier"
+      },
+      "mentionBuilding": {
+        "score": 5,
+        "evidence": "Mention building named service; brand mentions and listicle placements in pricing; dedicated Reddit service with DeepInfra case (300K+ impressions)"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Manual link building implies outreach, but no personalized outreach service is described"
+      },
+      "technicalGeo": {
+        "score": 5,
+        "evidence": "LLM crawlability audits in pricing; AMPL technical SEO case study (+300% page-1 keywords); SEO migration service"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "GEO analytics service page, AI citation tracking across ChatGPT/Perplexity in pricing, free AI Rank Check and GEO audit tools"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Dedicated web analytics page: GA4 custom events/conversions, Looker Studio dashboards, content ROI reporting; analytics specialist on team"
+      },
+      "contentDesign": {
+        "score": 3,
+        "evidence": "Designer and UX designer on team page; blog-redesign-for-SEO case post"
+      },
+      "development": {
+        "score": 4,
+        "evidence": "Programmatic tool/comparison pages in Category Leader tier; web developers and technical director on team; free tools built on site"
+      }
+    }
   },
   {
     "name": "AEO Engine",
@@ -50,7 +121,78 @@
     "priceNote": "Published tiers: Growth $1,597/mo, Scale $2,997/mo, Enterprise from $10,000/mo.",
     "contactUrl": "https://aeoengine.ai/schedule-call",
     "email": "team@aeoengine.ai",
-    "youtube": "https://www.youtube.com/@aeo-engine"
+    "youtube": "https://www.youtube.com/@aeo-engine",
+    "caseStudies": [
+      {
+        "title": "Reacher: AEO for SaaS",
+        "url": "https://aeoengine.ai/case-studies/reacher-app-case-study",
+        "summary": "Reacher grew AI citations from 483 to 1,312 and reached 73.8% AI answer mentions in 4.5 months."
+      },
+      {
+        "title": "Gourmend Foods: AEO for food & wellness",
+        "url": "https://aeoengine.ai/case-studies/gourmend-foods-case-study",
+        "summary": "Gourmend Foods reached 3,272 AI citations, 48.7% AI share of voice and +57.8% organic traffic."
+      },
+      {
+        "title": "Cornish Seaweed Bath: Ecommerce AEO",
+        "url": "https://aeoengine.ai/case-studies/ecommerce-case-study",
+        "summary": "Cornish Seaweed Bath saw +248% organic traffic, +375% LLM traffic and +$549K LTV in 4 months."
+      }
+    ],
+    "strengths": [
+      "Publishes exact plan pricing ($1,597/mo Growth, $2,997/mo Scale, from $10,000/mo Enterprise) with per-tier backlink quantities",
+      "18+ case studies with named clients and AI-citation/revenue numbers",
+      "Publishes its own llms.txt/llms-full.txt and an Answer Index research series (4,800 AI answers, 100 law firms, with methodology page)",
+      "Blog updated daily as of Nov 5, 2026 with named founder authorship"
+    ],
+    "weaknesses": [
+      "Only two team members named on the about page",
+      "Blog includes programmatic off-topic posts (e.g. Euronext 100 stock index guides)",
+      "Case-study metrics differ between featured cards and 'Wall of Proof' cards for the same client (e.g. Tusq Apparel)",
+      "Offers Parasite SEO and Reddit/Quora seeding as listed platform modules"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "AI Blog Writer module and AEO content services; case studies document AI citations (Gourmend 3,272 citations)"
+      },
+      "thoughtLeadership": {
+        "score": 4,
+        "evidence": "Answer Index research (4,800 AI answers, 100 law firms) with methodology page; founder-authored blog posts"
+      },
+      "linkbuilding": {
+        "score": 4,
+        "evidence": "Link Building platform module; published quantities of 3-5 (Growth) and 6-10 (Scale) backlinks/mo at DR/DA 35+"
+      },
+      "mentionBuilding": {
+        "score": 4,
+        "evidence": "Reddit & Quora Seeding and Parasite SEO listed as platform modules"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "'Get PR' listed among services; no outreach process detailed"
+      },
+      "technicalGeo": {
+        "score": 5,
+        "evidence": "Schema Markup Services and Entity Optimization service pages; llms.txt generator; publishes own llms.txt and llms-full.txt"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "AI Search Tracking platform module across ChatGPT/Perplexity/Gemini/AI Overviews; case studies report citation counts and AI SOV"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Website Visitor Tracking module; case studies report attributed revenue (e.g. Smartish $338,469 attributed revenue)"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 2,
+        "evidence": "Builds own free tool suite and platform; no client web development service offered"
+      }
+    }
   },
   {
     "name": "Mersel AI",
@@ -73,7 +215,68 @@
     "contactUrl": "https://www.mersel.ai/contact",
     "email": "josephwu@mersel.ai",
     "phone": "+1 857-928-9780",
-    "linkedin": "https://www.linkedin.com/company/mersel-ai/"
+    "linkedin": "https://www.linkedin.com/company/mersel-ai/",
+    "caseStudies": [
+      {
+        "title": "Solo Gallery: Cite content engine",
+        "url": "https://www.mersel.ai/case-studies/sologallery",
+        "summary": "Solo Gallery got its first AI-search-sourced inbound deal within 6 weeks and stabilized at 15+ qualified inquiries per month by month five after Mersel published 100+ buyer-intent pages."
+      }
+    ],
+    "strengths": [
+      "Publishes exact pricing ($1,800/mo Growth, $3,200/mo Scale) with itemized deliverables",
+      "Named founder with stated credentials (ex-Meta/BMW product engineer, Harvard HCI master's)",
+      "Offers a 2x-investment-in-6-months guarantee stated on the homepage",
+      "Agent-Optimized Pages product serves citation-optimized page versions to AI bots (GPTBot, ClaudeBot, PerplexityBot)"
+    ],
+    "weaknesses": [
+      "Only one case study published",
+      "Blog not updated since May 7, 2026",
+      "Blog posts carry no author bylines",
+      "Only one team member named on the site"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "Cite done-for-you content engine; Solo Gallery case documents 100+ buyer-intent pages and 15+ inquiries/month"
+      },
+      "thoughtLeadership": {
+        "score": 2,
+        "evidence": "83-post blog but no author bylines and no original research"
+      },
+      "linkbuilding": {
+        "score": 4,
+        "evidence": "20 (Growth) and 40 (Scale) backlinks/month itemized in published pricing"
+      },
+      "mentionBuilding": {
+        "score": 2,
+        "evidence": "'Boosting pages across the web' mentioned; no mention/listicle service described"
+      },
+      "customOutreach": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "Agent-Optimized Pages platform page; JSON-LD schema (Product, Offer, FAQ, Organization) shown; site health work listed"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "AI Visibility Analytics platform page: prompt monitoring, citation tracking, bot visit tracking across 8+ AI platforms"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Qualified Lead Capture with lead dashboard and buyer journey tracking; Solo Gallery case traces each lead to its source page"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 2,
+        "evidence": "Platform product and page publishing on client domains; no web development service offered"
+      }
+    }
   },
   {
     "name": "OutreachBloom",
@@ -102,7 +305,77 @@
         "count": 2,
         "url": "https://clutch.co/profile/outreachbloom"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "EmailAnalytics: AI SEO",
+        "url": "https://outreachbloom.com/case-studies/emailanalytics-7",
+        "summary": "EmailAnalytics (a disclosed sister company) grew inbound traffic, trials and sign-ups over 400% in 8 months and reached #1 AI visibility in its category."
+      },
+      {
+        "title": "B2G Software Company: AI SEO",
+        "url": "https://outreachbloom.com/case-studies/b2g-software-ai-seo",
+        "summary": "An anonymized B2G software company went from zero AI visibility to being named in 22% of AI answers in its category."
+      },
+      {
+        "title": "Labyrinth Learning: Cold Email",
+        "url": "https://outreachbloom.com/case-studies/labyrinth",
+        "summary": "Labyrinth Learning reached 157% ROI within 30 days of its first cold email campaign, including a $3,000+ deal in month one."
+      }
+    ],
+    "strengths": [
+      "Publishes exact pricing for every service (AISEO $3,400-$4,900/mo, Reddit $1,900/mo, cold email from $2,400/mo, LinkedIn $1,000/mo) with monthly deliverable quantities",
+      "Ten case studies spanning AI SEO, Reddit and cold email, several with ROI figures",
+      "Homepage reports a tracked-prompt visibility metric (14% to 61% of tracked prompts in 90 days)"
+    ],
+    "weaknesses": [
+      "No team members named on the site (founder referenced but unnamed)",
+      "Flagship AI SEO case study client (EmailAnalytics) is a disclosed sister company",
+      "Blog posts carry no publish dates or author bylines",
+      "No technical GEO (schema/llms.txt) service described"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "AISEO service with 10-15 pillar content pieces/mo in pricing; EmailAnalytics case reports 400% growth and #1 AI visibility"
+      },
+      "thoughtLeadership": {
+        "score": 2,
+        "evidence": "Blog exists but no named authors; 'founder with 20+ years in SEO' is unnamed"
+      },
+      "linkbuilding": {
+        "score": 2,
+        "evidence": "'Citation building' on publications mentioned; backlink acquisition not explicitly offered"
+      },
+      "mentionBuilding": {
+        "score": 5,
+        "evidence": "Off-site brand mentions and 10-15 citation targets/mo in pricing; dedicated Reddit service with case studies"
+      },
+      "customOutreach": {
+        "score": 5,
+        "evidence": "Dedicated cold email and LinkedIn outreach services with published pricing and ROI case studies (RevenueBase 100% ROI in 30 days)"
+      },
+      "technicalGeo": {
+        "score": 2,
+        "evidence": "'SEO fundamentals' mentioned in a case study; no technical GEO service described"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "Monthly AI visibility report with competitor analysis in pricing; visibility tracked across ChatGPT, Claude, Gemini, AI Overviews; no tool named"
+      },
+      "conversionTracking": {
+        "score": 2,
+        "evidence": "Blog post on organic Reddit attribution; no GA4/attribution service offered"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 1,
+        "evidence": "No public evidence"
+      }
+    }
   },
   {
     "name": "Avenue Z",
@@ -137,7 +410,78 @@
         "count": 16,
         "url": "https://clutch.co/profile/avenue-z"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "Prometeo: Fintech AEO",
+        "url": "https://avenuez.com/case-studies/prometeo/",
+        "summary": "Prometeo achieved 357% AI visibility growth, 867% AI referral traffic growth and #1 AI visibility against competitors in six months."
+      },
+      {
+        "title": "Leading Benefits Company: AI Search Optimization",
+        "url": "https://avenuez.com/case-studies/leading-benefits-company/",
+        "summary": "An anonymized benefits carrier reports 520%+ AI visibility growth from baseline and #4 AI visibility among tracked brands (the headline cites 980%)."
+      },
+      {
+        "title": "Better: PR",
+        "url": "https://avenuez.com/case-studies/better/",
+        "summary": "MortgageTech company Better secured 600+ media hits in under 3 days."
+      }
+    ],
+    "strengths": [
+      "AEO case studies name the measurement stack (Peec, Looker Studio, Google Search Console) and document technical work (llms.txt, canonicals, Core Web Vitals)",
+      "31 named team members including a Director of AEO and VP of AI Strategy",
+      "28 case studies across AEO, PR, Shopify development, CRO and TikTok",
+      "Full-service AEO-adjacent capabilities verified on site: PR, Shopify design & development, CRO, content studio"
+    ],
+    "weaknesses": [
+      "No pricing published anywhere on the site",
+      "Benefits-company case study states 980% AI visibility growth in the headline but 520%+ in the results section",
+      "Only 2 of 22 main case studies are AEO/AI-visibility engagements",
+      "Pages embed text addressed to AI agents"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "AEO & Content service; Prometeo case documents AI-citable pages, FAQs and guides with 357% AI visibility growth"
+      },
+      "thoughtLeadership": {
+        "score": 3,
+        "evidence": "AI Lab and AIVx AI Visibility Reports pages; blog article authored by named former CMO"
+      },
+      "linkbuilding": {
+        "score": 2,
+        "evidence": "Third-party authority via PR described; no link building service named"
+      },
+      "mentionBuilding": {
+        "score": 4,
+        "evidence": "Prometeo case documents PR integration to widen third-party sources AI systems reference"
+      },
+      "customOutreach": {
+        "score": 5,
+        "evidence": "Dedicated PR & Media Relations practice with documented results (Better: 600+ media hits in under 3 days)"
+      },
+      "technicalGeo": {
+        "score": 5,
+        "evidence": "Prometeo case documents llms.txt, canonicals, Core Web Vitals, crawlability and indexation work"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "Tracks with Peec, Looker Studio and GSC (named in case study); AIVx AI Visibility Reports and proprietary Z-Score metric"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Case studies report Generative AI CVR (66.7%) and +80% GenAI conversions QoQ; dedicated CRO service"
+      },
+      "contentDesign": {
+        "score": 4,
+        "evidence": "Brand Content & Design and Content Studio service pages; Creative Director on team"
+      },
+      "development": {
+        "score": 5,
+        "evidence": "Shopify Design & Development service with named-client migration case studies (cocokind, MOSH, Isla Porter)"
+      }
+    }
   },
   {
     "name": "UltraScout AI",
@@ -159,7 +503,78 @@
     "email": "aeo@ultrascout.ai",
     "linkedin": "https://www.linkedin.com/company/ultrascout",
     "youtube": "https://youtube.com/@ultrascoutai",
-    "x": "https://x.com/ultrascoutai"
+    "x": "https://x.com/ultrascoutai",
+    "caseStudies": [
+      {
+        "title": "Bupa AI Visibility Report",
+        "url": "https://www.ultrascout.ai/ai-visibility-reports/bupa",
+        "summary": "Published AI-visibility audit of Bupa reporting 65.4% share of voice across 30 queries, #1 position and 4x lead over AXA Health."
+      },
+      {
+        "title": "Wise AI Visibility Report",
+        "url": "https://www.ultrascout.ai/ai-visibility-reports/wise",
+        "summary": "Published AI-visibility audit of Wise reporting 47.6% share of voice, 100% visibility and 96.7% #1 positions across 30 queries."
+      },
+      {
+        "title": "Monzo AI Visibility Report",
+        "url": "https://www.ultrascout.ai/ai-visibility-reports/monzo",
+        "summary": "Published AI-visibility audit of Monzo reporting 58.3% share of voice across 30 queries, 3x ahead of Starling."
+      }
+    ],
+    "strengths": [
+      "Publishes exact platform pricing (free CiteTrust, £49 to £1,999/mo plans)",
+      "Own tooling: UltraScout GEO Platform and free CiteTrust tool",
+      "Named founder with stated credentials (Principal Data Scientist, 16+ years)",
+      "Publishes research pages (State of AI Visibility 2026; AI readiness study of 223 websites across 26 industries)"
+    ],
+    "weaknesses": [
+      "Case studies page consists of AI-visibility audit reports of major brands, not documented client engagements",
+      "Headline claims (94% success rate, 12x average visibility increase) published without methodology",
+      "Only one team member named on the site",
+      "Dozens of blog articles share the same publish dates, suggesting bulk publication"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 3,
+        "evidence": "Content generation and platform-specific deployment listed as process steps in services"
+      },
+      "thoughtLeadership": {
+        "score": 4,
+        "evidence": "Named credentialed founder-author; AI readiness research (223 websites, 26 industries) and State of AI Visibility 2026 pages"
+      },
+      "linkbuilding": {
+        "score": 1,
+        "evidence": "No public evidence; site states case results came with no link building"
+      },
+      "mentionBuilding": {
+        "score": 2,
+        "evidence": "Site advises earning external mentions; not offered as a service"
+      },
+      "customOutreach": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "technicalGeo": {
+        "score": 3,
+        "evidence": "FAQ schema and structured data markup included in deployment; articles on llms.txt and AI crawlers"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "Own UltraScout GEO Platform and CiteTrust tool with published plan pricing; share-of-voice reports across 6 AI platforms"
+      },
+      "conversionTracking": {
+        "score": 2,
+        "evidence": "'AI Acquisition Intelligence' named; no GA4 or attribution service detail"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 2,
+        "evidence": "Built own platform and free tools (tools.ultrascout.ai/citetrust); no client development service"
+      }
+    }
   },
   {
     "name": "Generate More",
@@ -185,7 +600,76 @@
     "contactUrl": "https://generatemore.ai/about-us#contact",
     "email": "lari@generatemore.ai",
     "linkedin": "https://www.linkedin.com/company/generatemoreai/",
-    "youtube": "https://www.youtube.com/channel/UC-Kk27cwqPfz6giFWO8Lw0A"
+    "youtube": "https://www.youtube.com/channel/UC-Kk27cwqPfz6giFWO8Lw0A",
+    "caseStudies": [
+      {
+        "title": "Enterprise ProcureTech AEO",
+        "url": "https://generatemore.ai/procuretech-marketing-case-study",
+        "summary": "An unnamed enterprise ProcureTech company grew monthly demo requests from 1.7 to 33 (20x) over 17 months and became the most-cited domain (9.8% of citations) across 93 tracked AI buyer prompts."
+      },
+      {
+        "title": "Enterprise AEO/SEO: Workfellow",
+        "url": "https://generatemore.ai/enterprise-sales-case-study",
+        "summary": "Workfellow achieved 10x new enterprise sales meetings within 12 months using AI in marketing."
+      },
+      {
+        "title": "B2B Tech SEO",
+        "url": "https://generatemore.ai/b2b-tech-case-study",
+        "summary": "An unnamed B2B tech company gained 12x more search engine visibility in a competitive niche."
+      }
+    ],
+    "strengths": [
+      "Publishes exact retainer pricing (€2,640/mo and €5,700/mo tiers; €300/hr fractional CMO)",
+      "ProcureTech AEO case study carries unusually detailed attribution data (257 attributed demo requests with source split, 93 tracked prompts, citation shares)",
+      "Named founder with verifiable track record stated on site (Google since 2007, ex-CMO of Sievo)"
+    ],
+    "weaknesses": [
+      "Only one named team member (founder-led)",
+      "Only one of six case studies is explicitly an AEO engagement, and its client is unnamed",
+      "Several case-study 'Read More' links on the index point to hubspot.com instead of the case pages"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "AI-optimized content strategy in pricing; ProcureTech case documents quotable answer blocks and FAQs with citation growth across 93 prompts"
+      },
+      "thoughtLeadership": {
+        "score": 3,
+        "evidence": "Founder-authored blog and stated credentials; no original data studies found"
+      },
+      "linkbuilding": {
+        "score": 4,
+        "evidence": "Strategic link building in AI Brand Leader tier; case documents referring domains 178 to 764"
+      },
+      "mentionBuilding": {
+        "score": 3,
+        "evidence": "Case describes earning off-site authority and fixing third-party sources (news, analyst lists, directories)"
+      },
+      "customOutreach": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "technicalGeo": {
+        "score": 3,
+        "evidence": "Entity optimization offered as a service; no schema/llms.txt service detail"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "Tracks AI answers across 93 buyer prompts with published scores; AI search visibility reporting in pricing; no own tool named"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "'Prove' measurement step tying AI visibility to pipeline; case documents 257 attributed demo requests by source; pipeline-focused reporting in pricing"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 1,
+        "evidence": "No public evidence"
+      }
+    }
   },
   {
     "name": "citabl.ai",
@@ -205,7 +689,62 @@
     "priceNote": "Foundation Program (4 months) published from €2,249/mo for SaaS, €2,499/mo for e-commerce.",
     "contactUrl": "https://citabl.ai/contact",
     "email": "contact@citabl.ai",
-    "linkedin": "https://www.linkedin.com/company/citabl-ai"
+    "linkedin": "https://www.linkedin.com/company/citabl-ai",
+    "caseStudies": [],
+    "strengths": [
+      "Publishes exact program pricing (Foundation 2,249-3,749 EUR/month by sector; 1,989 EUR Quick Win)",
+      "Documented diagnostic methodology: 70-110 test prompts per engagement from a 2,300+ FR/EN prompt corpus, with defined metrics (Answer Share, Position Share Top 3, Citation Share)",
+      "Insights section has 44 dated articles, updated through October 2026",
+      "Both co-founders named with roles and LinkedIn profiles"
+    ],
+    "weaknesses": [
+      "No case studies or named clients published; before/after examples are anonymized",
+      "No link building or mention building offered",
+      "Two-person team named on the site",
+      "Content and positioning are primarily French-language"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 3,
+        "evidence": "Optimized content briefs listed among Foundation Program deliverables"
+      },
+      "thoughtLeadership": {
+        "score": 3,
+        "evidence": "44 dated insights articles including data-labeled studies (e.g. 200-question content-structure study); no per-article bylines"
+      },
+      "linkbuilding": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "mentionBuilding": {
+        "score": 2,
+        "evidence": "Blog posts on source hacking and citation sources only; not an offered service"
+      },
+      "customOutreach": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "technicalGeo": {
+        "score": 3,
+        "evidence": "Agent Readiness is a diagnostic dimension; articles on MCP/A2A agent-actionability and React AI readability"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "70-110 test prompts per engagement from 2,300+ prompt corpus; tracking scorecard with defined Answer/Citation Share metrics; no tool or client results"
+      },
+      "conversionTracking": {
+        "score": 2,
+        "evidence": "Blog post on measuring AI traffic in GA4; not an offered service"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 1,
+        "evidence": "No public evidence"
+      }
+    }
   },
   {
     "name": "GEO Agentur",
@@ -230,7 +769,68 @@
     ],
     "contactUrl": "https://geoagentur.de/#kontakt",
     "email": "info@geoagentur.de",
-    "youtube": "https://www.youtube.com/@frewertmedia"
+    "youtube": "https://www.youtube.com/@frewertmedia",
+    "caseStudies": [
+      {
+        "title": "Fastic GmbH (homepage client reference)",
+        "url": "https://geoagentur.de/",
+        "summary": "Fastic, a fasting app with 10 million users, saw 133% more organic traffic in 6 months; published as a homepage client reference, not a dedicated case study page."
+      }
+    ],
+    "strengths": [
+      "Eight named team members with roles on the site",
+      "Named clients with scale details (EcoFlow Europe, Malt.com, Fastic, Metorbike)",
+      "Free 60-second AI visibility check tool (geo-check) on own domain",
+      "Sells a GEO Udemy course the site says has 1,302+ participants and a 4.6-star rating"
+    ],
+    "weaknesses": [
+      "No dedicated case study pages; client results appear only as homepage references",
+      "No pricing published",
+      "Ratgeber articles carry no publish dates",
+      "No link building or mention building offered"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 3,
+        "evidence": "ChatGPT/Gemini/Perplexity content optimization offered as services; Fastic client result on homepage"
+      },
+      "thoughtLeadership": {
+        "score": 3,
+        "evidence": "Ratgeber guide section authored by named founder Jonas Frewert; Udemy GEO course; press section"
+      },
+      "linkbuilding": {
+        "score": 1,
+        "evidence": "No public evidence; FAQ contrasts GEO with backlinks"
+      },
+      "mentionBuilding": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "customOutreach": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "technicalGeo": {
+        "score": 3,
+        "evidence": "'Technisches SEO für KI' offered; structured data named under Gemini SEO service"
+      },
+      "promptAnalytics": {
+        "score": 3,
+        "evidence": "Free geo-check AI visibility tool; ongoing monitoring of AI-generated results offered; no tool named"
+      },
+      "conversionTracking": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "contentDesign": {
+        "score": 2,
+        "evidence": "Web and graphic designer named on team; design not offered as a service"
+      },
+      "development": {
+        "score": 2,
+        "evidence": "Built own geo-check tool; web designer on team; no development service offered"
+      }
+    }
   },
   {
     "name": "NEXUS GEO",
@@ -253,7 +853,73 @@
     "priceNote": "One-off packages published: GEO audit from €1,750; programmes €2,500 (3 months) to €12,500 (6 months).",
     "contactUrl": "https://nexus-geo.fr/contact",
     "email": "contact@nexus-geo.fr",
-    "linkedin": "https://www.linkedin.com/company/nexus-geo-fr"
+    "linkedin": "https://www.linkedin.com/company/nexus-geo-fr",
+    "caseStudies": [
+      {
+        "title": "Anonymized B2B SaaS (HR-tech) — 90 days after audit",
+        "url": "https://nexus-geo.fr/cas-clients",
+        "summary": "An anonymized French B2B HR-tech SaaS went from 0 to 6 AI citations on 5 tracked queries (ChatGPT 3, Perplexity 2, Claude 1) within 90 days of the GEO audit."
+      },
+      {
+        "title": "Anonymized B2B SaaS — GEO score +19 points in 60 days",
+        "url": "https://nexus-geo.fr",
+        "summary": "An anonymized B2B HR-tech SaaS raised its GEO score from 38 to 57/100 in 60 days (March–May 2026) via robots.txt/llms.txt overhaul, JSON-LD on 5 schemas, and E-E-A-T rework of 10 key pages."
+      }
+    ],
+    "strengths": [
+      "Publishes exact pricing (audit from 1,750 EUR; retainers 2,500–12,500 EUR)",
+      "Publishes a public 47-criteria GEO audit framework",
+      "Operates its own AI-visibility measurement software (Hypervisible)",
+      "Dated 2026 resource library on llms.txt, schema, and AI citation measurement"
+    ],
+    "weaknesses": [
+      "All case studies anonymized; no results attributed to a named client",
+      "Only one named team member (the founder); other staff unnamed",
+      "Agency founded January 2026; short track record",
+      "Site states client logos (Kickers, Umbro) are not tied to any published case"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 4,
+        "evidence": "Content-engineering phase with E-E-A-T rework of 10 key pages documented in anonymized case"
+      },
+      "thoughtLeadership": {
+        "score": 3,
+        "evidence": "Founder-authored public 47-criteria framework plus dated 2026 article library"
+      },
+      "linkbuilding": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "mentionBuilding": {
+        "score": 3,
+        "evidence": "External reputation strategy and encyclopedic-database presence in Avancee package"
+      },
+      "customOutreach": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "technicalGeo": {
+        "score": 5,
+        "evidence": "Dedicated llms.txt/robots.txt/JSON-LD/entity-markup offering with documented score lift in published case"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "Own Hypervisible software; weekly tracking of 100+ queries across 7 AI engines"
+      },
+      "conversionTracking": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 2,
+        "evidence": "Free tools section on site; no web development service offered"
+      }
+    }
   },
   {
     "name": "PromptMarketing",
@@ -280,7 +946,67 @@
     "contactUrl": "https://www.promptmarketing.com/contact/",
     "linkedin": "https://www.linkedin.com/company/promptmarketing/",
     "youtube": "https://www.youtube.com/@PromptMarketing_agency",
-    "x": "https://x.com/promptmarketng"
+    "x": "https://x.com/promptmarketng",
+    "caseStudies": [
+      {
+        "title": "ChatGPT Ads for e-commerce: three webshops, four countries",
+        "url": "https://www.promptmarketing.com/about/cases/chatgpt-ads-ecommerce/",
+        "summary": "Three unnamed webshops across four countries generated 2,287 clicks at 2.41% CTR and 0.44 EUR per click in the first 25 days of ChatGPT Ads."
+      }
+    ],
+    "strengths": [
+      "Publishes starting prices (AI Visibility from 2,000 EUR/mo; GEO/AEO from 4,000 EUR/mo)",
+      "Nine named team members with detailed bios and credentials",
+      "States OpenAI Select Partner status (September 2026) on its About page",
+      "Case study carries hard campaign numbers (clicks, CTR, CPC)"
+    ],
+    "weaknesses": [
+      "Only one case study published; site says GEO/AEO cases are coming later",
+      "Case study clients not named",
+      "AI engine coverage stated inconsistently across pages (five, six, or nine engines)"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 3,
+        "evidence": "Answer-shaped content layer within the GEO/AEO service"
+      },
+      "thoughtLeadership": {
+        "score": 4,
+        "evidence": "Founder-authored weekly AI search blog, DMEXCO 2026 masterclass, credentialed named team"
+      },
+      "linkbuilding": {
+        "score": 2,
+        "evidence": "Authority layer references trusted-source confirmation; no explicit link-building service"
+      },
+      "mentionBuilding": {
+        "score": 3,
+        "evidence": "Citation authority offered within the GEO/AEO service"
+      },
+      "customOutreach": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "Technical SXO layer described as first of three engineering layers; dedicated technical staff bios"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "Dedicated AI Visibility service with prompt-level baselines across nine engines; Promptwatch partner tool"
+      },
+      "conversionTracking": {
+        "score": 3,
+        "evidence": "OpenAI Pixel and Conversions API measurement described in the ChatGPT Ads case"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 3,
+        "evidence": "Two AI developers on team building sites and apps with Next.js and Astro"
+      }
+    }
   },
   {
     "name": "GenOptima",
@@ -303,7 +1029,68 @@
       "Emma"
     ],
     "email": "info@gen-optima.com",
-    "phone": "+1 (862) 235-0594"
+    "phone": "+1 (862) 235-0594",
+    "caseStudies": [
+      {
+        "title": "K-12 EdTech AI visibility results (homepage claim)",
+        "url": "https://www.gen-optima.com",
+        "summary": "An unnamed K-12 EdTech client is credited with +1,041% revenue growth, 527% AI citation growth, and 8.3x conversion improvement in the homepage results section."
+      }
+    ],
+    "strengths": [
+      "Publishes annual consulting price range ($40K–$300K per year)",
+      "Covers Chinese AI platforms (Doubao, DeepSeek, Kimi, ERNIE) alongside Western engines",
+      "Operates its own GENO platform for GEO delivery",
+      "Client logo wall includes named brands (VANS, Timberland, VF Corporation, icebreaker)"
+    ],
+    "weaknesses": [
+      "No dedicated case study pages; results appear only as homepage claims",
+      "No named team members on the site",
+      "Blog consists mainly of unattributed 'best of' listicles, several featuring GenOptima itself",
+      "Founded in 2025; short track record"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 3,
+        "evidence": "Gen-Genesis Forge multimodal content creation agent described on homepage"
+      },
+      "thoughtLeadership": {
+        "score": 2,
+        "evidence": "Blog mostly unattributed listicles; one post bylined 'GenOptima Research'"
+      },
+      "linkbuilding": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "mentionBuilding": {
+        "score": 3,
+        "evidence": "AI Model Training service injecting brand data into AI sources; comparison listicles published on own blog"
+      },
+      "customOutreach": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "technicalGeo": {
+        "score": 2,
+        "evidence": "Only a passing 'structured brand data' mention; no schema/llms.txt specifics"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "Full-Cycle Monitoring service plus GENO platform and Gen-Centric Sentinel agent across 20+ AI platforms"
+      },
+      "conversionTracking": {
+        "score": 2,
+        "evidence": "Conversion-improvement claims on homepage without described measurement"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 1,
+        "evidence": "No public evidence"
+      }
+    }
   },
   {
     "name": "DEJAN AI",
@@ -327,7 +1114,77 @@
       "Xero"
     ],
     "priceNote": "Published: retainers from A$5,000/mo ex GST; strategic AI search audit A$5,000 one-time.",
-    "contactUrl": "https://dejan.ai/contact/"
+    "contactUrl": "https://dejan.ai/contact/",
+    "caseStudies": [
+      {
+        "title": "OWAYO: AI brand mention share from 1.5% to 8.0% in four months",
+        "url": "https://dejan.ai/case-studies/",
+        "summary": "OWAYO's share of brand mentions in US AI answers rose from 1.5% to 8.0% (tracking 19 March–29 July 2026, 6,776 tracked AI answers), with average answer position improving from 5.6 to 2.9."
+      },
+      {
+        "title": "eCommerce SEO: a 60% increase in YoY revenue",
+        "url": "https://dejan.ai/ecommerce-seo-achieving-a-60-increase-in-yoy-revenue/",
+        "summary": "Pro's Choice achieved a 60% year-on-year revenue increase and 40% YoY traffic increase."
+      },
+      {
+        "title": "SEO testing saved this retailer millions in future revenue",
+        "url": "https://dejan.ai/seo-testing-saved-retailer-millions/",
+        "summary": "An unnamed home and furniture retailer achieved 139% YoY revenue growth, 100% YoY traffic growth, and avoided $1M+ in lost revenue through SEO testing."
+      }
+    ],
+    "strengths": [
+      "Publishes exact pricing (AUD 5,000 audit; retainers from AUD 5,000/month)",
+      "OWAYO AI-visibility case includes dated baseline and 6,776 tracked AI answers",
+      "Blog publishes original research, including the agency's own trained models",
+      "13+ named team members; enterprise client logos include Atlassian, Zendesk, Virgin Australia"
+    ],
+    "weaknesses": [
+      "OWAYO mention-share figures differ between FAQ (1.5% to 8.0%) and results table (2.06% to 4.37%)",
+      "Older SEO case studies are undated",
+      "Several case studies do not name the client"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "SRO (Selection Rate Optimization) productized with Bayesian Content Optimizer; documented OWAYO results"
+      },
+      "thoughtLeadership": {
+        "score": 5,
+        "evidence": "Founder-led original research with trained models and Research-labeled data studies on the blog"
+      },
+      "linkbuilding": {
+        "score": 3,
+        "evidence": "70% of links reclaimed or replaced in Open Colleges case; digital PR citations in GEO service"
+      },
+      "mentionBuilding": {
+        "score": 3,
+        "evidence": "Digital PR citations and web consensus plus off-site entity realignment in service descriptions"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Named Outreach role on the team; no described outreach service"
+      },
+      "technicalGeo": {
+        "score": 5,
+        "evidence": "Dedicated Machine-Readable Technical SEO service (llms.txt, multi-entity JSON-LD, AI crawler management) with named clients"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "Own app and 1M+ daily AI data points claim; 6,776 tracked AI answers documented in OWAYO case"
+      },
+      "conversionTracking": {
+        "score": 3,
+        "evidence": "Case studies report revenue and conversion metrics; dedicated SEO testing methodology"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 3,
+        "evidence": "In-house developer on team; own app, tools, and optimizer sections on site"
+      }
+    }
   },
   {
     "name": "W2B Agency",
@@ -352,7 +1209,78 @@
     "contactUrl": "https://w2bagency.com/contact",
     "phone": "+57 300 5757063",
     "linkedin": "https://www.linkedin.com/company/w2bagency-technology-solutions/",
-    "x": "https://x.com/W2BAgency"
+    "x": "https://x.com/W2BAgency",
+    "caseStudies": [
+      {
+        "title": "Club Fase II: full site delivered with zero hosting cost",
+        "url": "https://w2bagency.com/case-studies/club-fase-ii-zero-hosting-cost",
+        "summary": "Medellin nightclub Club Fase II got a full new site delivered in 3 weeks with hosting cost reduced to zero."
+      },
+      {
+        "title": "Serendipia Shop: online store",
+        "url": "https://w2bagency.com/case-studies/serendipia-shop-online-store",
+        "summary": "Personal-safety brand Serendipia Shop moved from social-media-only sales to an online store that sells 24/7."
+      },
+      {
+        "title": "Amanda Demanda: landing page on deadline",
+        "url": "https://w2bagency.com/case-studies/amanda-demanda-landing-on-deadline",
+        "summary": "US-based Amanda Demanda got a new landing page live in time for her ad campaign after two previous teams failed."
+      }
+    ],
+    "strengths": [
+      "Publishes original research: llms.txt adoption study of 63 AI visibility agencies",
+      "Case studies name real clients with linked live sites",
+      "Offers free GEO tools (AI Visibility Checker, llms.txt Generator, AI Crawler Access Checker)",
+      "Publishes its own llms.txt file"
+    ],
+    "weaknesses": [
+      "No GEO/AEO case studies; all published case studies are web development projects",
+      "No named team members on the site",
+      "No published price list (FAQ gives only a 'low four figures' starting range)",
+      "Case studies carry no performance numbers beyond delivery timelines"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 3,
+        "evidence": "GEO service specifies citable passages of 134–167 words"
+      },
+      "thoughtLeadership": {
+        "score": 3,
+        "evidence": "Original 63-agency llms.txt study on blog, but no named authors"
+      },
+      "linkbuilding": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "mentionBuilding": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "customOutreach": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "Dedicated SEO+GEO+AEO service page covering llms.txt and Schema.org, plus free technical checker tools"
+      },
+      "promptAnalytics": {
+        "score": 3,
+        "evidence": "Free AI Visibility Checker tool; GEO service aimed at ChatGPT/Perplexity citation"
+      },
+      "conversionTracking": {
+        "score": 3,
+        "evidence": "Google Tag Manager, Meta Pixel, Microsoft Clarity, and Search Console named in tooling"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 5,
+        "evidence": "Dedicated web development and migration services with named-client case studies"
+      }
+    }
   },
   {
     "name": "Northquery",
@@ -373,7 +1301,77 @@
       "JustPark",
       "Midtown Umbrellas"
     ],
-    "contactUrl": "https://northquery.com/contact"
+    "contactUrl": "https://northquery.com/contact",
+    "caseStudies": [
+      {
+        "title": "How CarCover.com went from zero to 27 AI citations in 60 days",
+        "url": "https://northquery.com/case-studies",
+        "summary": "CarCover.com went from 0 to 27 ChatGPT citations in 60 days, with 138 total AI brand mentions, 14 AI Overview features, and $28K/month in revenue attributed to AI traffic."
+      },
+      {
+        "title": "JustPark results (homepage claim)",
+        "url": "https://northquery.com",
+        "summary": "JustPark is credited with organic traffic up 110% and 1,300 new AI citations."
+      },
+      {
+        "title": "Midtown Umbrellas results (homepage claim)",
+        "url": "https://northquery.com",
+        "summary": "Midtown Umbrellas is credited with organic traffic up 86% and 270 new AI citations."
+      }
+    ],
+    "strengths": [
+      "Founder's NLP credentials published (MSc from University of Copenhagen, ACL Anthology publications)",
+      "Flagship case study names the client and shows GA4 revenue figures",
+      "Publishes a 'cited in 60 days or you don't pay' guarantee"
+    ],
+    "weaknesses": [
+      "Only the founder is named; no other team members on the site",
+      "No pricing published",
+      "Blog posts carry no visible dates or authors",
+      "Case study has no individual URL; JustPark and Midtown Umbrellas results appear only as homepage claims"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 3,
+        "evidence": "Citation-ready content structures offered in the Engineer phase"
+      },
+      "thoughtLeadership": {
+        "score": 3,
+        "evidence": "Founder's published NLP research credentials; blog without dates or on-site data studies"
+      },
+      "linkbuilding": {
+        "score": 2,
+        "evidence": "Blog post on digital PR and HARO link building; not an offered service"
+      },
+      "mentionBuilding": {
+        "score": 3,
+        "evidence": "138 brand mentions reported as a case outcome; entity and authority signals in service description"
+      },
+      "customOutreach": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "technicalGeo": {
+        "score": 3,
+        "evidence": "JSON-LD, Organization schema, and sameAs named; technical SEO audit checklist on blog"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "Productized AI visibility audit across 5 platforms with competitor citation analysis and ongoing monitoring"
+      },
+      "conversionTracking": {
+        "score": 3,
+        "evidence": "GA4 revenue attribution shown in CarCover case; reporting ties AI citations to leads and revenue"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 1,
+        "evidence": "No public evidence"
+      }
+    }
   },
   {
     "name": "Arobis AI",
@@ -394,7 +1392,67 @@
     "clients": [],
     "priceNote": "Published: Foundation $2,500/mo, Growth $5,000/mo; full AI visibility audit $399 one-time.",
     "linkedin": "https://www.linkedin.com/company/arobis-ai/",
-    "youtube": "https://www.youtube.com/@ArobisAI"
+    "youtube": "https://www.youtube.com/@ArobisAI",
+    "caseStudies": [
+      {
+        "title": "B2B SaaS AI visibility case (homepage)",
+        "url": "https://arobis.ai",
+        "summary": "An unnamed B2B SaaS client grew qualified pipeline from AI engines +31%, AI-engine visits from 66 to 146 a month (+121%), and conversions from AI visits from 3 to 22 a month (7x)."
+      }
+    ],
+    "strengths": [
+      "Publishes exact retainer pricing ($2,500 and $5,000/month; $399 full audit)",
+      "Very active blog: 74 posts with named authors and original data studies",
+      "Publishes a measurement methodology page and a sample audit report",
+      "Two named team members with stated backgrounds"
+    ],
+    "weaknesses": [
+      "Case study client not named",
+      "No dedicated case studies page",
+      "Two-person team; agency founded 2026"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 4,
+        "evidence": "Answer Optimization service rewriting pages AI engines pull from, with case results"
+      },
+      "thoughtLeadership": {
+        "score": 5,
+        "evidence": "Named credentialed authors and multiple original data studies (2,997-site AI Readiness Report, 4-engine mention study)"
+      },
+      "linkbuilding": {
+        "score": 2,
+        "evidence": "Blog audit of directory backlinks; Authority Engineering targets placements rather than links"
+      },
+      "mentionBuilding": {
+        "score": 4,
+        "evidence": "Authority Engineering service placing brands in review sites, roundups, directories, and industry publications"
+      },
+      "customOutreach": {
+        "score": 3,
+        "evidence": "Named staff member handles third-party placements and monthly re-checks"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "Schema, entity pages, and llms.txt in methods; free llms.txt generator; llms.txt/JSON-LD readiness research"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "Productized $399 audit running 40 buyer prompts across 4 engines, published methodology, free visibility checkers, case metrics"
+      },
+      "conversionTracking": {
+        "score": 3,
+        "evidence": "GA4/Search Console/server-log AI traffic tracking guide; case tracks conversions from AI visits"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 2,
+        "evidence": "Built a Chrome extension and free web tools; no development service offered"
+      }
+    }
   },
   {
     "name": "Discovered Labs",
@@ -417,7 +1475,76 @@
       "Teachable",
       "Granola"
     ],
-    "linkedin": "https://www.linkedin.com/company/discoveredlabs/"
+    "linkedin": "https://www.linkedin.com/company/discoveredlabs/",
+    "caseStudies": [
+      {
+        "title": "How Gladia grew sales-accepted leads 7x in four months",
+        "url": "https://discoveredlabs.com/case-studies/gladia",
+        "summary": "Gladia grew sales-accepted leads 7x in four months, with 93% of AI-referred leads coming from LLM search."
+      },
+      {
+        "title": "How Granola grew to thousands of monthly activated users from AI search",
+        "url": "https://discoveredlabs.com/case-studies/granola",
+        "summary": "Granola grew monthly activated users from AI search by 4,600% and organic sessions by 134%."
+      },
+      {
+        "title": "How incident.io closed the gap on PagerDuty and grew organic meetings 22%",
+        "url": "https://discoveredlabs.com/case-studies/incident-io",
+        "summary": "incident.io grew organic meetings booked by 22% and raised its AI visibility score from 38% to 64%."
+      }
+    ],
+    "strengths": [
+      "Publishes exact retainer pricing (6,995–15,995+ EUR/month plus a 4,370 EUR diagnostic)",
+      "Seven case studies with named clients and hard numbers",
+      "Publishes original research (144,284 AI citations analyzed; Reddit LLM citation study)",
+      "Own AI Visibility Tracker plus seven free AEO tools"
+    ],
+    "weaknesses": [
+      "Most team members listed by first name only",
+      "One of seven case studies is anonymized under NDA"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "CITABLE AEO content framework productized, with named-client results"
+      },
+      "thoughtLeadership": {
+        "score": 5,
+        "evidence": "Dedicated research section with original data studies; co-founder described as ex-Stanford AI researcher"
+      },
+      "linkbuilding": {
+        "score": 4,
+        "evidence": "Dedicated link-building agency service page for B2B SaaS"
+      },
+      "mentionBuilding": {
+        "score": 5,
+        "evidence": "Dedicated Reddit Marketing service with priced monthly mention quotas and own Reddit-LLM-citations research"
+      },
+      "customOutreach": {
+        "score": 3,
+        "evidence": "Digital PR and link building listed under the SEO service"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "Technical SEO diagnostics in pricing tiers incl. log file analysis, JS rendering, hreflang; publishes llms.txt and WebMCP"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "Own AI Visibility Tracker technology page; AI visibility score results documented in named-client cases"
+      },
+      "conversionTracking": {
+        "score": 3,
+        "evidence": "Case studies tie AI search to demos, MQLs, and pipeline metrics"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 3,
+        "evidence": "Seven self-built free tools, AI Assist Widget, and WebMCP implementation"
+      }
+    }
   },
   {
     "name": "WebFX",
@@ -461,7 +1588,77 @@
         "count": 22,
         "url": "https://www.trustpilot.com/review/webfx.com"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "Thompson Tractor: OmniSEO AI visibility",
+        "url": "https://www.webfx.com/portfolio/case-studies/thompson-tractor-omniseo/",
+        "summary": "Thompson Tractor achieved a 500% increase in leads from AI platforms and a 586% increase in traffic from generative AI sources."
+      },
+      {
+        "title": "RC Mowers: OmniSEO",
+        "url": "https://www.webfx.com/portfolio/case-studies/rc-mowers-omniseo/",
+        "summary": "RC Mowers achieved a 1,164% increase in traffic from AI sources."
+      },
+      {
+        "title": "KOA (Kampgrounds of America)",
+        "url": "https://www.webfx.com/portfolio/case-studies/koa/",
+        "summary": "KOA achieved a 260% increase in organic revenue."
+      }
+    ],
+    "strengths": [
+      "Large case study library with named clients and hard numbers, including six OmniSEO AI-visibility cases",
+      "Own AI search tracking software (OmniSEO within RevenueCloudFX) covering 10+ AI platforms",
+      "Publishes a GEO starting price ($3,000/month) and web design cost ranges",
+      "Publishes large-scale original research (2.3M-keyword AI Overviews study)"
+    ],
+    "weaknesses": [
+      "No individual team members named on the pages reviewed (team described only as 750+ staff)",
+      "GEO service page names no clients",
+      "GEO service page does not mention llms.txt"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 4,
+        "evidence": "Dedicated content marketing services; GEO page lists concise, AI-citable content optimization"
+      },
+      "thoughtLeadership": {
+        "score": 3,
+        "evidence": "2.3M-keyword AI Overviews study on blog; no named authors seen"
+      },
+      "linkbuilding": {
+        "score": 3,
+        "evidence": "Backlink building listed under SEO optimizations on the GEO page"
+      },
+      "mentionBuilding": {
+        "score": 4,
+        "evidence": "Digital PR for citations/mentions and AI-referenced database visibility on GEO page; 94K client AI mentions claimed"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Digital PR mentioned on GEO page; no manual outreach process described"
+      },
+      "technicalGeo": {
+        "score": 3,
+        "evidence": "Schema markup and technical SEO audits on GEO page; no llms.txt or AI-crawler specifics"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "OmniSEO product tracking mentions, sentiment, and share across 10+ AI platforms, with named-client case results"
+      },
+      "conversionTracking": {
+        "score": 5,
+        "evidence": "RevenueCloudFX platform with CallTrackerFX, CRM integrations, and ROI forecasting; AI-referred lead results documented"
+      },
+      "contentDesign": {
+        "score": 3,
+        "evidence": "Visual assets under SEO optimizations; social media and email design services listed"
+      },
+      "development": {
+        "score": 5,
+        "evidence": "Dedicated web design/development services with published cost ranges and named-client results (KOA, S. Clyde Weaver)"
+      }
+    }
   },
   {
     "name": "Thrive Internet Marketing Agency",
@@ -492,7 +1689,78 @@
         "count": 116,
         "url": "https://clutch.co/profile/thrive-internet-marketing-agency"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "Primary Care & Multi-Specialty Medical Group (AI SEO)",
+        "url": "https://thriveagency.com/case-study/primary-care-and-multi-specialty-medical-group/",
+        "summary": "A primary care and multi-specialty medical group gained +2,658% Google AI Overview citations and 1,000+ total AI citations through combined AI SEO and PPC."
+      },
+      {
+        "title": "Shoe Company (ChatGPT visibility)",
+        "url": "https://thriveagency.com/case-study/shoe-company/",
+        "summary": "A shoe company saw +876% engaged sessions from ChatGPT and +749% Microsoft Copilot and partner citations."
+      },
+      {
+        "title": "Hyperbaric Treatment Center (SEO/AI Overviews)",
+        "url": "https://thriveagency.com/case-study/hyperbaric-treatment-center/",
+        "summary": "A hyperbaric treatment center gained +381 AI Overview mentions and +250% organic traffic through SEO services."
+      }
+    ],
+    "strengths": [
+      "Dedicated GEO service pages per AI platform (ChatGPT, Gemini, Google AI Mode, AI Overviews)",
+      "Case studies carry hard AI-visibility numbers (e.g. +2,658% AI Overview citations)",
+      "ThriveAI suite offers prompt-level query tracking across LLMs",
+      "Blog updated weekly with named authors, including an Oct 2026 study of 4 AI models' answers about 372 businesses"
+    ],
+    "weaknesses": [
+      "Pricing not published",
+      "Most case-study clients anonymized (e.g. 'Shoe Company')",
+      "Only the founder is named on the about page; no team bios",
+      "Blog authors listed without bios or credentials"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "GEO service with in-house AI-optimized content and documented results (+2,658% AI Overview citations)"
+      },
+      "thoughtLeadership": {
+        "score": 4,
+        "evidence": "Named blog authors; Oct 2026 original study of 4 AI models across 372 businesses"
+      },
+      "linkbuilding": {
+        "score": 4,
+        "evidence": "Dedicated Link Building services (Digital PR Outreach, HARO) in site navigation"
+      },
+      "mentionBuilding": {
+        "score": 3,
+        "evidence": "GEO page covers citations management, listings and third-party directory management"
+      },
+      "customOutreach": {
+        "score": 3,
+        "evidence": "'Digital PR Outreach' named as a service; no process detail shown"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "GEO page lists schema markup, structured data and technical SEO for AI platforms"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "ThriveAI suite with prompt-level Query Intelligence and AI mention/citation/sentiment dashboard"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "ThriveAI consolidates channel reporting; case studies report AI referral traffic and conversions"
+      },
+      "contentDesign": {
+        "score": 4,
+        "evidence": "Dedicated web design and media production services with portfolio at /our-work/"
+      },
+      "development": {
+        "score": 5,
+        "evidence": "Dedicated web design & development service with named portfolio clients (Bluefrog, Mosaic Pharmacy)"
+      }
+    }
   },
   {
     "name": "Go Fish Digital",
@@ -528,7 +1796,78 @@
         "count": 13,
         "url": "https://clutch.co/profile/go-fish-digital"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "GEO Case Study: 3X'ing Leads (own site)",
+        "url": "https://gofishdigital.com/blog/generative-engine-optimization-geo-case-study-driving-leads/",
+        "summary": "Running GEO on its own site for three months, Go Fish Digital grew monthly AI-driven traffic +43% and monthly conversions from AI referrals +83.33%, with AI-driven leads converting at 25x the rate of traditional search."
+      },
+      {
+        "title": "MoneyGeek",
+        "url": "https://gofishdigital.com/case-study/moneygeek/",
+        "summary": "MoneyGeek grew clicks +74.8% (67.5K to 118K) and impressions +50.6% (17.4M to 26.2M)."
+      },
+      {
+        "title": "SimpleTexting",
+        "url": "https://gofishdigital.com/case-study/betterup/",
+        "summary": "SimpleTexting achieved a 500% YoY increase in organic SQLs."
+      }
+    ],
+    "strengths": [
+      "Proprietary GEO tooling named on site (Barracuda, AI Overview Analyzer, Similarity Score extension)",
+      "Publishes original AI-search research (e.g. 'What 4,599 ChatGPT Responses Reveal')",
+      "Team page names roughly 39 staff with titles",
+      "Blog updated weekly with named authors and frequent GEO/ChatGPT topics"
+    ],
+    "weaknesses": [
+      "Pricing not published",
+      "The only GEO case study published is on the agency's own website",
+      "Blog authors listed without bios or credentials",
+      "SimpleTexting case study sits at a URL naming a different company (/case-study/betterup/)"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "GEO content pillar (fact density, summarization-friendliness) with its own documented GEO case study"
+      },
+      "thoughtLeadership": {
+        "score": 4,
+        "evidence": "Original ChatGPT research (4,599 responses) and 'Winning with GEO' whitepaper with named authors"
+      },
+      "linkbuilding": {
+        "score": 4,
+        "evidence": "Dedicated Digital PR service page (/services/owned/digital-pr/)"
+      },
+      "mentionBuilding": {
+        "score": 4,
+        "evidence": "'Digital PR for Brand Citations' GEO pillar: earning brand mentions on sources that feed AI systems"
+      },
+      "customOutreach": {
+        "score": 3,
+        "evidence": "Digital PR described as securing placements on authoritative outlets; no outreach process detail"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "GEO page covers schema, IndexNow, sitemap coverage and internal linking for AI discovery"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "Barracuda platform and AI Overview Analyzer; GEO case study benchmarked via GA4 regex and log files"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "GEO case study tracked AI-referral conversions via GA4 regex filters and log-file analysis"
+      },
+      "contentDesign": {
+        "score": 3,
+        "evidence": "Creative services (Design, Performance Creative) listed in site navigation"
+      },
+      "development": {
+        "score": 3,
+        "evidence": "Website Design & Development listed under Creative services in navigation"
+      }
+    }
   },
   {
     "name": "iPullRank",
@@ -555,7 +1894,78 @@
     "contactUrl": "https://ipullrank.com/contact",
     "linkedin": "https://www.linkedin.com/company/ipullrank",
     "youtube": "https://www.youtube.com/c/iPullRankSEO",
-    "x": "https://x.com/ipullrank"
+    "x": "https://x.com/ipullrank",
+    "caseStudies": [
+      {
+        "title": "Financial Services Industry (AI search)",
+        "url": "https://ipullrank.com/case-studies/ai-search-financial-services-industry",
+        "summary": "A global financial services organization gained a 121% cumulative increase in sign-ups and +52.6% organic traffic over 6 months from a semantic content optimization program."
+      },
+      {
+        "title": "Mortgage Industry",
+        "url": "https://ipullrank.com/case-studies/mortgage-industry",
+        "summary": "One of the world's biggest banks generated $2.4 billion in incremental revenue from organic search while pausing paid ad spend."
+      },
+      {
+        "title": "eCommerce Marketplace",
+        "url": "https://ipullrank.com/case-studies/ecommerce-marketplace",
+        "summary": "A global eCommerce marketplace generated $290M in revenue from AI content for category pages."
+      }
+    ],
+    "strengths": [
+      "Founder Mike King publishes frequent original AI-search analysis; recent blog is dominated by GEO/AI-search posts",
+      "GEO measurement framework published in detail (citation frequency, fan-out coverage, cosine similarity, entity density)",
+      "Team page names 30+ staff with titles",
+      "Runs its own AI-search conference (SEO Week, becoming 'Relevance' in 2027)"
+    ],
+    "weaknesses": [
+      "Pricing not published",
+      "Case study clients anonymized (industry descriptors only)",
+      "Case study index page shows no result numbers",
+      "No named AI visibility tracking tool"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "Content engineering service; $290M revenue case from AI content for category pages"
+      },
+      "thoughtLeadership": {
+        "score": 5,
+        "evidence": "Mike King (Search Engine Land 2025 Search Marketer of the Year per site headline); original research in blog and The Rank Report"
+      },
+      "linkbuilding": {
+        "score": 3,
+        "evidence": "Content engineering and digital PR listed in Elite GEO tier"
+      },
+      "mentionBuilding": {
+        "score": 3,
+        "evidence": "Omnimedia strategy covers visibility across press, forums, review sites beyond the brand's own site"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Digital PR named only within GEO Elite tier; no outreach detail"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "Dedicated Technical SEO service page; GEO page stresses indexable, server-side rendered content for AI bots"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "Published GEO measurement framework (citation frequency, AI referral traffic, competitor benchmarking); no tool named"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Attribution linking citations and AI referral traffic to leads and revenue 'from day one' on GEO page"
+      },
+      "contentDesign": {
+        "score": 4,
+        "evidence": "Resonance Design service page; visual designers named on team page"
+      },
+      "development": {
+        "score": 2,
+        "evidence": "SEO/relevance engineers on staff and self-built tools, but no client web development service offered"
+      }
+    }
   },
   {
     "name": "NoGood",
@@ -590,7 +2000,78 @@
         "count": 3,
         "url": "https://clutch.co/profile/nogood"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "SteelSeries AEO",
+        "url": "https://nogood.io/case-study/steelseries-aeo/",
+        "summary": "SteelSeries saw a 23x YoY increase in AI search traffic and 27x YoY growth in conversions from AI platforms, with per-platform visibility scores rising on ChatGPT (51 to 73), Gemini (62 to 85) and Perplexity (44 to 77)."
+      },
+      {
+        "title": "Spring Health",
+        "url": "https://nogood.io/case-study/spring-health/",
+        "summary": "Spring Health achieved a 113% increase in Provider Qualified Leads and a 149% increased conversion rate."
+      },
+      {
+        "title": "Chime",
+        "url": "https://nogood.io/case-study/chime/",
+        "summary": "Chime saw a 150% QoQ increase in social views and a reported 93% enrollment lift from AI-driven discovery."
+      }
+    ],
+    "strengths": [
+      "Dedicated AEO service page with a named tooling partner (Goodie AI)",
+      "SteelSeries AEO case study includes per-platform AI visibility scores",
+      "States typical retainer level publicly (monthly retainers averaging above $20,000 per homepage FAQ)",
+      "Blog updated frequently with named authors and heavy AEO/AI-search coverage"
+    ],
+    "weaknesses": [
+      "SteelSeries headline figures (23x/27x) differ from body figures (6.7x/7.1x) without explanation",
+      "No formal pricing page (only a FAQ average)",
+      "Blog authors listed without bios or credentials",
+      "No dedicated team page"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "AEO content development service with documented SteelSeries results"
+      },
+      "thoughtLeadership": {
+        "score": 4,
+        "evidence": "Named authors across blog; 2026 Social Insight Report presented as original research"
+      },
+      "linkbuilding": {
+        "score": 3,
+        "evidence": "Earned Media & Digital PR named in homepage FAQ and AEO page"
+      },
+      "mentionBuilding": {
+        "score": 4,
+        "evidence": "Citation networks, social citation strategy and authority signals in AEO service; 'Reddit for AEO' content"
+      },
+      "customOutreach": {
+        "score": 3,
+        "evidence": "Digital PR and earned media strategy listed within AEO service"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "AEO technical audit, schema markup/structured data and site architecture on service page"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "Prompt research and monitoring via Goodie AI; per-platform visibility scores documented for SteelSeries"
+      },
+      "conversionTracking": {
+        "score": 5,
+        "evidence": "GA4 custom channel groups for AI referrals; documented 27x conversions from AI platforms"
+      },
+      "contentDesign": {
+        "score": 3,
+        "evidence": "Design Studio and Performance Creative listed in Studio menu"
+      },
+      "development": {
+        "score": 1,
+        "evidence": "No public evidence"
+      }
+    }
   },
   {
     "name": "Seer Interactive",
@@ -616,7 +2097,73 @@
         "count": 4,
         "url": "https://clutch.co/profile/seer-interactive"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "AI Overview citations for an outdoor living leader",
+        "url": "https://www.seerinteractive.com/work/case-studies/ai-driven-optimization-boosted-ai-overview-citations-and-serp-feature-wins-for-an-outdoor-living-leader",
+        "summary": "An 11-article optimization sprint for a top outdoor living brand earned 414 new AI Overview citations, 344% AI Overview ownership growth and 57% Featured Snippet growth on optimized pages."
+      },
+      {
+        "title": "AI-assisted content for a water technology leader",
+        "url": "https://www.seerinteractive.com/work/case-studies/how-ai-assisted-content-accelerated-implementation-and-roi-for-a-water-technology-leader",
+        "summary": "An AI-assisted content hub for a water treatment technology leader drove 1,782 organic sessions, 11 conversions and an estimated $95,700 in attributed revenue from 5 published articles."
+      }
+    ],
+    "strengths": [
+      "Three years of original AI-search research, including a 231,347-response LLM analysis and a 617-prompt ChatGPT fan-out study",
+      "GEO service page lists concrete measurement deliverables (prompt tracking plan, AI log file analysis, AI traffic predictive modeler)",
+      "Names its AI visibility tracking partner (Scrunch, tool access included) and proprietary data platform (SeerSignals)",
+      "Case studies report exact AI Overview citation counts"
+    ],
+    "weaknesses": [
+      "Pricing not published",
+      "Case study clients anonymized (industry descriptors only)",
+      "Blog index shows no dates or author bylines",
+      "No link building or digital PR service found on the site"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "AI-assisted content case study with $95,700 attributed revenue"
+      },
+      "thoughtLeadership": {
+        "score": 5,
+        "evidence": "Multiple original AI-search data studies (231,347 LLM responses; 617-prompt fan-out study); founder Wil Reynolds named"
+      },
+      "linkbuilding": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "mentionBuilding": {
+        "score": 2,
+        "evidence": "Tracks trade publication and influencer mentions as a signal; not offered as a service"
+      },
+      "customOutreach": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "technicalGeo": {
+        "score": 3,
+        "evidence": "Technical SEO, migrations and site health audits on SEO page; AI Log File Analysis on GEO page"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "Prompt Development and Tracking Plan deliverable with Scrunch tool access; SeerSignals data platform"
+      },
+      "conversionTracking": {
+        "score": 5,
+        "evidence": "AI-Driven Traffic Conversion Analysis deliverable plus a dedicated Analytics service line"
+      },
+      "contentDesign": {
+        "score": 3,
+        "evidence": "Creative Services listed as a service line"
+      },
+      "development": {
+        "score": 1,
+        "evidence": "No public evidence"
+      }
+    }
   },
   {
     "name": "Single Grain",
@@ -652,7 +2199,78 @@
         "count": 12,
         "url": "https://clutch.co/profile/single-grain"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "SmartRent: 10 monthly SQLs from LLMs",
+        "url": "https://www.singlegrain.com/case-studies/how-smartrent-achieved-10-monthly-sqls-from-llms/",
+        "summary": "SmartRent achieved 10 SQLs per month from LLMs, 136 total AI visibility and $126,000 in estimated value."
+      },
+      {
+        "title": "LS Building Products: 400+ AI citations",
+        "url": "https://www.singlegrain.com/case-studies/how-ls-building-products-gained-400-ai-citations/",
+        "summary": "LS Building Products gained 400+ AI citations with $220,000 in estimated value."
+      },
+      {
+        "title": "Bierman Autism: technical SEO and AI search visibility",
+        "url": "https://www.singlegrain.com/case-studies/bierman-autism-case-study-technical-seo-ai-search-visibility/",
+        "summary": "Bierman Autism saw +75% AI Overview capture, +100% new Gemini visibility and +21% keyword growth."
+      }
+    ],
+    "strengths": [
+      "Multiple named-client AEO case studies with AI citation counts and LLM-sourced SQL numbers",
+      "AEO page details schema work (FAQ, HowTo, Speakable, Organization) and unlinked mention reclamation",
+      "Founder Eric Siu publishes bylined content and hosts two marketing podcasts",
+      "Offers a free AI visibility report"
+    ],
+    "weaknesses": [
+      "Pricing not published",
+      "Blog posts show no dates; most bylines are the founder's",
+      "Case study cards carry mismatched labels (same tag reused across unrelated studies)",
+      "No team or about page linked from the homepage"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "AEO content development with documented AI citation results (LS Building Products 400+ citations)"
+      },
+      "thoughtLeadership": {
+        "score": 4,
+        "evidence": "Founder-bylined blog and two long-running podcasts; no original data studies found"
+      },
+      "linkbuilding": {
+        "score": 2,
+        "evidence": "Digital PR mentioned within AEO page; no link building service found"
+      },
+      "mentionBuilding": {
+        "score": 4,
+        "evidence": "Unlinked mention reclamation and community distribution (Reddit, Quora) on AEO page"
+      },
+      "customOutreach": {
+        "score": 3,
+        "evidence": "Digital PR and expert bylines listed in AEO distribution deliverables"
+      },
+      "technicalGeo": {
+        "score": 5,
+        "evidence": "Advanced schema and technical audits offered; documented technical SEO case (SmartRent +345% LLM referral traffic)"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "AI citation and overview monitoring via custom dashboards; case studies quantify AI visibility; no tool named"
+      },
+      "conversionTracking": {
+        "score": 5,
+        "evidence": "Attribution for assistive search offered; documented 10 SQLs/month from LLMs"
+      },
+      "contentDesign": {
+        "score": 3,
+        "evidence": "Creative strategy service page covering paid media creative"
+      },
+      "development": {
+        "score": 1,
+        "evidence": "No public evidence"
+      }
+    }
   },
   {
     "name": "Ignite Visibility",
@@ -687,7 +2305,77 @@
         "count": 175,
         "url": "https://clutch.co/profile/ignite-visibility"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "Home services franchise group: +458% AI Overview visibility",
+        "url": "https://ignitevisibility.com/wp-content/uploads/2026/06/OMMA-Awards-Case-Study.pdf",
+        "summary": "A home services franchise group with 5,500+ locations grew AI Overview visibility +458% and web leads +20% across 5,000+ blogs, winning a 2025 OMMA Award."
+      },
+      {
+        "title": "Automotive franchise: AI search visibility to franchise inquiries",
+        "url": "https://ignitevisibility.com/wp-content/uploads/2026/09/TURNING-AI-SEARCH-VISIBILITY-INTO-QUALIFIED-FRANCHISE-INQUIRIES.pdf",
+        "summary": "An automotive franchise's AI mentions rose from 24.7% to 30.9% (+25%), making it the top competitor in AI responses."
+      },
+      {
+        "title": "Home service franchise: 15 AI Overview placements",
+        "url": "https://ignitevisibility.com/wp-content/uploads/2026/04/15-AI-Overview-Placements-in-3-Months-for-Home-Service-Franchise.pdf",
+        "summary": "A home services franchise earned 15 AI Overview placements in 3 months."
+      }
+    ],
+    "strengths": [
+      "Publishes a price range for AI SEO engagements ($2,000 to $10,000+ per month)",
+      "Large case study library (40+ studies) including several AI-visibility results",
+      "GEO page details AI-crawler technical work (llms.txt, server-side rendering, named bot access)",
+      "Tracks AI share of voice, citations and sentiment with a dedicated 'AI Discovery' analytics channel"
+    ],
+    "weaknesses": [
+      "Case studies are PDFs with anonymized clients (Orangetheory is the only named one)",
+      "Blog posts mostly lack dates and author bylines",
+      "Some case study cards are mislabeled (an 'AI Search'-tagged card covers paid media only)"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "Answer-first, citable content program with documented +458% AI Overview visibility case"
+      },
+      "thoughtLeadership": {
+        "score": 3,
+        "evidence": "Co-founder John Lincoln described as author, speaker and educator; blog mostly unbylined"
+      },
+      "linkbuilding": {
+        "score": 3,
+        "evidence": "Digital PR service linked from GEO page for off-site authority; link acquisition not detailed"
+      },
+      "mentionBuilding": {
+        "score": 4,
+        "evidence": "Reddit/Quora presence building plus listings work (Clutch, G2, Wikipedia, Wikidata) on GEO page"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Off-site authority and digital PR referenced without outreach process detail"
+      },
+      "technicalGeo": {
+        "score": 5,
+        "evidence": "llms.txt, server-side rendering, named AI-bot access and entity schema detailed, with documented AI visibility results"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "AI share of voice, per-query citation and sentiment tracking described; no tracking tool named"
+      },
+      "conversionTracking": {
+        "score": 5,
+        "evidence": "Dedicated 'AI Discovery' analytics channel plus CRM lead attribution; RevIntel case (+32.73% revenue)"
+      },
+      "contentDesign": {
+        "score": 3,
+        "evidence": "Media Design & Creation and Video Production listed as owned-media services"
+      },
+      "development": {
+        "score": 4,
+        "evidence": "Website Design and Website Development services listed, with a website development case study PDF"
+      }
+    }
   },
   {
     "name": "Amsive",
@@ -716,7 +2404,78 @@
         "count": 3,
         "url": "https://clutch.co/profile/amsive-digital-formerly-path-interactive"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "Global media company SEO",
+        "url": "https://www.amsive.com/work/global-media-company/",
+        "summary": "A global media publisher achieved a 74.5% jump in organic traffic value through an in-depth SEO strategy during Google core updates."
+      },
+      {
+        "title": "Keene State College",
+        "url": "https://www.amsive.com/work/keene-state-college/",
+        "summary": "Keene State College saw triple-digit growth in website traffic and RFI conversions."
+      },
+      {
+        "title": "Christian Care Ministry",
+        "url": "https://www.amsive.com/work/christian-care-ministry/",
+        "summary": "Christian Care Ministry grew leads 20% through search and programmatic marketing."
+      }
+    ],
+    "strengths": [
+      "SEO + AEO led by a named, bylined expert (Lily Ray, VP of SEO and AI Search)",
+      "Site cites Search Engine Land 'Agency of the Year - SEO' in the 2025 Search Engine Land Awards",
+      "Leadership page names 20 executives with titles",
+      "Publishes a commissioned Forrester Total Economic Impact study (134% ROI over three years)"
+    ],
+    "weaknesses": [
+      "No AEO or AI-search case studies published",
+      "Pricing not published",
+      "AEO methodology not described on the SEO service page",
+      "Most case studies lack result numbers; insights posts mostly lack bylines and dates"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 3,
+        "evidence": "AEO listed as a service targeting AI Overviews, ChatGPT and Perplexity; no methodology or results shown"
+      },
+      "thoughtLeadership": {
+        "score": 4,
+        "evidence": "Lily Ray (VP, SEO and AI Search) bylines; AEO guide and AI-discovery webinars; commissioned Forrester study"
+      },
+      "linkbuilding": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "mentionBuilding": {
+        "score": 2,
+        "evidence": "Blog post on how online reviews shape AI search visibility; BrightLocal among tool logos"
+      },
+      "customOutreach": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "Technical SEO service covers structured data, JavaScript rendering, crawlability and Core Web Vitals"
+      },
+      "promptAnalytics": {
+        "score": 2,
+        "evidence": "'Advanced SEO and AI-discovery tools' referenced without named tooling or tracking method"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Attribution & Reporting and Analytics Solutions service pages; proprietary Xact data platform"
+      },
+      "contentDesign": {
+        "score": 4,
+        "evidence": "Creative service line with Content, Performance Creative and Brand Identity pages"
+      },
+      "development": {
+        "score": 4,
+        "evidence": "Web Development service page; American Montessori Society site replatforming case study"
+      }
+    }
   },
   {
     "name": "First Page Sage",
@@ -740,7 +2499,78 @@
       "Corcoran"
     ],
     "contactUrl": "https://firstpagesage.com/contact/",
-    "phone": "855-888-7243"
+    "phone": "855-888-7243",
+    "caseStudies": [
+      {
+        "title": "Digital Verification Startup (GEO)",
+        "url": "https://firstpagesage.com/fps-geo-case-study-digital-verification/",
+        "summary": "A digital verification startup generated over $4.7M in revenue and became the most-recommended provider on ChatGPT and Claude."
+      },
+      {
+        "title": "High-End Plastic Surgeon (GEO)",
+        "url": "https://firstpagesage.com/fps-geo-case-study-plastic-surgeon/",
+        "summary": "A plastic surgery practice's AI recommendation share rose from 11% to 64% across 31 tracked queries, driving about $2.3M in incremental revenue."
+      },
+      {
+        "title": "AI Writing Assistant (GEO)",
+        "url": "https://firstpagesage.com/geo-case-study-ai-writing-assistant/",
+        "summary": "An AI writing assistant grew monthly qualified business leads from 214 to 2,640 and was described as an enterprise communication platform in 78% of tracked AI answers, up from 19%."
+      }
+    ],
+    "strengths": [
+      "Publishes exact retainer pricing (own GEO range of $6,000 to $12,000 per month, month-to-month)",
+      "Seven GEO/AI-search case studies with revenue and AI recommendation-share numbers",
+      "Founder Evan Bailyn has published SEO books and publishes recurring GEO pricing and CAC benchmark reports",
+      "GEO page states the offering launched May 9, 2023, which it calls the first GEO service"
+    ],
+    "weaknesses": [
+      "Most case study clients anonymized",
+      "No AI visibility tracking tool or platform named",
+      "Technical SEO/schema work not described on the GEO service page",
+      "Founder is the only named team member found on the site"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "GEO content creation with documented AI recommendation outcomes ($4.7M revenue case)"
+      },
+      "thoughtLeadership": {
+        "score": 5,
+        "evidence": "Founder-authored SEO books, keynote speaking, and original GEO pricing/CAC benchmark reports"
+      },
+      "linkbuilding": {
+        "score": 2,
+        "evidence": "'Website authority' element within GEO; no link building service offered"
+      },
+      "mentionBuilding": {
+        "score": 5,
+        "evidence": "List creation/optimization and database inclusion are core GEO deliverables with documented most-recommended-on-ChatGPT outcomes"
+      },
+      "customOutreach": {
+        "score": 4,
+        "evidence": "Team acts as 'list and database outreach manager' per GEO service page"
+      },
+      "technicalGeo": {
+        "score": 2,
+        "evidence": "GEO page offers no schema, structured data or technical services; SEO service exists without technical detail"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "AI recommendation share tracked across query sets in case studies (11% to 64% over 31 queries); no tool named"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Tracking, attribution and reporting named as a supporting service; case studies attribute revenue and leads"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 1,
+        "evidence": "No public evidence"
+      }
+    }
   },
   {
     "name": "Siege Media",
@@ -776,7 +2606,77 @@
         "count": 48,
         "url": "https://clutch.co/profile/siege-media"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "Mentimeter ranks in LLMs",
+        "url": "https://www.siegemedia.com/work/mentimeter-content-marketing",
+        "summary": "Bottom-funnel strategy got Mentimeter ranking in LLMs; the site cites 250,000 ChatGPT visits generated."
+      },
+      {
+        "title": "Instacart AI visibility and traffic value",
+        "url": "https://www.siegemedia.com/work/instacart-content-marketing",
+        "summary": "Instacart grew blog traffic value by $73K and boosted AI visibility; the homepage cites 46.5K citations in LLMs and a 356% increase in traffic value."
+      },
+      {
+        "title": "Grow Therapy 4x LLM visibility",
+        "url": "https://www.siegemedia.com/work/grow-therapy-content-marketing",
+        "summary": "Siege Media helped Grow Therapy nearly 4x its LLM visibility in a crowded market."
+      }
+    ],
+    "strengths": [
+      "84 case studies published, most with hard numbers (traffic value, links, LLM citations)",
+      "Named enterprise clients with LLM metrics (Zendesk, Instacart, Zapier, AAA, Purple)",
+      "CEO Ross Hudgens published a GEO book; site hosts original research and a Research Reports service",
+      "Proprietary tooling named (BlueprintIQ, DataFlywheel) with a documented GEO process and reporting metrics"
+    ],
+    "weaknesses": [
+      "Pricing not published",
+      "GEO service page does not mention schema or llms.txt work",
+      "No AI visibility tracking tool named; the page says the tool recommendation varies by client"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "Full-service GEO offering with LLM-citation case studies (Mentimeter 250K ChatGPT visits, Instacart 46.5K LLM citations)"
+      },
+      "thoughtLeadership": {
+        "score": 5,
+        "evidence": "CEO's GEO book, dedicated Research Reports service, original studies on blog (e.g. 'CRO is GEO')"
+      },
+      "linkbuilding": {
+        "score": 5,
+        "evidence": "Digital PR service with documented link counts (Airbnb 35+ links/month, Huntress 3.5K links, Credit.com 16.5K links)"
+      },
+      "mentionBuilding": {
+        "score": 5,
+        "evidence": "Dedicated Reddit Marketing and Affiliate Partnerships service pages, positioned on the GEO page as LLM citation sources"
+      },
+      "customOutreach": {
+        "score": 4,
+        "evidence": "GEO page describes digital PR pitching original data stories to publishers"
+      },
+      "technicalGeo": {
+        "score": 3,
+        "evidence": "Technical SEO case study (588K visits) and SEO consulting service; GEO page omits schema/llms.txt"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "Prompt-level citation mapping and LLM share-of-voice benchmarks via BlueprintIQ; no tracking product of their own"
+      },
+      "conversionTracking": {
+        "score": 3,
+        "evidence": "Monthly reporting of AI-referral traffic; blog post on how Ramp tracks AI traffic"
+      },
+      "contentDesign": {
+        "score": 4,
+        "evidence": "Dedicated Graphic Design service page (/services/graphic-design)"
+      },
+      "development": {
+        "score": 4,
+        "evidence": "Dedicated Web Design service page; interactive tools and calculators listed as GEO deliverables"
+      }
+    }
   },
   {
     "name": "Omniscient Digital",
@@ -811,7 +2711,77 @@
         "count": 6,
         "url": "https://clutch.co/profile/omniscient-digital"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "OnBoard becomes #1 most visible brand in AI search",
+        "url": "https://beomniscient.com/case-studies/onboardmeetings/",
+        "summary": "OnBoard ranked #1 most visible brand in AI search with 88% AI visibility."
+      },
+      {
+        "title": "Convert LLM visibility growth",
+        "url": "https://beomniscient.com/case-studies/convert-case-study/",
+        "summary": "Convert grew LLM visibility 81% and AI citations 140% in 60 days."
+      },
+      {
+        "title": "AI security awareness company AI visibility",
+        "url": "https://beomniscient.com/case-studies/security-awareness-training/",
+        "summary": "An unnamed AI security awareness company grew AI visibility 25% and organic traffic 138%."
+      }
+    ],
+    "strengths": [
+      "Publishes a starting price: full-service engagements start at $120,000/year",
+      "Three case studies with AI-visibility numbers (OnBoard, Convert, security awareness client)",
+      "Dedicated AEO service page with a detailed process from demand modeling to structured AEO experiments",
+      "Original LLM research section with 13 studies on AI citations and buyer behavior"
+    ],
+    "weaknesses": [
+      "Research pieces display no authors or publication dates",
+      "No dedicated pricing page; only a single starting figure in page copy",
+      "Some navigation dropdown items are broken placeholder links"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "Dedicated AEO service plus Content Production with documented results (Convert +140% AI citations)"
+      },
+      "thoughtLeadership": {
+        "score": 4,
+        "evidence": "Original LLM research library, podcast, and newsletter; authors not displayed"
+      },
+      "linkbuilding": {
+        "score": 4,
+        "evidence": "Dedicated Link Building and Digital PR service pages"
+      },
+      "mentionBuilding": {
+        "score": 3,
+        "evidence": "Brand mentions, third-party validation, review platforms and communities included in the AEO service"
+      },
+      "customOutreach": {
+        "score": 3,
+        "evidence": "Digital PR service page offered; outreach methods not detailed"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "Dedicated Technical SEO page; AEO service covers crawlability, semantic markup, and agentic readiness"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "Visibility baselines across prompt clusters and AI share-of-voice monitoring described; no tool named"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Dedicated Digital Marketing Analytics service page; AEO page connects visibility to pipeline via analytics and CRM data"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 4,
+        "evidence": "Dedicated Programmatic SEO service page"
+      }
+    }
   },
   {
     "name": "Graphite",
@@ -831,7 +2801,78 @@
       "n8n",
       "Hinge Health",
       "MasterClass"
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "Webflow 2x'd sign-ups from LLMs",
+        "url": "https://graphite.io/case-studies/webflow-llm-signups",
+        "summary": "Webflow doubled sign-ups from LLMs with 94% share-of-voice growth from LLMs."
+      },
+      {
+        "title": "Fourthwall search revenue growth",
+        "url": "https://graphite.io/case-studies/fourthwall-936-percent",
+        "summary": "Fourthwall increased search-driven revenue by 936% in 9 months."
+      },
+      {
+        "title": "MasterClass non-branded traffic growth",
+        "url": "https://graphite.io/case-studies/masterclass-571k",
+        "summary": "MasterClass grew monthly non-branded traffic from 0 to 571K."
+      }
+    ],
+    "strengths": [
+      "Frequent original AI-search research: 25+ studies and reports, updated monthly through October 2026",
+      "Named technical staff with credentials (Chief AI Officer Gregory Druck, PhD; Senior Data Scientist Jose Luis Paredes, PhD)",
+      "AEO service page details prompt research with fixed 200+ query sets per quarter and manual logged-in tracking",
+      "Webflow case study carries LLM share-of-voice and sign-up numbers"
+    ],
+    "weaknesses": [
+      "Only four case studies published",
+      "Pricing not published",
+      "Case-study cards show inconsistent figures (BetterUp and MasterClass titles vs. summaries)",
+      "No about or team page in main navigation"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "Dedicated AEO service with citation-ready content; Webflow LLM sign-up results"
+      },
+      "thoughtLeadership": {
+        "score": 5,
+        "evidence": "Continuous original AI-search research including data studies and the State of ChatGPT Ads report"
+      },
+      "linkbuilding": {
+        "score": 2,
+        "evidence": "Offsite placements in publications mentioned; link building not described as a service"
+      },
+      "mentionBuilding": {
+        "score": 4,
+        "evidence": "Offsite AEO with explicit Reddit strategy and publisher/community citations named on the AEO page"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Publication placement mentioned; no outreach service described"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "Technical AEO covers structured data, entity markup, internal linking, crawlability and page architecture"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "Citation tracking and analytics service with 200+ prompt sets, logged-in tracking, and published prompt-tracking research"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Measures clicks and conversions from AI; published AEO attribution research (n8n last-touch study)"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 3,
+        "evidence": "Programmatic SEO listed as a service area; page does not say who builds or deploys the pages"
+      }
+    }
   },
   {
     "name": "RevenueZen",
@@ -857,7 +2898,77 @@
         "count": 38,
         "url": "https://clutch.co/profile/revenuezen"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "Expensify SEO-sourced sign-ups",
+        "url": "https://revenuezen.com/case-studies/expensify/",
+        "summary": "Expensify increased SEO-sourced product sign-ups by 50% in 6 months."
+      },
+      {
+        "title": "Incfile organic revenue growth",
+        "url": "https://revenuezen.com/case-studies/incfile/",
+        "summary": "Incfile increased organic search-sourced revenue by 300% in 12 months."
+      },
+      {
+        "title": "Pritchard Industries SEO pipeline",
+        "url": "https://revenuezen.com/case-studies/pritchard-industries/",
+        "summary": "Pritchard Industries generated $2.2M in pipeline from SEO in 6 months."
+      }
+    ],
+    "strengths": [
+      "Publishes exact retainer pricing: six packages from $3,000 to $15,000/month with itemized deliverables",
+      "Dedicated GEO service page that names GA4 tracking of ChatGPT/Perplexity/Gemini/Copilot referrals",
+      "Free GEO tools published (LLMs.txt generator, GEO opportunity audit, topical authority tool)",
+      "13 case studies with revenue, pipeline and lead numbers"
+    ],
+    "weaknesses": [
+      "No case studies with GEO or AI-visibility results",
+      "AI search monitoring tools mentioned but not named",
+      "GEO results claimed on the service page (e.g. 358% AI Overviews increase) are not tied to a published case study"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 4,
+        "evidence": "Dedicated GEO and Interview-Led AI Content service pages; no AI-result case study"
+      },
+      "thoughtLeadership": {
+        "score": 3,
+        "evidence": "Marketing thesis page, newsletter, and GEO blog articles; original research assets sold within packages"
+      },
+      "linkbuilding": {
+        "score": 3,
+        "evidence": "Link building included in Accelerate package (4 links/month); digital PR within GEO service"
+      },
+      "mentionBuilding": {
+        "score": 3,
+        "evidence": "AI reputation management curating directories, expert roundups and comparison placements in the GEO service"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Digital PR quotes and roundups mentioned; no outreach process described"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "Schema.org structured data in GEO service; dedicated Technical SEO Audits page; schema implementation itemized in Growth package"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "AI brand monitoring with monthly report in every package; monthly AI visibility audits across ChatGPT, Perplexity, Claude, Gemini in Total Market package"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "GA4 named for AI-referral tracking; Analytics & Reporting service; MQL-to-SQL validation stage in GEO process"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 2,
+        "evidence": "Website redesign referenced only as a package add-on exclusion; free tools built in-house"
+      }
+    }
   },
   {
     "name": "Search Engine People",
@@ -892,7 +3003,77 @@
         "count": 56,
         "url": "https://clutch.co/profile/search-engine-people"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "Levitt LLP lead growth",
+        "url": "https://www.searchenginepeople.com/case-study/levitt-llp",
+        "summary": "Levitt LLP increased leads by 793%."
+      },
+      {
+        "title": "PAR Technology traffic turnaround",
+        "url": "https://www.searchenginepeople.com/case-study/partech",
+        "summary": "PAR Technology reversed a traffic decline with up to 161% year-over-year growth."
+      },
+      {
+        "title": "Speedy Cash keyword performance",
+        "url": "https://www.searchenginepeople.com/case-study/speedy-cash",
+        "summary": "Speedy Cash increased keyword performance by 90%."
+      }
+    ],
+    "strengths": [
+      "Publishes indicative pricing ranges on the homepage ($1,000/mo starting, up to $30,000+/mo for competitive industries)",
+      "Dedicated service pages for AEO, GEO, AI Overviews optimization, and ranking in ChatGPT/Gemini/Perplexity",
+      "Free AI Visibility Tool and free website analysis tools published",
+      "Named team page and 25+ years in business stated on site"
+    ],
+    "weaknesses": [
+      "No case studies with AI, GEO or LLM results",
+      "GEO service page shows no quantified client results",
+      "Only five case studies published"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 4,
+        "evidence": "AI Content Creation & Optimization service and AI-Ready Content resource page"
+      },
+      "thoughtLeadership": {
+        "score": 2,
+        "evidence": "Blog and podcasts present; no original research or author credentials observed"
+      },
+      "linkbuilding": {
+        "score": 4,
+        "evidence": "Dedicated Link Building Services page"
+      },
+      "mentionBuilding": {
+        "score": 3,
+        "evidence": "LLM Seeding Services listed among services; GEO page cites brand mentions and consistent profiles"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Authoritative link building mentioned on GEO page; no outreach method described"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "GEO service names schema markup, site architecture for AI crawling, and accessibility standards"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "AI Visibility Tool published; GEO service includes monitoring how content appears in AI-generated responses"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Dedicated Google Analytics Services page and a Data services page"
+      },
+      "contentDesign": {
+        "score": 3,
+        "evidence": "Web Design & Creative service page covers creative work"
+      },
+      "development": {
+        "score": 4,
+        "evidence": "Web Design & Creative service page, Managed WordPress Hosting, and CMS-specific SEO services"
+      }
+    }
   },
   {
     "name": "The SEO Works",
@@ -925,7 +3106,77 @@
         "count": 58,
         "url": "https://clutch.co/profile/seo-works"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "DHL AI search campaign",
+        "url": "https://www.seoworks.co.uk/case-studies/ai-search-for-dhl/",
+        "summary": "DHL's AI search campaign increased AI citations by 287% and ChatGPT referrals by 121%."
+      },
+      {
+        "title": "60% share of voice in AI Overviews for a seating manufacturer",
+        "url": "https://www.seoworks.co.uk/case-studies/share-of-voice-ai-overviews-for-seating-manufacturer/",
+        "summary": "An unnamed seating manufacturer took 60% share of voice in Google AI Overviews, more than double its key competitors."
+      },
+      {
+        "title": "GEO strategy achieves 2000% increase in AI referrals",
+        "url": "https://www.seoworks.co.uk/case-studies/llm-ai-visibility/",
+        "summary": "An unnamed B2B marketing company achieved a 2000% increase in AI referral traffic from a GEO strategy."
+      }
+    ],
+    "strengths": [
+      "Five published case studies with AI/GEO metrics, including named client DHL",
+      "GEO service page details schema types (FAQ, Article, HowTo), llms.txt, and LLM referral tracking",
+      "Publishes an 'Info for AI and LLMs' page and an Entitymap",
+      "Over 40 industry awards cited, including SEO Agency of the Year"
+    ],
+    "weaknesses": [
+      "Pricing not published",
+      "Most case-study clients are unnamed",
+      "No AI visibility tracking tool named"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "GEO service producing AI-readable, answer-first content with documented results (DHL +121% ChatGPT referrals)"
+      },
+      "thoughtLeadership": {
+        "score": 3,
+        "evidence": "Blog, downloads library, and expert-led content named in the GEO process; no original research observed"
+      },
+      "linkbuilding": {
+        "score": 4,
+        "evidence": "Dedicated Digital PR service page; quality backlinks part of GEO credibility building"
+      },
+      "mentionBuilding": {
+        "score": 4,
+        "evidence": "GEO page details encouraging brand mentions via PR, partners and trusted listings, stating a mention is as useful as a link"
+      },
+      "customOutreach": {
+        "score": 3,
+        "evidence": "Digital PR campaigns referenced in GEO service; outreach process not described"
+      },
+      "technicalGeo": {
+        "score": 5,
+        "evidence": "Technical GEO with FAQ/Article/HowTo schema, llms.txt, clean metadata, documented in AI case studies (DHL +287% citations)"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "Tracks AI Overview visibility, LLM mentions and referrals with prompt-level trend reporting; no tool named"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Tracks direct LLM referrals; GA4 ChatGPT-tracking guide; revenue-based AI case metrics (78% sales uplift from AI referrals)"
+      },
+      "contentDesign": {
+        "score": 3,
+        "evidence": "Web Design Services offered under Design & Development"
+      },
+      "development": {
+        "score": 5,
+        "evidence": "Dedicated Web Design and Web Development service pages with a named-client website build case study (GeoPura)"
+      }
+    }
   },
   {
     "name": "Impression",
@@ -960,7 +3211,77 @@
         "count": 7,
         "url": "https://clutch.co/profile/impression"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "Tensar GEO strategy",
+        "url": "https://www.impressiondigital.com/our-work/tensar-geo/",
+        "summary": "Tensar's generative engine optimisation strategy secured 47,000+ organic clicks via AI Overview keywords in a year, with 1,793 AI Overview citations globally."
+      },
+      {
+        "title": "The Audio Halo: 81% incremental traffic lift",
+        "url": "https://www.impressiondigital.com/our-work/saas-supply-chain/",
+        "summary": "A SaaS supply chain client achieved an 81% incremental lift in site traffic."
+      },
+      {
+        "title": "Humanitarian charity donation campaign",
+        "url": "https://www.impressiondigital.com/our-work/humanitarian-charity-donation-campaign/",
+        "summary": "A humanitarian organisation raised £3.5m through a full-funnel donation strategy."
+      }
+    ],
+    "strengths": [
+      "In-house GEO tooling named (RALTS for content and entity work)",
+      "Tensar GEO case study with AI Overview citation and click numbers from named sources (Ahrefs, Google Search Console)",
+      "Detailed technical GEO methodology: JavaScript rendering, log-file analysis, semantic HTML, schema",
+      "Publishes an 'AI at Impression' policy page and a named team page"
+    ],
+    "weaknesses": [
+      "Pricing not published",
+      "Only one GEO case study published",
+      "Several case studies on the work page carry no quantified results"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "GEO service shapes content for AI citation (Q&A formatting, original insights) with documented Tensar results"
+      },
+      "thoughtLeadership": {
+        "score": 3,
+        "evidence": "Blog with algorithm-update analyses, resources and events sections; no original data studies observed"
+      },
+      "linkbuilding": {
+        "score": 4,
+        "evidence": "Dedicated Digital PR & Content service page; high-quality link building within GEO service"
+      },
+      "mentionBuilding": {
+        "score": 4,
+        "evidence": "GEO page states they secure mentions in relevant publications, explicitly including unlinked mentions"
+      },
+      "customOutreach": {
+        "score": 3,
+        "evidence": "Digital PR and brand PR services offered; outreach process not detailed"
+      },
+      "technicalGeo": {
+        "score": 5,
+        "evidence": "Technical GEO audits covering crawlability, JS rendering, semantic HTML, schema and log files; Tensar results documented"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "Prompt-set tracking reporting mentions, citations and sentiment; enterprise share-of-voice tools; in-house RALTS tool"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Dashboards for LLM referral clicks and conversions; Media Measurement and Analytics service lines; GA4 limitations discussed"
+      },
+      "contentDesign": {
+        "score": 2,
+        "evidence": "Creative listed under strategy services; no content design detail observed"
+      },
+      "development": {
+        "score": 1,
+        "evidence": "No public evidence of a web development service"
+      }
+    }
   },
   {
     "name": "Rise at Seven",
@@ -984,7 +3305,77 @@
     "contactUrl": "https://riseatseven.com/connect-with-us/",
     "linkedin": "https://www.linkedin.com/company/riseatseven/",
     "youtube": "https://www.youtube.com/channel/UCAjOP9BgpZPTgae-QT9HGCw",
-    "x": "https://x.com/riseatseven"
+    "x": "https://x.com/riseatseven",
+    "caseStudies": [
+      {
+        "title": "Parkdean Resorts Easter Breaks",
+        "url": "https://riseatseven.com/work/parkdean-resorts-easter-breaks/",
+        "summary": "Parkdean Resorts reached position 1 for Easter terms with 13,000+ clicks and a reported 680% increase in AI Overview presence versus the top competitor."
+      },
+      {
+        "title": "SIXT regional SEO and digital PR",
+        "url": "https://riseatseven.com/work/sixt/",
+        "summary": "SIXT gained a 216% increase in positions 1-3 rankings, 420 links from top-tier press, and a headline 3 million extra clicks from SEO."
+      },
+      {
+        "title": "Magnet Trade full-service SEO",
+        "url": "https://riseatseven.com/work/magnet-trade-b2b/",
+        "summary": "Magnet Trade's full-service SEO engagement is headlined as a 170%+ increase."
+      }
+    ],
+    "strengths": [
+      "Dedicated AI Visibility & GEO service line",
+      "Case studies name major brands (SIXT, JD Sports, Parkdean Resorts) with click and link numbers",
+      "Publishes original resources (Multi-Channel Search Report 2026, Category Leaderboard, webinars)",
+      "International digital PR teams across US, Spain, Germany, Netherlands, Italy and France"
+    ],
+    "weaknesses": [
+      "Pricing not published",
+      "Few AI-specific metrics in case studies (one AI Overview figure found)",
+      "No AI visibility tracking tool named"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 4,
+        "evidence": "AI Visibility & GEO and Content Experience services; Parkdean case documents AI Overview dominance"
+      },
+      "thoughtLeadership": {
+        "score": 4,
+        "evidence": "Multi-Channel Search Report 2026, Category Leaderboard and webinar program published"
+      },
+      "linkbuilding": {
+        "score": 5,
+        "evidence": "Digital PR service with documented results (SIXT: 420 top-tier press links, 2,000+ linking domains)"
+      },
+      "mentionBuilding": {
+        "score": 2,
+        "evidence": "Social SEO/Search service adjacent; no mention-building or Reddit offering described"
+      },
+      "customOutreach": {
+        "score": 4,
+        "evidence": "Digital PR campaigns with data studies and reactive PR documented in the SIXT case study"
+      },
+      "technicalGeo": {
+        "score": 3,
+        "evidence": "Onsite SEO service page offered; no schema or llms.txt detail observed"
+      },
+      "promptAnalytics": {
+        "score": 3,
+        "evidence": "AI Visibility & GEO service page exists; no tracking methodology or tooling observed"
+      },
+      "conversionTracking": {
+        "score": 3,
+        "evidence": "Data & Insights service page offered; no GA4/attribution detail observed"
+      },
+      "contentDesign": {
+        "score": 3,
+        "evidence": "Content Experience service page offered"
+      },
+      "development": {
+        "score": 2,
+        "evidence": "Hundreds of location pages and landing pages built in case studies; no development service offered"
+      }
+    }
   },
   {
     "name": "SUSO Digital",
@@ -1025,7 +3416,77 @@
         "count": 14,
         "url": "https://www.trustpilot.com/review/susodigital.com"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "+321% AI conversions for a global healthcare brand",
+        "url": "https://susodigital.com/work/ai-conversions-growth-for-a-healthcare-brand/",
+        "summary": "An unnamed global healthcare brand grew AI conversions 321% and AI traffic 594%."
+      },
+      {
+        "title": "Doubling AI traffic and revenue for a trading platform",
+        "url": "https://susodigital.com/work/doubling-ai-traffic-revenue-for-a-trading-platform/",
+        "summary": "An unnamed trading platform grew AI traffic 102% over 6 months and earned 151 AI citations."
+      },
+      {
+        "title": "Digital PR for a global crypto exchange",
+        "url": "https://susodigital.com/work/digital-pr-for-a-global-crypto-brand/",
+        "summary": "A global crypto exchange relaunching in the UK gained 200% more organic traffic and 4.4K AI mentions."
+      }
+    ],
+    "strengths": [
+      "Multiple case studies with AI traffic, conversion and citation numbers, plus Skyscanner named with 862 AI Overview citations",
+      "Proprietary AI Visibility Checker and free tools published (FAQ Schema Generator, Robots.txt Generator, Disavow Generator)",
+      "GEO service explicitly includes Reddit marketing with citation statistics",
+      "White-label SEO and an agency Partner Club with free GEO training"
+    ],
+    "weaknesses": [
+      "Most case-study clients are unnamed",
+      "Pricing not published",
+      "llms.txt work and analytics/conversion tracking setup not described on the GEO page"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "LLM Content Optimization within GEO service with documented AI-traffic results (+594% AI traffic, +321% AI conversions)"
+      },
+      "thoughtLeadership": {
+        "score": 3,
+        "evidence": "AI Search blog posts under 'Thoughts' and Partner Club GEO training; no original research observed"
+      },
+      "linkbuilding": {
+        "score": 5,
+        "evidence": "Dedicated Off-Site SEO service page; digital PR case study with +200% organic traffic and 4.4K AI mentions"
+      },
+      "mentionBuilding": {
+        "score": 5,
+        "evidence": "Reddit Marketing named within GEO service; 4.4K AI mentions documented in the crypto case study"
+      },
+      "customOutreach": {
+        "score": 3,
+        "evidence": "Digital PR campaigns to earn coverage in AI-cited publications; outreach process not detailed"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "Dedicated Technical SEO service page; GEO covers AI-bot crawlability and advanced schema markup"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "Proprietary AI Visibility Checker plus a proprietary tracking and measurement stage reporting citation frequency and sentiment"
+      },
+      "conversionTracking": {
+        "score": 3,
+        "evidence": "AI conversions and ROI reported in case studies; no analytics service or GA4 setup described"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 2,
+        "evidence": "Builds its own free tools (schema, robots.txt generators); no client development service offered"
+      }
+    }
   },
   {
     "name": "Omnius",
@@ -1060,7 +3521,78 @@
         "count": 1,
         "url": "https://clutch.co/profile/omnius-0"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "ANNA Money fintech SEO + AI search",
+        "url": "https://www.omnius.so/blog/anna-seo-fintech-case-study",
+        "summary": "Grew ANNA Money's signups by 60% in 6 months, with AI search traffic up 164.44%."
+      },
+      {
+        "title": "Omnius GEO self case study",
+        "url": "https://www.omnius.so/blog/omnius-ai-search-case-study",
+        "summary": "Omnius's own GEO program delivered +414% SQLs in 6 months and +138% AI clicks (5.05K), with 47% average AI visibility."
+      },
+      {
+        "title": "Global App Testing HMQL growth",
+        "url": "https://www.omnius.so/blog/how-global-app-testing-increased-hmqls",
+        "summary": "Increased Global App Testing's HMQLs by 163% in 12 months."
+      }
+    ],
+    "strengths": [
+      "Dedicated GEO service page detailing AI crawler audits, schema, and llms.txt work",
+      "15 published case studies, most carrying hard numbers",
+      "Active blog with named authors publishing GEO data studies (e.g. Fintech AI Visibility Study)",
+      "Proprietary AI visibility analytics tool (Atomic AGI)"
+    ],
+    "weaknesses": [
+      "Pricing not published",
+      "No Omnius team members named on the about page",
+      "Blog posts show no publish dates",
+      "Several case studies analyze companies that are not clients (Airbnb, Stripe, Wise, BigCommerce)"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "GEO content service (extractable answer blocks, FAQ/comparison formats) with ANNA Money AI-traffic results"
+      },
+      "thoughtLeadership": {
+        "score": 5,
+        "evidence": "Named-author data studies (Fintech AI Visibility Study, content freshness study) and AI Search & GEO Report 2026"
+      },
+      "linkbuilding": {
+        "score": 3,
+        "evidence": "Link building listed within the SEO service"
+      },
+      "mentionBuilding": {
+        "score": 4,
+        "evidence": "GEO page describes authority building on Reddit, Quora, G2, Gartner Peer Insights"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Digital PR named as a workstream; no outreach process described"
+      },
+      "technicalGeo": {
+        "score": 5,
+        "evidence": "GEO page covers AI crawler access audits, schema, llms.txt, JS reduction; AI-traffic case results"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "Proprietary Atomic AGI tracking, query fan-out mapping, AI visibility metrics in case studies"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Dedicated Data Tracking & Analytics page naming GA4, Looker Studio, Mixpanel, Segment, custom attribution"
+      },
+      "contentDesign": {
+        "score": 2,
+        "evidence": "Designers mentioned in team description; no design service page"
+      },
+      "development": {
+        "score": 5,
+        "evidence": "Web development service page; AuthoredUp Webflow site case with +64% conversions"
+      }
+    }
   },
   {
     "name": "Position Digital",
@@ -1088,7 +3620,77 @@
     "email": "hello@position.digital",
     "phone": "+44 (0)203 488 5359",
     "linkedin": "https://www.linkedin.com/company/positiondigital/",
-    "x": "https://twitter.com/positiondigital"
+    "x": "https://twitter.com/positiondigital",
+    "caseStudies": [
+      {
+        "title": "221% increase in AI citations for Decentriq",
+        "url": "https://www.position.digital/case-studies/seo-audit-led-to-increase-in-ai-citations/",
+        "summary": "An SEO audit for MarTech company Decentriq led to a 221% increase in AI citations."
+      },
+      {
+        "title": "Oriel Partners in AI Overviews",
+        "url": "https://www.position.digital/case-studies/oriel-partners-ai-overviews/",
+        "summary": "Secured AI Overviews for 17 keywords for recruitment agency Oriel Partners, with 23 keywords jumping to #1."
+      },
+      {
+        "title": "106% organic growth for Decentriq",
+        "url": "https://www.position.digital/case-studies/organic-growth-in-less-than-a-year/",
+        "summary": "Drove 106% organic growth in 10 months for Decentriq, including a 435% increase in AI citations."
+      }
+    ],
+    "strengths": [
+      "Dedicated AI Citation Outreach service with proprietary ListBrew tool and weekly prompt re-runs",
+      "12 case studies with hard numbers, several AI-citation specific",
+      "Nine named team members with roles on the about page",
+      "Publishes original studies from first-party data (609 SaaS prompts analyzed, 30 days of own Cloudflare data) plus free GEO tools"
+    ],
+    "weaknesses": [
+      "Pricing not published (contact form expects $2,000+/month budget)",
+      "Technical SEO not offered as a standalone service page",
+      "Blog listing shows no publish dates or authors"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "Content marketing and SEO copywriting services; Don't Panic case reports 809% AI traffic increase"
+      },
+      "thoughtLeadership": {
+        "score": 4,
+        "evidence": "Original studies (State of AI Search 2026, 609-prompt SaaS buyer study); no named authors on posts"
+      },
+      "linkbuilding": {
+        "score": 5,
+        "evidence": "Dedicated link building, listicle link building and digital PR pages; Resource Guru case: 50+ links in 3 months"
+      },
+      "mentionBuilding": {
+        "score": 5,
+        "evidence": "AI Citation Outreach service prioritizing listicles and unlinked mentions; Decentriq 221% AI citations case"
+      },
+      "customOutreach": {
+        "score": 5,
+        "evidence": "Personalized pitches to identified authors/editors; named outreach staff; placements earned not bought"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "GEO Audit service page; homepage cites log file analysis, migrations, site architecture for AI parsing"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "AI Visibility Tracking service, ListBrew cited-source tracking, free AI Citation Extractor tool"
+      },
+      "conversionTracking": {
+        "score": 2,
+        "evidence": "Performance reporting mentioned in FAQ; blog post measuring AI search ROI from own GA4 data"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 2,
+        "evidence": "Web developer on team and free tools built; development not an offered service"
+      }
+    }
   },
   {
     "name": "Peak Ace",
@@ -1109,7 +3711,78 @@
     "clients": [],
     "phone": "+49 30 832 117 790",
     "linkedin": "https://www.linkedin.com/company/peak-ace-ag",
-    "x": "https://twitter.com/peakaceag"
+    "x": "https://twitter.com/peakaceag",
+    "caseStudies": [
+      {
+        "title": "AutoScout24 crisis-proven content",
+        "url": "https://peakace.agency/de/case-study/autoscout24/",
+        "summary": "Created and optimized 1,000+ content pages for AutoScout24 in seven months; the campaign won five 2023 search/content awards, though no traffic figures are published."
+      },
+      {
+        "title": "SharkNinja: A clean path to growth",
+        "url": "https://peakace.agency/de/case-study/sharkninja/",
+        "summary": "Campaign for SharkNinja that won 2022 European Search, Global Agency and Global Search Awards; no metrics published on the listing."
+      },
+      {
+        "title": "softgarden: Recruiting clients for a recruiting specialist",
+        "url": "https://peakace.agency/de/case-study/softgarden/",
+        "summary": "Campaign for softgarden that won 2022 European Search, Global Agency and Global Search Awards; no metrics published on the listing."
+      }
+    ],
+    "strengths": [
+      "Original LLM Branchen Benchmark 2026 research series analyzing 1,000 prompts across ten industries",
+      "Free GA4 LLM Traffic Dashboard published",
+      "GEO/LLMO service page names concrete tooling (Peec AI prompt database; Profound/Rankscale optional)",
+      "Named leadership team and 130+ industry awards listed"
+    ],
+    "weaknesses": [
+      "Case study pages published without performance metrics",
+      "Pricing not published",
+      "No named client results on the GEO/LLMO service page",
+      "Research posts carry no named authors"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 4,
+        "evidence": "GEO page content module: citable structure, definition blocks, answer formats, E-E-A-T signals"
+      },
+      "thoughtLeadership": {
+        "score": 4,
+        "evidence": "LLM Benchmark 2026 series (1,000 prompts, ten industries) and whitepapers; authors unnamed"
+      },
+      "linkbuilding": {
+        "score": 4,
+        "evidence": "Dedicated Digital PR service; data-driven PR module described on GEO page"
+      },
+      "mentionBuilding": {
+        "score": 3,
+        "evidence": "GEO page describes building third-party source coverage for citations"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Digital PR campaigns mentioned; no outreach process described"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "GEO page technical module: crawlability, rendering, indexing, schema/structured data"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "AI Visibility Checks with mention/citation rate and share-of-voice KPIs; Peec AI prompt database"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Digital Analytics service plus free GA4 LLM Traffic Dashboard and Data Studio LLM dashboards"
+      },
+      "contentDesign": {
+        "score": 2,
+        "evidence": "AI Creative Services listed; no content design detail"
+      },
+      "development": {
+        "score": 1,
+        "evidence": "No public evidence"
+      }
+    }
   },
   {
     "name": "Claneo",
@@ -1144,7 +3817,77 @@
         "count": 5,
         "url": "https://clutch.co/profile/claneo"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "HelloFresh digital PR cooperation",
+        "url": "https://www.claneo.com/de/case-studies/digital-pr-hellofresh-kooperation/",
+        "summary": "29 digital PR campaigns for HelloFresh produced 910+ media clippings (about 31 per campaign) and moved transactional keywords to position 1."
+      },
+      {
+        "title": "Pattex Deutschland content marketing",
+        "url": "https://www.claneo.com/de/case-studies/content-marketing-henkel-pattex-deutschland/",
+        "summary": "Content marketing for Henkel's Pattex brand; Henkel's testimonial reports significantly increased traffic on international brand websites."
+      },
+      {
+        "title": "International SEO for Henkel Adhesive Technologies",
+        "url": "https://www.claneo.com/de/case-studies/international-seo-henkel/",
+        "summary": "International SEO program for Henkel Adhesive Technologies; no metrics published on the listing page."
+      }
+    ],
+    "strengths": [
+      "Published the first German-language GEO book and runs the GEO KNOW HOW conference",
+      "Blog updated weekly through November 2026 with GEO experiments (prompt-injection tests, AI-bot blocking study)",
+      "64 team members listed with named founders and dedicated Head of SEO & GEO roles",
+      "23 case studies with named enterprise clients (Bosch, Henkel, HelloFresh, MediaMarktSaturn)"
+    ],
+    "weaknesses": [
+      "Most case studies published without performance metrics",
+      "Pricing not published",
+      "No GEO-specific tracking tools named on the GEO service page"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 4,
+        "evidence": "GEO content readiness check and GEO-principle content creation incl. AI-assisted production"
+      },
+      "thoughtLeadership": {
+        "score": 5,
+        "evidence": "First German GEO book, GEO KNOW HOW conference, EVI-800 visibility index, State of Search study"
+      },
+      "linkbuilding": {
+        "score": 5,
+        "evidence": "Offpage/linkbuilding pages; 14 digital PR case studies; HelloFresh 910+ clippings"
+      },
+      "mentionBuilding": {
+        "score": 4,
+        "evidence": "GEO page: media placements to raise brand mentions, with mention/citation KPIs"
+      },
+      "customOutreach": {
+        "score": 3,
+        "evidence": "Seeding described in HelloFresh digital PR case"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "GEO page: schema, indexing, rendering consulting plus AI-bot logfile analysis"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "AI Quick Check and monitoring of ChatGPT/Perplexity/AI Overviews with mention, citation and sentiment KPIs"
+      },
+      "conversionTracking": {
+        "score": 2,
+        "evidence": "Tracking implementation and KPI reporting mentioned in FAQ; blog posts on GSC/Bing AI reports"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 2,
+        "evidence": "Builds own free tools (International Search Tool, SERP Overlap Tool); no development service"
+      }
+    }
   },
   {
     "name": "Radyant",
@@ -1170,7 +3913,77 @@
     ],
     "priceNote": "Published in EUR: projects from €10,000 one-off; Growth Partnership from €7,000/mo on a 12-month commitment.",
     "contactUrl": "https://www.radyant.io/meeting",
-    "linkedin": "https://www.linkedin.com/company/radyant-digital/"
+    "linkedin": "https://www.linkedin.com/company/radyant-digital/",
+    "caseStudies": [
+      {
+        "title": "deeploi AI Search case study",
+        "url": "https://www.radyant.io/cases/deeploi-ai-search",
+        "summary": "AI Search (AEO/GEO) engagement grew IT platform deeploi's organic leads by 250%."
+      },
+      {
+        "title": "Heyflow MRR pipeline growth",
+        "url": "https://www.radyant.io/cases/heyflow",
+        "summary": "B2B SaaS Heyflow 3x'd its MRR pipeline in 6 months, with AI Search visibility rising from #9 to #1."
+      },
+      {
+        "title": "Heyflow YouTube brand mentions",
+        "url": "https://www.radyant.io/cases/heyflow-youtube",
+        "summary": "Earned Heyflow 593 brand mentions in 3 months from YouTube."
+      }
+    ],
+    "strengths": [
+      "Publishes exact pricing (projects from EUR 10,000; growth partnerships from EUR 7,000/month)",
+      "Original first-party research with named authors and sample sizes (e.g. 20,160-chat LLM source study with OMR Reviews)",
+      "AI Search case studies carry hard numbers including AI visibility rankings",
+      "Nine named team members with roles"
+    ],
+    "weaknesses": [
+      "Several services marked coming soon (SEO strategy, content production, digital PR, CRO)",
+      "No dedicated blog; editorial content lives in guides/research sections",
+      "Link building not offered as a service"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 4,
+        "evidence": "Context Layer service (superprompts, editorial rules, pre-publish checks); Content Engineering Lead on team"
+      },
+      "thoughtLeadership": {
+        "score": 5,
+        "evidence": "Four named-author first-party studies with methodology (20,160 chats; 17,929 chats; 8,570 answers)"
+      },
+      "linkbuilding": {
+        "score": 2,
+        "evidence": "Digital PR listed only as coming soon"
+      },
+      "mentionBuilding": {
+        "score": 4,
+        "evidence": "Heyflow YouTube case: 593 brand mentions in 3 months aimed at AI visibility"
+      },
+      "customOutreach": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "Dedicated Agent Analytics service analyzing AI bot fetches from server logs"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "Dedicated AI visibility monitoring service (daily revenue-prompt tracking, Peec AI); Heyflow #9-to-#1 visibility result"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Lead/revenue attribution via GA4, Plausible, HubSpot, Salesforce named in stack; cases report lead counts"
+      },
+      "contentDesign": {
+        "score": 2,
+        "evidence": "Senior Designer listed on Growth Partnership team; no design service"
+      },
+      "development": {
+        "score": 3,
+        "evidence": "Programmatic SEO (coming soon); documented 247-page programmatic cluster case with 60+ leads"
+      }
+    }
   },
   {
     "name": "Eskimoz",
@@ -1206,7 +4019,77 @@
         "count": 59,
         "url": "https://www.trustpilot.com/review/eskimoz.fr"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "Matterport",
+        "url": "https://www.eskimoz.com/matterport/",
+        "summary": "Matterport saw a +60% increase in SQLs (cited on Eskimoz's GEO service page)."
+      },
+      {
+        "title": "Just Shades",
+        "url": "https://www.eskimoz.com/just-shades/",
+        "summary": "Just Shades achieved +475% growth in top 1-3 keyword rankings."
+      },
+      {
+        "title": "GuestReady",
+        "url": "https://www.eskimoz.com/guest-ready/",
+        "summary": "GuestReady achieved +150% growth in global organic traffic."
+      }
+    ],
+    "strengths": [
+      "Proprietary GEO tool suite (LLM Ranking, Crawlr, Scribe, Search Agent, Brand Protector)",
+      "Dedicated Reddit agency service and Reddit+ tool",
+      "18 published case studies with named enterprise clients (PwC, Sandro, Matterport)",
+      "250+ consultants across five European offices with named leadership"
+    ],
+    "weaknesses": [
+      "Case study listing shows no metrics for most clients",
+      "Pricing not published",
+      "Blog had a roughly six-month publishing gap (Sep 2025 to Apr 2026) and posts carry no named authors"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "Scribe tool for AI-engine content, GEO Content Scaling and Content Factory; Matterport +60% SQLs on GEO page"
+      },
+      "thoughtLeadership": {
+        "score": 2,
+        "evidence": "Blog posts without named authors; studies section linked but no original research visible"
+      },
+      "linkbuilding": {
+        "score": 4,
+        "evidence": "Dedicated link building and digital PR agency pages; Notorious authority tool"
+      },
+      "mentionBuilding": {
+        "score": 4,
+        "evidence": "Authority & Mentions module on GEO page; dedicated Reddit service"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Backlink/mention building mentioned; no outreach process described"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "Crawlr tool for AI-bot accessibility; entity and structured-data work on GEO page"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "Proprietary LLM Ranking, GEO Monitoring and Search Agent (40+ AI agents analyzing queries/sources)"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Dedicated Data and Tracking agency pages; GEO metrics include indirect traffic and conversion impact"
+      },
+      "contentDesign": {
+        "score": 2,
+        "evidence": "Content Factory produces content across multiple formats; no design service"
+      },
+      "development": {
+        "score": 1,
+        "evidence": "No public evidence"
+      }
+    }
   },
   {
     "name": "Orainti",
@@ -1229,7 +4112,60 @@
     ],
     "email": "info@orainti.com",
     "linkedin": "https://www.linkedin.com/company/orainti",
-    "x": "https://twitter.com/orainti"
+    "x": "https://twitter.com/orainti",
+    "caseStudies": [],
+    "strengths": [
+      "Founder Aleyda Solis's credentials published on site (European Search Personality of the Year 2018, 200+ talks in 30+ countries)",
+      "Free education resources linked from the site (SEOFOMO, LearningSEO.io, LearningAIsearch.com)",
+      "AI search integrated into every listed SEO service line"
+    ],
+    "weaknesses": [
+      "No case studies published",
+      "Single-page site with no blog, service detail pages, or pricing",
+      "Client results limited to testimonials (one metric: Sniffspot 500% SEO traffic growth)"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 1,
+        "evidence": "No public evidence (works alongside clients' content teams; no content production offered)"
+      },
+      "thoughtLeadership": {
+        "score": 4,
+        "evidence": "Founder-run SEOFOMO/AI Marketers newsletters, LearningAIsearch.com, 200+ conference talks cited on site"
+      },
+      "linkbuilding": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "mentionBuilding": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "customOutreach": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "technicalGeo": {
+        "score": 3,
+        "evidence": "Audits cover technical gaps for AI search; technical SEO within training and advisory services"
+      },
+      "promptAnalytics": {
+        "score": 2,
+        "evidence": "Homepage says it helps companies see where they appear in AI Search; no tracking service or tooling named"
+      },
+      "conversionTracking": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 1,
+        "evidence": "No public evidence"
+      }
+    }
   },
   {
     "name": "Minuttia",
@@ -1264,7 +4200,77 @@
         "count": 16,
         "url": "https://clutch.co/profile/minuttia"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "Meilisearch: AI search as an acquisition machine",
+        "url": "https://minuttia.com/case-studies/meilisearch/",
+        "summary": "Turned AI search into an acquisition channel for Meilisearch with a 665% increase in LLM-driven traffic."
+      },
+      {
+        "title": "The content process behind Toggl's 7M impressions",
+        "url": "https://minuttia.com/case-studies/toggl/",
+        "summary": "91 content pieces produced roughly 7M impressions, 26,000+ clicks and 200+ conversions for Toggl."
+      },
+      {
+        "title": "123.7% organic growth for LearnWorlds",
+        "url": "https://minuttia.com/case-studies/learnworlds/",
+        "summary": "Grew LearnWorlds' monthly organic traffic 123.7% with 51.7% more organic keywords and 77 new backlinks in nine months."
+      }
+    ],
+    "strengths": [
+      "Large-scale original data studies (24,067-prompt AI Search Visibility Study; 18,084-question Self-Promotional Content Study)",
+      "Dedicated AEO, GEO and LLMO service pages plus a State of AEO 2026 report and AEO course",
+      "Case studies carry hard numbers including LLM-traffic metrics",
+      "Publishes retention metrics (94% average client retention, 24+ months average tenure)"
+    ],
+    "weaknesses": [
+      "Pricing not published",
+      "No team page or named team members on the site",
+      "No tracking tools named on service pages"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "Human and AI content creation services (pSEO with human review); Toggl case results"
+      },
+      "thoughtLeadership": {
+        "score": 5,
+        "evidence": "Named-author original studies (24,067 prompts; 18,084 questions) and State of AEO 2026 report"
+      },
+      "linkbuilding": {
+        "score": 5,
+        "evidence": "Dedicated SaaS Link Building Agency page; LearnWorlds case: 77 new backlinks"
+      },
+      "mentionBuilding": {
+        "score": 4,
+        "evidence": "Digital PR for brand mentions, Reddit Marketing service, documented listicle approach"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Digital PR implies outreach; no outreach process described"
+      },
+      "technicalGeo": {
+        "score": 2,
+        "evidence": "Own llms.txt published; no technical GEO service listed"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "Agent Analytics and Reporting service showing how AI systems discover and surface content"
+      },
+      "conversionTracking": {
+        "score": 2,
+        "evidence": "Case studies report conversions and trial signups; no analytics/attribution service listed"
+      },
+      "contentDesign": {
+        "score": 3,
+        "evidence": "Design listed under the Create pillar on the AEO service page"
+      },
+      "development": {
+        "score": 1,
+        "evidence": "No public evidence"
+      }
+    }
   },
   {
     "name": "First Page (Australia)",
@@ -1299,7 +4305,78 @@
         "count": 14,
         "url": "https://clutch.co/profile/first-page-australia"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "PokeBox organic and revenue growth",
+        "url": "https://firstpage.com.au/case-studies/pokebox/",
+        "summary": "PokeBox saw a 277% organic traffic increase and 377% revenue increase year on year."
+      },
+      {
+        "title": "Titan Containers SEO",
+        "url": "https://firstpage.com.au/case-studies/titan-containers/",
+        "summary": "Titan Containers gained 60% more monthly organic visitors with 70% of targeted keywords on page 1."
+      },
+      {
+        "title": "Green Homes lead growth",
+        "url": "https://firstpage.com.au/case-studies/green-homes/",
+        "summary": "Green Homes saw a 1050% increase in B2C leads with 50% of target keywords on page 1 within 1.5 months."
+      }
+    ],
+    "strengths": [
+      "28 published case studies with hard numbers",
+      "Dedicated AI SEO service page covering AEO, GEO and LLM SEO including schema and AI-crawler checks",
+      "Free AI Visibility Tool offered",
+      "Published performance guarantee (40% uplift within 90 days or work free)"
+    ],
+    "weaknesses": [
+      "No AI-search-specific case study results published",
+      "Pricing not published",
+      "Only the founder is named on the about page",
+      "Case study figures inconsistent in places (e.g. PokeBox 377% vs 335% revenue)"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 4,
+        "evidence": "Premium Content Writing and SEO Copywriting pages; AI SEO page details question-led, answer-structured content"
+      },
+      "thoughtLeadership": {
+        "score": 3,
+        "evidence": "Learning centre articles with named authors; no original research visible"
+      },
+      "linkbuilding": {
+        "score": 4,
+        "evidence": "Dedicated link building service page plus Digital PR"
+      },
+      "mentionBuilding": {
+        "score": 3,
+        "evidence": "AI SEO page lists earned mentions in publications and directories, review generation"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Digital PR mentioned; no outreach process described"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "AI SEO page: schema types (Product, Article, FAQPage), robots.txt AI-crawler checks, Bing WMT indexation"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "AI SEO page lists prompt-level tracking, citation/share-of-voice tracking; free AI Visibility Tool"
+      },
+      "conversionTracking": {
+        "score": 3,
+        "evidence": "Proprietary SENTR reporting platform; AI referral traffic reporting listed on AI SEO page"
+      },
+      "contentDesign": {
+        "score": 2,
+        "evidence": "Design mentioned as a team skill only"
+      },
+      "development": {
+        "score": 4,
+        "evidence": "Landing page agency service page; Green Homes case includes landing page development"
+      }
+    }
   },
   {
     "name": "Online Marketing Gurus",
@@ -1336,7 +4413,77 @@
         "count": 60,
         "url": "https://clutch.co/profile/online-marketing-gurus"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "Safety Xpress: 59% growth in AI Overview share of voice",
+        "url": "https://www.onlinemarketinggurus.com.au/case-study/safety-xpress-59-growth-in-ai-overview-share-of-voice-in-6-months/",
+        "summary": "Safety Xpress grew AI Overview share of voice 59% in six months via GEO Booster technical changes, monthly Reddit/Quora community mentions and AI-citable content, with page-one keywords up from 612 to 982."
+      },
+      {
+        "title": "Lumia Care: organic visibility rebuilt",
+        "url": "https://www.onlinemarketinggurus.com.au/case-study/organic-visibility-rebuilt-from-the-ground-up-for-lumia-care/",
+        "summary": "NDIS provider Lumia Care achieved a 454% increase in keyword reach through SEO."
+      },
+      {
+        "title": "Cohen Handler: organic conversions growth",
+        "url": "https://www.onlinemarketinggurus.com.au/case-study/cohen-handler/",
+        "summary": "Real estate buyer's agency Cohen Handler saw a 320% increase in organic conversions."
+      }
+    ],
+    "strengths": [
+      "Dedicated GEO service page lists client results with numbers (e.g. 762% increase in ChatGPT-attributed revenue for Wamada Jewellery)",
+      "GEO case study documents Reddit/Quora community-mention work and AI-specific technical changes",
+      "Own reporting tool Gurulytics tracks traffic and revenue from ChatGPT, Perplexity and other AI sources",
+      "Blog updated as recently as November 2026 with named authors including CEO Andrew Raso"
+    ],
+    "weaknesses": [
+      "Pricing not published",
+      "Conflicting figures across the site (100+ vs 200+ specialists; 630+ vs 615+ reviews)",
+      "No original research or data studies on the blog (posts are news-style updates)"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "GEO page offers content optimisation for AI visibility with named-client results (Wamada 762% ChatGPT revenue, 1001 Optometry 399% AI search traffic)"
+      },
+      "thoughtLeadership": {
+        "score": 3,
+        "evidence": "Active blog with named authors incl. CEO Andrew Raso; no original research found"
+      },
+      "linkbuilding": {
+        "score": 3,
+        "evidence": "Link building and digital PR described on GEO page as earning authority signals; no dedicated page seen"
+      },
+      "mentionBuilding": {
+        "score": 5,
+        "evidence": "Monthly Reddit/Quora community mentions documented in Safety Xpress GEO case study"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Digital PR mentioned on GEO page; no outreach process described"
+      },
+      "technicalGeo": {
+        "score": 5,
+        "evidence": "Safety Xpress case documents AI-specific technical changes and site restructuring for AI parsing; GEO call includes entity and schema readiness check"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "Gurulytics AI Insights dashboard tracks traffic from ChatGPT, Perplexity and other AI search sources"
+      },
+      "conversionTracking": {
+        "score": 5,
+        "evidence": "Gurulytics tracks AI-attributed revenue and conversions; client results reported as ChatGPT-attributed revenue and revenue from AI-driven traffic"
+      },
+      "contentDesign": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "development": {
+        "score": 4,
+        "evidence": "Dedicated Web Design & Development service covering Shopify, WooCommerce and custom builds"
+      }
+    }
   },
   {
     "name": "Prosperity Media",
@@ -1371,7 +4518,78 @@
         "count": 18,
         "url": "https://clutch.co/profile/prosperity-media"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "Go Rentals SEO content",
+        "url": "https://prosperitymedia.com.au/growth-studies/go-rentals-seo-content/",
+        "summary": "Go Rentals achieved 12,591% ROI from SEO content."
+      },
+      {
+        "title": "Muval digital PR",
+        "url": "https://prosperitymedia.com.au/growth-studies/muval-digital-pr-case-study/",
+        "summary": "Muval earned 69 pieces of online coverage plus print, radio and TV through digital PR."
+      },
+      {
+        "title": "Alliance Climate Control",
+        "url": "https://prosperitymedia.com.au/growth-studies/alliance-climate-control/",
+        "summary": "Alliance Climate Control saw +9,530% ROI based on total revenue from organic search."
+      }
+    ],
+    "strengths": [
+      "Publishes indicative digital PR pricing ($5,000-$15,000/month packages)",
+      "Original GEO research: analysis of 122,787 AI citations across 467 prompts with stated methodology and limitations, by a named author",
+      "Growth studies carry hard numbers (ROI, coverage counts, traffic)",
+      "Runs its own GEO citation tracker used for published research"
+    ],
+    "weaknesses": [
+      "No GEO-specific case studies published (growth studies are SEO and digital PR)",
+      "SEO retainer pricing not published (only digital PR packages)",
+      "No AI visibility tracking tool named on the GEO service page",
+      "Research author listed by name only, without credentials or bio"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 4,
+        "evidence": "GEO page describes citable, declarative content built on unique data and statistics; no GEO client results yet"
+      },
+      "thoughtLeadership": {
+        "score": 4,
+        "evidence": "Original GEO citation study (122,787 citations) with named author Rahul Sengupta; monthly AI search news posts by named authors"
+      },
+      "linkbuilding": {
+        "score": 5,
+        "evidence": "Dedicated link building page plus PR packages with pricing and documented link counts (Astor Legal 102 links in a quarter)"
+      },
+      "mentionBuilding": {
+        "score": 3,
+        "evidence": "GEO page covers forum placements and 'getting cited in LLMs at scale' via citations across the web"
+      },
+      "customOutreach": {
+        "score": 4,
+        "evidence": "PR packages page describes personalised pitches tailored to each journalist and media targeting"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "Technical GEO & RAG optimisation step with 56-point audit, schema and crawlability work"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "LLM Visibility & Sentiment Reporting service plus own GEO citation tracker used in published research"
+      },
+      "conversionTracking": {
+        "score": 2,
+        "evidence": "ROI figures reported in growth studies; no dedicated measurement/analytics service page"
+      },
+      "contentDesign": {
+        "score": 3,
+        "evidence": "PR campaign assets built by analysts, copywriters and designers per packages page"
+      },
+      "development": {
+        "score": 1,
+        "evidence": "No public evidence"
+      }
+    }
   },
   {
     "name": "TripleDart",
@@ -1412,7 +4630,77 @@
         "count": 2,
         "url": "https://www.g2.com/products/tripledart/reviews"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "Signeasy: LLM sessions up 3,650%",
+        "url": "https://www.tripledart.com/customers/signeasy",
+        "summary": "Signeasy grew monthly LLM sessions 3,650% (from 15-20 to 700+/month) in six months, generating 98 leads/month versus 5-6 previously."
+      },
+      {
+        "title": "Meegle: AI citations up 134%",
+        "url": "https://www.tripledart.com/customers/meegle",
+        "summary": "Meegle's blog traffic grew 14x (clicks from 85 to 1,300) and AI citations rose 134%."
+      },
+      {
+        "title": "PowerDMARC: AI search visibility up 47%",
+        "url": "https://www.tripledart.com/customers/powerdmarc",
+        "summary": "PowerDMARC increased AI search visibility 47% and average rankings 68% in seven months."
+      }
+    ],
+    "strengths": [
+      "Eight GEO/AI-visibility case studies with hard numbers on a 26-case customer page",
+      "Publishes starting pricing (SEO/AEO from $5,000/month, no long-term commitment)",
+      "Dedicated research section with original data studies (e.g. 246,948 LLM sessions across 34 B2B SaaS sites)",
+      "Own AI platform Slate with an AI Visibility module; pricing includes tracking of 5,000 prompts"
+    ],
+    "weaknesses": [
+      "Most research studies lack named authors",
+      "Inconsistent content-volume claims on the same page (up to 30 vs up to 50 assets/month)",
+      "Some case-study clients unnamed (e.g. 'no-code process automation platform')"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "Content engineering plus Slate Content Agent, with documented citation results (Signeasy LLM sessions +3,650%, Meegle AI citations +134%)"
+      },
+      "thoughtLeadership": {
+        "score": 4,
+        "evidence": "Dedicated research page with 10+ original data studies; only some carry named authors (Abishek Balaji, Manoj Palanikumar)"
+      },
+      "linkbuilding": {
+        "score": 4,
+        "evidence": "Link building and digital PR service listing prospecting, outreach, data studies and media placements"
+      },
+      "mentionBuilding": {
+        "score": 5,
+        "evidence": "Brand mentions within GEO/AEO service plus Reddit marketing; Locus case reports AI brand mentions up ~73%"
+      },
+      "customOutreach": {
+        "score": 3,
+        "evidence": "Journalist outreach and link prospecting/outreach listed under digital PR; no process detail"
+      },
+      "technicalGeo": {
+        "score": 5,
+        "evidence": "Technical SEO service (crawl analysis, schema, architecture, Core Web Vitals); Monograph case shows site health 30 to 95"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "Slate AI Visibility tracks rankings across ChatGPT, Perplexity, Gemini, Claude; 5,000 prompts tracked in pricing; free AI visibility dashboard offered"
+      },
+      "conversionTracking": {
+        "score": 5,
+        "evidence": "GTM engineering service covers attribution and data pipelines; Atlan case shows lead routing coverage 78.5% to 99.9%"
+      },
+      "contentDesign": {
+        "score": 3,
+        "evidence": "Paid-Creative-ABM service includes creative; public Dribbble creative portfolio linked"
+      },
+      "development": {
+        "score": 4,
+        "evidence": "Programmatic SEO service builds templates and location, use-case and comparison pages"
+      }
+    }
   },
   {
     "name": "Techmagnate",
@@ -1448,7 +4736,77 @@
         "count": 15,
         "url": "https://clutch.co/profile/techmagnate"
       }
-    ]
+    ],
+    "caseStudies": [
+      {
+        "title": "GEO/LLMO: 79% AI Overview coverage for online pharmacy",
+        "url": "https://www.techmagnate.com/geo-llmo-case-study-of-online-pharmacy-ai-coverage/",
+        "summary": "An unnamed leading online pharmacy reached 79% AI Overview coverage."
+      },
+      {
+        "title": "GEO/LLMO: Indian bank AI visibility up 180%",
+        "url": "https://www.techmagnate.com/geo-llmo-case-study-bank-growth-in-ai-visibility/",
+        "summary": "An unnamed leading Indian bank achieved a 180% increase in AI visibility across AI platforms."
+      },
+      {
+        "title": "Bajaj Finserv Mutual Funds SEO",
+        "url": "https://www.techmagnate.com/seo-case-study-for-bajaj-finserv-mutual-funds/",
+        "summary": "Bajaj Finserv Mutual Funds grew to 22.6x leads and 21x organic traffic."
+      }
+    ],
+    "strengths": [
+      "Seven GEO/LLMO case studies published with headline numbers",
+      "Original research: LLM Citation Drift Report analyzing 83,633 citations from 2,191 domains over eight weeks, authored by founder/CEO Sarvesh Bagla",
+      "In-house AI visibility tool Prism with a free AI visibility audit",
+      "Dedicated LLM optimization, AI SEO and agentic AI SEO service pages"
+    ],
+    "weaknesses": [
+      "GEO/LLMO case-study clients are unnamed",
+      "Pricing not published",
+      "Aggregate claims (e.g. 266M search volume in AI Overviews) self-reported without methodology"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "LLM SEO service covers content structuring for AI models; GEO case studies report results like 79% AI Overview coverage"
+      },
+      "thoughtLeadership": {
+        "score": 4,
+        "evidence": "Original LLM Citation Drift Report with stated methodology, authored by founder Sarvesh Bagla with bio"
+      },
+      "linkbuilding": {
+        "score": 4,
+        "evidence": "Dedicated link building and guest posting service pages; LLM page describes strategic link building for AI search"
+      },
+      "mentionBuilding": {
+        "score": 3,
+        "evidence": "LLM page refers to securing citations in conversational search, particularly on Perplexity"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Link building and guest posting offered; outreach process not described on fetched pages"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "Dedicated technical SEO and JavaScript SEO service pages; LLM page covers semantic optimization"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "Prism, in-house AI visibility and citation tracker covering ChatGPT, Perplexity and Google AI Mode, documented in published drift report"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Dedicated GA4 consulting service page plus CRO and CDP services"
+      },
+      "contentDesign": {
+        "score": 2,
+        "evidence": "YouTube video marketing and content writing services; no content design offering found"
+      },
+      "development": {
+        "score": 4,
+        "evidence": "Dedicated website design and development service page"
+      }
+    }
   },
   {
     "name": "Hashmeta",
@@ -1469,7 +4827,78 @@
     "contactUrl": "https://hashmeta.com/contact/",
     "email": "hello@hashmeta.com",
     "linkedin": "https://sg.linkedin.com/company/hashmeta",
-    "x": "https://twitter.com/hashmeta"
+    "x": "https://twitter.com/hashmeta",
+    "caseStudies": [
+      {
+        "title": "Lazada Singapore 12.12 Xiaohongshu campaign",
+        "url": "https://hashmeta.com/digital-marketing-campaigns/lazada-singapore-12-12-sale-xiaohongshu-campaign-success/",
+        "summary": "Lazada Singapore's 12.12 sale campaign on Xiaohongshu delivered over 1 million impressions with an 11%+ click-through rate and 4.5%+ engagement rate."
+      },
+      {
+        "title": "Xiaomi 14T Series nano-influencer campaign",
+        "url": "https://hashmeta.com/digital-marketing-campaigns/xiaomi-14t-series-scaling-success-through-nano-influencer-marketing/",
+        "summary": "Xiaomi's 14T Series launch activated 749 creators across three waves for 495,218 total reach and 6,718 comments."
+      },
+      {
+        "title": "Parkway Cancer Centre healthcare communication",
+        "url": "https://hashmeta.com/digital-marketing-campaigns/parkway-cancer-centre-engaging-healthcare-communication/",
+        "summary": "Parkway Cancer Centre's social content program produced 400+ pieces of content with 7.8% average engagement."
+      }
+    ],
+    "strengths": [
+      "Own AI visibility platform (hashmeta.ai) scoring brand presence across ChatGPT, Gemini, Perplexity, Claude, Copilot and Google AI Overviews",
+      "Dedicated GEO and AEO service pages with a described 3-step process",
+      "Named big-brand clients (Lazada, Xiaomi, Sony, Trip.com, DBS, PayPal)",
+      "Campaign case studies include engagement numbers"
+    ],
+    "weaknesses": [
+      "No GEO or SEO case studies published (case studies are social/influencer campaigns)",
+      "GEO page cites stats (e.g. 300% ChatGPT citation increase) without named clients or methodology",
+      "No named team members on the site (one named blog author)",
+      "Pricing not published beyond a $497 audit value"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 4,
+        "evidence": "AI CMS platform for content built for AI citation plus GEO page's content transformation and citation-friendly formatting"
+      },
+      "thoughtLeadership": {
+        "score": 2,
+        "evidence": "Blog and AI SEO guides with a single named author (Terrence Ngu); no original research found"
+      },
+      "linkbuilding": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "mentionBuilding": {
+        "score": 2,
+        "evidence": "GEO page covers citation monitoring and E-E-A-T authority but no mention-building program"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Influencer outreach campaigns via StarNgage; no PR/link outreach service"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "GEO page details semantic markup, schema/structured data and AI crawler accessibility"
+      },
+      "promptAnalytics": {
+        "score": 4,
+        "evidence": "hashmeta.ai AI Visibility platform benchmarks brand visibility across six AI engines; no documented client results"
+      },
+      "conversionTracking": {
+        "score": 2,
+        "evidence": "AI CRM lead capture and marketing automation offered; no measurement/analytics service"
+      },
+      "contentDesign": {
+        "score": 2,
+        "evidence": "Custom content and creative campaign services listed; no content design detail"
+      },
+      "development": {
+        "score": 4,
+        "evidence": "Dedicated web design and development pages incl. e-commerce and custom development"
+      }
+    }
   },
   {
     "name": "Global Media Insight",
@@ -1490,7 +4919,61 @@
     "phone": "+971 50 535 6027",
     "linkedin": "https://ae.linkedin.com/company/global-media-insight-website-design-development-seo-analytics-dubai",
     "youtube": "https://www.youtube.com/c/GlobalMediaInsightDubai",
-    "x": "https://x.com/gmiuae"
+    "x": "https://x.com/gmiuae",
+    "caseStudies": [],
+    "strengths": [
+      "Detailed GEO service page with a 5-step process and per-platform approach (ChatGPT, Perplexity, Gemini, Copilot, Claude, DeepSeek)",
+      "Broad in-house services including web development, video production and English/Arabic content",
+      "Blog updated frequently (six posts in October 2026)"
+    ],
+    "weaknesses": [
+      "No case studies with measurable results (portfolio page is screenshots only)",
+      "Pricing not published",
+      "Blog posts carry team bylines, not named authors",
+      "Inconsistent company claims on homepage (120 vs 130+ staff; 23 vs 26 years experience)"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 4,
+        "evidence": "GEO page offers AI-optimised content creation built around E-E-A-T, formatting and information hierarchy"
+      },
+      "thoughtLeadership": {
+        "score": 2,
+        "evidence": "Active blog with statistics compilations under team bylines; no named authors or original research"
+      },
+      "linkbuilding": {
+        "score": 3,
+        "evidence": "Digital PR with backlinks and media mentions plus backlink auditing listed on GEO page"
+      },
+      "mentionBuilding": {
+        "score": 3,
+        "evidence": "Community engagement on Reddit, Quora and niche forums plus review generation listed on GEO page"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Guest blogging listed under content development; no outreach process described"
+      },
+      "technicalGeo": {
+        "score": 4,
+        "evidence": "GEO page details structured data, schema, knowledge graph optimisation, internal linking and site architecture"
+      },
+      "promptAnalytics": {
+        "score": 3,
+        "evidence": "GEO page lists tracking brand mention share, citation frequency and sentiment in AI answers; no tool named"
+      },
+      "conversionTracking": {
+        "score": 4,
+        "evidence": "Dedicated web analytics service covering GA4, Google Tag Manager, A/B testing and attribution modelling"
+      },
+      "contentDesign": {
+        "score": 3,
+        "evidence": "Corporate presentations service (PowerPoint, HTML5, video, Prezi) and video production offered"
+      },
+      "development": {
+        "score": 5,
+        "evidence": "Dedicated web design/development services with client portfolio (e.g. AirArabia Cargo, Galadari) and 1,200+ websites claim"
+      }
+    }
   },
   {
     "name": "Elogia",
@@ -1514,6 +4997,76 @@
     "contactUrl": "https://mx.elogia.net/contacto/",
     "email": "hola@elogia.net",
     "linkedin": "https://www.linkedin.com/company/81369/",
-    "youtube": "https://www.youtube.com/user/elogia"
+    "youtube": "https://www.youtube.com/user/elogia",
+    "caseStudies": [
+      {
+        "title": "Cuidado con el Perro: SEO + SEM",
+        "url": "https://blog.elogia.net/del-escaparate-al-buscador-el-caso-de-exito-seo-sem-de-cuidado-con-el-perro",
+        "summary": "Fashion retailer Cuidado con el Perro generated 1.86M organic clicks, 57.3M impressions and $14.2M in organic revenue (10.4% of total) over a year of SEO work plus 4.1 ROAS on SEM."
+      },
+      {
+        "title": "Sephora Mexico",
+        "url": "https://mx.elogia.net/sephora/",
+        "summary": "Sephora achieved +45% online revenue through paid media and eCommerce management."
+      },
+      {
+        "title": "YaVas travel ecosystem",
+        "url": "https://mx.elogia.net/yavas/",
+        "summary": "Travel brand YaVas reached 10.5x ROAS in Q1 2026 under Elogia's 360-degree management."
+      }
+    ],
+    "strengths": [
+      "21 case studies with headline numbers on named brands (Coca-Cola, Sephora, Volvo, Motorola)",
+      "Detailed SEO case study on its blog with a named author and concrete revenue numbers",
+      "Full digital commerce scope: marketplaces, data/BI, logistics, retention"
+    ],
+    "weaknesses": [
+      "No GEO/AEO service page; GEO appears only as a one-word item in the capabilities list",
+      "Case studies are mostly paid media/eCommerce; only one SEO case study found",
+      "Pricing not published",
+      "No named team members on site pages (blog authors only)"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 2,
+        "evidence": "GEO listed as a one-word capability; no AI-content detail on fetched pages"
+      },
+      "thoughtLeadership": {
+        "score": 3,
+        "evidence": "Active blog with named authors (e.g. Diego Salgado, Jun 2026); no original research found"
+      },
+      "linkbuilding": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "mentionBuilding": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "customOutreach": {
+        "score": 2,
+        "evidence": "Outbound & ABM listed as a capability; aimed at sales, no PR/link outreach described"
+      },
+      "technicalGeo": {
+        "score": 3,
+        "evidence": "SEO listed as a service; CCP case documents site architecture rebuild, metadata optimisation and cluster structure"
+      },
+      "promptAnalytics": {
+        "score": 1,
+        "evidence": "No public evidence"
+      },
+      "conversionTracking": {
+        "score": 3,
+        "evidence": "Data & measurement capability (data tech, BI, unified attribution); CCP case connected Google Ads, GA, Search Console and Merchant Center"
+      },
+      "contentDesign": {
+        "score": 3,
+        "evidence": "Creative Design & UX listed as a capability"
+      },
+      "development": {
+        "score": 2,
+        "evidence": "Channel development listed without detail; no web development service page found"
+      }
+    }
   }
 ]

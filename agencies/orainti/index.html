@@ -75,6 +75,30 @@
   .fact .v a:hover { color: var(--c-magenta); }
   .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
   .tag { font-size: 12px; padding: 4px 9px; border-radius: 999px; background: var(--c-fill-light); border: 1px solid var(--c-border-light); }
+  .case { padding: 16px 0; border-top: 1px solid var(--c-border-light); }
+  .case:first-of-type { border-top: none; }
+  .case h3 { font-size: 17px; }
+  .case h3 a { text-decoration: none; color: var(--c-dark); }
+  .case h3 a:hover { color: var(--c-magenta); }
+  .case p { color: rgba(0,0,0,0.7); font-size: 15px; margin-top: 4px; }
+  .sw-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 16px; }
+  .sw-col h3 { font-size: 15px; margin-bottom: 6px; }
+  .sw-col ul { list-style: none; }
+  .sw-col li { font-size: 15px; line-height: 1.45; padding: 9px 0 9px 18px; position: relative; border-top: 1px solid var(--c-border-light); }
+  .sw-col li:first-child { border-top: none; }
+  .sw-col li::before { content: ""; position: absolute; left: 0; top: 15px; width: 7px; height: 7px; border-radius: 2px; }
+  .sw-plus li::before { background: linear-gradient(135deg, var(--c-magenta), var(--c-lavender)); }
+  .sw-minus li::before { background: var(--c-fill-light); border: 1px solid rgba(0,0,0,0.25); }
+  .score-group { margin-top: 24px; }
+  .score-row { padding: 12px 0; border-top: 1px solid var(--c-border-light); }
+  .score-row:last-child { padding-bottom: 2px; }
+  .score-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .score-name { font-weight: 500; font-size: 15px; }
+  .score-num { font-family: var(--f-mono); font-size: 12px; color: var(--c-muted-light); white-space: nowrap; }
+  .score-bar { display: flex; gap: 4px; margin: 8px 0 6px; }
+  .score-bar .seg { width: 34px; height: 6px; border-radius: 3px; background: var(--c-fill-light); border: 1px solid var(--c-border-light); }
+  .score-bar .seg.on { background: linear-gradient(135deg, var(--c-magenta), var(--c-lavender)); border-color: transparent; }
+  .score-ev { font-size: 13px; color: var(--c-muted-light); line-height: 1.4; }
   .cta-band { background: var(--c-dark); color: var(--c-text-dark); border-radius: var(--r-comfort); padding: 36px; margin: 0 0 64px; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between; }
   .cta-band h2 { font-size: 24px; letter-spacing: -0.4px; max-width: 26ch; }
   .cta-band p { color: rgba(255,255,255,0.75); max-width: 56ch; margin-top: 6px; font-size: 15px; }
@@ -89,6 +113,8 @@
     .layout { grid-template-columns: 1fr; gap: 24px; padding: 32px 0 56px; }
     .aside { position: static; }
     .navmid { display: none; }
+    .sw-grid { grid-template-columns: 1fr; gap: 12px; }
+    .score-bar .seg { width: 24px; }
   }
 </style>
 </head>
@@ -125,6 +151,9 @@
         <p class="caption">The selection below comes from Orainti&#39;s own site; the category descriptions are this directory&#39;s.</p>
         <div class="offer"><h3>Technical GEO</h3><p>Making the site readable to AI systems: structured data, llms.txt, rendering and indexation fixes for AI crawlers.</p></div><div class="offer"><h3>Classic SEO</h3><p>Traditional search engine optimization: rankings and traffic, with the content, technical and authority work underneath them.</p></div>
       </section>
+      <section><span class="mono-label">Case studies</span><h2>Case studies Orainti publishes</h2><p>I found no case studies on Orainti&#39;s site as of November 2026.</p><p style="margin-top:8px;">Ask for two or three recent GEO results on the intro call, with the prompt set they tracked and the before and after numbers.</p></section>
+      <section><span class="mono-label">Strengths &amp; weaknesses</span><h2>Where Orainti is strong, and what to check</h2><p class="caption">Observations from reading Orainti&#39;s site and public profiles in November 2026.</p><div class="sw-grid"><div class="sw-col sw-plus"><h3>Strengths</h3><ul><li>Founder Aleyda Solis&#x27;s credentials published on site (European Search Personality of the Year 2018, 200+ talks in 30+ countries)</li><li>Free education resources linked from the site (SEOFOMO, LearningSEO.io, LearningAIsearch.com)</li><li>AI search integrated into every listed SEO service line</li></ul></div><div class="sw-col sw-minus"><h3>Weaknesses</h3><ul><li>No case studies published</li><li>Single-page site with no blog, service detail pages, or pricing</li><li>Client results limited to testimonials (one metric: Sniffspot 500% SEO traffic growth)</li></ul></div></div></section>
+      <section><span class="mono-label">Capability scorecard</span><h2>What Orainti shows evidence of doing</h2><p class="caption">Each grade reflects public evidence on Orainti&#39;s own site as of November 2026. A 5 is a productized offering with documented results. A 1 means I found no public evidence, which happens for services an agency delivers without writing about them. Use the low grades as questions for the intro call.</p><div class="score-group"><span class="mono-label">Content</span><div class="score-row"><div class="score-head"><span class="score-name">AI content</span><span class="score-num">1/5</span></div><div class="score-bar"><span class="seg on"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span></div><p class="score-ev">No public evidence (works alongside clients&#x27; content teams; no content production offered)</p></div><div class="score-row"><div class="score-head"><span class="score-name">Thought leadership with expert authors</span><span class="score-num">4/5</span></div><div class="score-bar"><span class="seg on"></span><span class="seg on"></span><span class="seg on"></span><span class="seg on"></span><span class="seg"></span></div><p class="score-ev">Founder-run SEOFOMO/AI Marketers newsletters, LearningAIsearch.com, 200+ conference talks cited on site</p></div></div><div class="score-group"><span class="mono-label">Off site</span><div class="score-row"><div class="score-head"><span class="score-name">Link building</span><span class="score-num">1/5</span></div><div class="score-bar"><span class="seg on"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span></div><p class="score-ev">No public evidence</p></div><div class="score-row"><div class="score-head"><span class="score-name">Mention building</span><span class="score-num">1/5</span></div><div class="score-bar"><span class="seg on"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span></div><p class="score-ev">No public evidence</p></div><div class="score-row"><div class="score-head"><span class="score-name">Custom outreach</span><span class="score-num">1/5</span></div><div class="score-bar"><span class="seg on"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span></div><p class="score-ev">No public evidence</p></div></div><div class="score-group"><span class="mono-label">Technical</span><div class="score-row"><div class="score-head"><span class="score-name">Technical SEO / GEO</span><span class="score-num">3/5</span></div><div class="score-bar"><span class="seg on"></span><span class="seg on"></span><span class="seg on"></span><span class="seg"></span><span class="seg"></span></div><p class="score-ev">Audits cover technical gaps for AI search; technical SEO within training and advisory services</p></div></div><div class="score-group"><span class="mono-label">Analytics</span><div class="score-row"><div class="score-head"><span class="score-name">Prompt analytics</span><span class="score-num">2/5</span></div><div class="score-bar"><span class="seg on"></span><span class="seg on"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span></div><p class="score-ev">Homepage says it helps companies see where they appear in AI Search; no tracking service or tooling named</p></div><div class="score-row"><div class="score-head"><span class="score-name">Conversion tracking</span><span class="score-num">1/5</span></div><div class="score-bar"><span class="seg on"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span></div><p class="score-ev">No public evidence</p></div></div><div class="score-group"><span class="mono-label">Dev &amp; design</span><div class="score-row"><div class="score-head"><span class="score-name">Content design</span><span class="score-num">1/5</span></div><div class="score-bar"><span class="seg on"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span></div><p class="score-ev">No public evidence</p></div><div class="score-row"><div class="score-head"><span class="score-name">Development for LLM-ready site sections</span><span class="score-num">1/5</span></div><div class="score-bar"><span class="seg on"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span><span class="seg"></span></div><p class="score-ev">No public evidence</p></div></div></section>
       <section>
         <span class="mono-label">Pricing</span>
         <h2>What Orainti costs</h2>
@@ -138,7 +167,7 @@
       <section><span class="mono-label">Clients</span><h2>Clients named on their site</h2><div class="tags"><span class="tag">Turo</span><span class="tag">Trade Republic</span><span class="tag">Krisp</span><span class="tag">Sniffspot</span></div></section>
     </div>
     <aside class="aside">
-      <div class="fact-card"><h3>Quick facts</h3><div class="fact"><span class="k">Location</span><span class="v">Madrid, Spain</span></div><div class="fact"><span class="k">Region</span><span class="v">Europe</span></div><div class="fact"><span class="k">Type</span><span class="v">Wider agency</span></div><div class="fact"><span class="k">Starting price</span><span class="v">Pricing on request</span></div></div>
+      <div class="fact-card"><h3>Quick facts</h3><div class="fact"><span class="k">Location</span><span class="v">Madrid, Spain</span></div><div class="fact"><span class="k">Region</span><span class="v">Europe</span></div><div class="fact"><span class="k">Type</span><span class="v">Wider agency</span></div><div class="fact"><span class="k">Starting price</span><span class="v">Pricing on request</span></div><div class="fact"><span class="k">Evidence grade</span><span class="v">1.6/5</span></div></div>
       <div class="fact-card"><h3>Contact</h3><div class="fact"><span class="k">Website</span><span class="v"><a href="https://www.orainti.com" target="_blank" rel="noopener nofollow">orainti.com</a></span></div><div class="fact"><span class="k">Email</span><span class="v"><a href="mailto:info@orainti.com">info@orainti.com</a></span></div></div>
       <div class="fact-card"><h3>Socials</h3><div class="fact"><span class="k">LinkedIn</span><span class="v"><a href="https://www.linkedin.com/company/orainti" target="_blank" rel="noopener nofollow">Open &rarr;</a></span></div><div class="fact"><span class="k">X (Twitter)</span><span class="v"><a href="https://twitter.com/orainti" target="_blank" rel="noopener nofollow">Open &rarr;</a></span></div></div>
     </aside>
