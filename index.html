@@ -35,7 +35,10 @@
   .section-head { display: flex; flex-direction: column; gap: 16px; margin-bottom: 40px; max-width: 820px; }
 
   nav.topnav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(14px); -webkit-backdrop-filter: saturate(180%) blur(14px); background: rgba(255,255,255,0.75); border-bottom: 1px solid var(--c-border-light); }
-  nav.topnav .container { display: flex; justify-content: space-between; align-items: center; padding-top: 16px; padding-bottom: 16px; }
+  nav.topnav .container { display: flex; justify-content: space-between; align-items: center; padding-top: 16px; padding-bottom: 16px; gap: 16px; }
+  .navmid { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
+  .navmid a { color: var(--c-text); text-decoration: none; font-size: 14px; }
+  .navmid a:hover { opacity: 0.6; }
   .brand { font-weight: 500; font-size: 18px; letter-spacing: -0.18px; display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--c-text); }
   .brand .dot { width: 10px; height: 10px; border-radius: 2px; background: linear-gradient(135deg, var(--c-magenta), var(--c-lavender)); }
   .btn-cta { display: inline-flex; align-items: center; gap: 8px; background: var(--c-dark); color: var(--c-text-dark); padding: 10px 18px; border-radius: var(--r-sharp); font-size: 14px; letter-spacing: -0.14px; font-weight: 500; text-decoration: none; transition: transform 0.15s ease; }
@@ -117,6 +120,7 @@
     h2 { font-size: 30px; }
     .container { padding: 0 16px; }
     .hero { padding: 56px 0 40px; }
+    .navmid { display: none; }
     .filters { position: static; }
     .filters select { max-width: none; flex: 1 1 45%; }
     #result-count { margin-left: 0; width: 100%; }
@@ -129,6 +133,7 @@
 <nav class="topnav">
   <div class="container">
     <a class="brand" href="https://auq.io" target="_blank" rel="noopener"><span class="dot"></span>AUQ</a>
+    <span class="navmid"><a href="best-for-content/">Content</a><a href="best-for-off-page/">Off-page</a><a href="best-for-plg/">PLG</a><a href="best-for-startups/">Startups</a><a href="best-for-technical-geo/">Technical</a><a href="best-international-geo-agency/">International</a></span>
     <a class="btn-cta" href="https://auq.io/contact/" target="_blank" rel="noopener">Talk to AUQ</a>
   </div>
 </nav>
