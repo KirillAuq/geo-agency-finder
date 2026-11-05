@@ -227,5 +227,77 @@
         "why": "The Middle East option: a Dubai company founded in 2001 with a GEO service covering ChatGPT, Perplexity, Claude and AI Overviews. Its published GEO evidence is thinner than the others here, so ask for recent AI-specific results on the intro call."
       }
     ]
+  },
+  {
+    "slug": "best-for-local-geo",
+    "title": "Best local GEO agencies",
+    "answer": "Local GEO gets a business recommended when someone asks an AI assistant for a provider nearby: a clinic, a law firm, a franchise location. The work runs on entity data, listings, reviews and location pages, and the agencies below publish local-service or multi-location results tied to AI visibility.",
+    "take": "Franchise and multi-location cases are the strongest local proof, because one playbook has to hold across hundreds of pages. I ranked on that. This page updates as new agencies enter the directory.",
+    "entries": [
+      {
+        "name": "Ignite Visibility",
+        "why": "The strongest local evidence in the directory: a home services franchise group with 5,500+ locations grew AI Overview visibility 458%, and an automotive franchise lifted AI mentions 25% to become the top competitor in its set."
+      },
+      {
+        "name": "Thrive Internet Marketing Agency",
+        "why": "Healthcare is the local vertical it documents best: a multi-specialty medical group gained +2,658% Google AI Overview citations, and a hyperbaric treatment center added 381 AI Overview mentions alongside +250% organic traffic."
+      },
+      {
+        "name": "Online Marketing Gurus",
+        "why": "Australian local and SMB work with AI-era results: real estate buyer's agency Cohen Handler grew organic conversions 320%, and NDIS provider Lumia Care grew keyword reach 454%."
+      },
+      {
+        "name": "Search Engine People",
+        "why": "A Toronto full-service shop founded in 2001 that publishes example pricing from about $1,000 a month: law firm Levitt LLP grew leads 793%."
+      },
+      {
+        "name": "First Page (Australia)",
+        "why": "Melbourne agency whose local B2C cases move fast: Green Homes grew leads 1,050% with half its target keywords on page one inside six weeks."
+      },
+      {
+        "name": "AEO Engine",
+        "why": "Its Answer Index research graded 4,800 AI answers across 100 law firms, the kind of vertical study local-service brands can act on. Platform modules cover entity optimization, schema and citation seeding."
+      }
+    ]
+  },
+  {
+    "slug": "best-for-ecommerce-geo",
+    "title": "Best ecommerce GEO agencies",
+    "answer": "Ecommerce GEO gets products and stores named when shoppers ask AI assistants what to buy: product pages AI systems can parse, category content worth citing, and brand mentions in the pages assistants pull shopping answers from. The agencies below publish ecommerce results tied to AI search.",
+    "take": "Watch for revenue numbers ahead of citation counts here, since ecommerce is the one category where the cash register settles the argument. This page updates as new agencies enter the directory.",
+    "entries": [
+      {
+        "name": "Avenue Z",
+        "why": "The only agency in the directory with AEO for eCommerce as a named service, plus AEO for Spanish-language markets. The methodology is documented end to end in the Prometeo case: 357% AI visibility growth and 867% growth in AI referral traffic."
+      },
+      {
+        "name": "Online Marketing Gurus",
+        "why": "Wamada grew ChatGPT-attributed revenue 762%, and safety equipment retailer Safety Xpress grew AI Overview share of voice 59% in six months on technical changes plus monthly Reddit and Quora mentions."
+      },
+      {
+        "name": "DEJAN AI",
+        "why": "Custom sportswear retailer OWAYO grew its share of US AI brand mentions from 1.5% to 8.0% in four months, and Pro's Choice grew revenue 60% year on year. Published pricing from A$5,000/mo."
+      },
+      {
+        "name": "iPullRank",
+        "why": "A global eCommerce marketplace generated $290 million in revenue from AI content built for category pages, the largest ecommerce number on this list."
+      },
+      {
+        "name": "NoGood",
+        "why": "SteelSeries, a DTC gaming gear brand, saw a 23x year-over-year increase in AI search traffic and 27x growth in conversions from AI platforms. Agentic commerce optimization is named in its AEO service."
+      },
+      {
+        "name": "AEO Engine",
+        "why": "DTC proof at the small end: Cornish Seaweed Bath grew LLM traffic 375% with $549K added customer lifetime value in four months, and Gourmend Foods reached 3,272 AI citations with 48.7% AI share of voice."
+      },
+      {
+        "name": "PromptMarketing",
+        "why": "The early mover on ChatGPT Ads: three webshops across four countries generated 2,287 clicks at a 2.41% CTR and €0.44 per click. Useful if you want paid AI-surface distribution next to organic GEO."
+      },
+      {
+        "name": "Elogia",
+        "why": "The Latin America option: fashion retailer Cuidado con el Perro generated $14.2M in revenue from organic clicks, and Sephora Mexico grew online revenue 45%. Its published GEO-specific evidence is thin, so ask for AI-visibility results on the intro call."
+      }
+    ]
   }
 ]
