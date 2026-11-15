@@ -109,6 +109,14 @@ CSS = """
   .review-row .stars { color: var(--c-orange); font-size: 14px; letter-spacing: 1px; }
   .review-row a { font-size: 14px; font-weight: 500; text-decoration: none; color: var(--c-dark); white-space: nowrap; }
   .review-row a:hover { color: var(--c-magenta); }
+  .reddit-row { padding: 14px 16px; border: 1px solid var(--c-border-light); border-radius: var(--r-comfort); margin-bottom: 10px; }
+  .reddit-row .rmeta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 6px; }
+  .reddit-row p { font-size: 15px; color: rgba(0,0,0,0.7); margin: 0 0 8px; }
+  .reddit-row a { font-size: 14px; font-weight: 500; text-decoration: none; color: var(--c-dark); }
+  .reddit-row a:hover { color: var(--c-magenta); }
+  .auth { font-size: 12px; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--c-border-light); background: var(--c-fill-light); }
+  .auth-organic { border-color: rgba(22,130,93,0.4); color: #16825d; background: rgba(22,130,93,0.08); }
+  .auth-promo { border-color: rgba(154,106,0,0.45); color: #9a6a00; background: rgba(154,106,0,0.08); }
   .aside { position: sticky; top: 84px; display: flex; flex-direction: column; gap: 16px; }
   .fact-card { border: 1px solid var(--c-border-light); border-radius: var(--r-comfort); padding: 22px; box-shadow: var(--shadow); background: var(--c-bg); }
   .fact-card h3 { margin-bottom: 14px; font-size: 16px; }
@@ -253,6 +261,46 @@ def build_profile(a):
             f"<p>No independent review profile was verified for {esc(name)} as of {LAST_CHECKED}.</p>"
             '<p style="margin-top:8px;">Absence of reviews is common for young GEO specialists. Weigh named clients and published case studies instead, and ask for references on a call.</p>'
         )
+
+    # Reddit signal
+    AUTH_LABELS = {
+        "organic": ("auth-organic", "Looks organic"),
+        "likely-self-promo": ("auth-promo", "Likely self-promo"),
+        "unclear": ("auth", "Authenticity unclear"),
+    }
+    rd_threads = (a.get("reddit") or {}).get("threads") or []
+    if rd_threads:
+        rrows = ""
+        for t in rd_threads:
+            cls, label = AUTH_LABELS.get(t.get("authenticity"), AUTH_LABELS["unclear"])
+            meta_bits = " · ".join(
+                str(x) for x in [t.get("subreddit"), t.get("year"), t.get("stance")]
+                if x and str(x) != "unknown"
+            )
+            rrows += (
+                '<div class="reddit-row">'
+                f'<div class="rmeta"><span class="mono-label">{esc(meta_bits)}</span>'
+                f'<span class="auth {cls}">{label}</span></div>'
+                f'<p>{esc(t["gist"])}</p>'
+                f'<a href="{esc(t["url"])}" target="_blank" rel="noopener nofollow ugc">Read the thread &rarr;</a>'
+                "</div>"
+            )
+        auq_rd = " AUQ is my agency; the same grading applies to threads about us." if is_auq else ""
+        reddit_html = rrows + (
+            f'<p class="caption">Threads found searching Reddit in {LAST_CHECKED} and graded for authenticity. '
+            "Agencies in this niche sell Reddit seeding, AUQ included, so unprompted praise gets discounted "
+            f"and criticism carries more weight. Summaries paraphrase the thread; read the original.{auq_rd}</p>"
+        )
+    else:
+        reddit_html = (
+            f"<p>No independent Reddit discussion of {esc(name)} was found as of {LAST_CHECKED}.</p>"
+            '<p style="margin-top:8px;">Most agencies on this list have no organic Reddit footprint, and a clean absence beats seeded praise. '
+            "If you find a thread, check the commenter&#39;s history before trusting it.</p>"
+        )
+    reddit_section = (
+        '<section><span class="mono-label">Reddit signal</span>'
+        f"<h2>What Reddit says about {esc(name)}</h2>{reddit_html}</section>"
+    )
 
     # Case studies
     cs = a.get("caseStudies") or []
@@ -460,6 +508,7 @@ def build_profile(a):
         <h2>Independent reviews</h2>
         {rhtml}
       </section>
+      {reddit_section}
       {clients_html}
     </div>
     <aside class="aside">
@@ -592,7 +641,7 @@ def main():
 
     # data.js for the directory page (adds slug for profile links).
     # Profile-only fields stay out of it to keep the directory payload small.
-    PROFILE_ONLY = {"caseStudies", "strengths", "weaknesses", "scores"}
+    PROFILE_ONLY = {"caseStudies", "strengths", "weaknesses", "scores", "reddit"}
     for a in agencies:
         a["slug"] = slugify(a["name"])
     slim = [{k: v for k, v in a.items() if k not in PROFILE_ONLY} for a in agencies]

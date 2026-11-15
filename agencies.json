@@ -102,7 +102,20 @@
         "count": 7,
         "url": "https://clutch.co/profile/auq"
       }
-    ]
+    ],
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/seojobs/comments/1o4a3it/reddit_organic_marketer_auqio_500_800_clientmonth/",
+          "subreddit": "r/seojobs",
+          "year": "2025",
+          "gist": "A job listing recruiting a Reddit organic marketer for auq.io, showing AUQ hires people to do organic Reddit work for clients.",
+          "stance": "mention-only",
+          "authenticity": "likely-self-promo"
+        }
+      ]
+    }
   },
   {
     "name": "AEO Engine",
@@ -200,6 +213,10 @@
         "score": 2,
         "evidence": "Builds own free tool suite and platform; no client web development service offered"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -284,6 +301,19 @@
         "score": 2,
         "evidence": "Platform product and page publishing on client domains; no web development service offered"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/SaaS/comments/1r35awk/tested_blog_automation_for_llm_visibility_got_340/",
+          "subreddit": "r/SaaS",
+          "year": "2026",
+          "gist": "In a thread about blog automation for LLM visibility, a commenter says they have been using Mersel AI and it is decent, describing its AI-readable clone of their site for ChatGPT.",
+          "stance": "positive",
+          "authenticity": "unclear"
+        }
+      ]
     }
   },
   {
@@ -383,6 +413,19 @@
         "score": 1,
         "evidence": "No public evidence"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/agency/comments/1fmfk2y/for_all_outreach_experts/",
+          "subreddit": "r/agency",
+          "year": "2024",
+          "gist": "Founder Jayson DeMers gives outreach advice in a discussion thread while disclosing that he runs OutreachBloom; a self-mention rather than a client review.",
+          "stance": "mention-only",
+          "authenticity": "likely-self-promo"
+        }
+      ]
     }
   },
   {
@@ -489,6 +532,10 @@
         "score": 5,
         "evidence": "Shopify Design & Development service with named-client migration case studies (cocokind, MOSH, Isla Porter)"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -582,6 +629,10 @@
         "score": 2,
         "evidence": "Built own platform and free tools (tools.ultrascout.ai/citetrust); no client development service"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -677,6 +728,10 @@
         "score": 1,
         "evidence": "No public evidence"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -752,6 +807,10 @@
         "score": 1,
         "evidence": "No public evidence"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -838,6 +897,10 @@
         "score": 2,
         "evidence": "Built own geo-check tool; web designer on team; no development service offered"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -927,6 +990,10 @@
         "score": 2,
         "evidence": "Free tools section on site; no web development service offered"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -1014,6 +1081,10 @@
         "score": 3,
         "evidence": "Two AI developers on team building sites and apps with Next.js and Astro"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -1098,6 +1169,10 @@
         "score": 1,
         "evidence": "No public evidence"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -1192,6 +1267,35 @@
         "score": 3,
         "evidence": "In-house developer on team; own app, tools, and optimizer sections on site"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/geobrandvisibility/comments/1oa89u2/who_are_the_most_important_people_in_the_world_or/",
+          "subreddit": "r/geobrandvisibility",
+          "year": "2025",
+          "gist": "Answering a question about the most important people in AEO and GEO, a commenter lists Dan Petrovic of DEJAN first among the experts they learn the most from.",
+          "stance": "positive",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/SEO/comments/1pw7x56/shorter_content_is_better_for_ranking_in_ai/",
+          "subreddit": "r/SEO",
+          "year": "2026",
+          "gist": "A 30+ comment r/SEO discussion of a DEJAN study claiming shorter content ranks better in AI answers; users debate the finding on its merits.",
+          "stance": "mention-only",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/SEO_for_AI/comments/1xcz9cb/if_the_same_prompt_gives_different_answers_every/",
+          "subreddit": "r/SEO_for_AI",
+          "year": "2026",
+          "gist": "In a thread about non-deterministic AI answers, a commenter endorses Dan Petrovic's dejan.ai post on prompt tracking and says they agree with his approach.",
+          "stance": "positive",
+          "authenticity": "organic"
+        }
+      ]
     }
   },
   {
@@ -1288,6 +1392,10 @@
         "score": 5,
         "evidence": "Dedicated web development and migration services with named-client case studies"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -1379,6 +1487,10 @@
         "score": 1,
         "evidence": "No public evidence"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -1460,6 +1572,19 @@
         "score": 2,
         "evidence": "Built a Chrome extension and free web tools; no development service offered"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/SEOTips101/comments/1w61so2/can_you_recommend_youtube_channels_for_learning/",
+          "subreddit": "r/SEOTips101",
+          "year": "2026",
+          "gist": "In a thread asking for SEO YouTube channels, a commenter recommends Arobis AI's YouTube channel for learning the AI search side of SEO.",
+          "stance": "positive",
+          "authenticity": "unclear"
+        }
+      ]
     }
   },
   {
@@ -1552,6 +1677,10 @@
         "score": 3,
         "evidence": "Seven self-built free tools, AI Assist Widget, and WebMCP implementation"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -1666,6 +1795,51 @@
         "score": 5,
         "evidence": "Dedicated web design/development services with published cost ranges and named-client results (KOA, S. Clyde Weaver)"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/SEO/comments/16u7o9e/is_webfx_a_good_seo_agency_for_new_websites/",
+          "subreddit": "r/SEO",
+          "year": "2023",
+          "gist": "Asked whether WebFX is good for new websites, a long-time subreddit regular replies that it is pretty bad and offers nothing.",
+          "stance": "negative",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/SEO/comments/n7eb6w/has_anyone_used_web_fx/",
+          "subreddit": "r/SEO",
+          "year": "2021",
+          "gist": "A business evaluating SEO options asks for testimonials or complaints about WebFX after finding none on the subreddit.",
+          "stance": "mention-only",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/antiMLM/comments/tla2p0/webfx_legit_or_a_mlm/",
+          "subreddit": "r/antiMLM",
+          "year": "2022",
+          "gist": "A user asks whether WebFX is legitimate or structured like an MLM based on how the company presents itself.",
+          "stance": "negative",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/recruitinghell/comments/1owu4jm/working_at_webfx_was_the_worst_experience_of_my/",
+          "subreddit": "r/recruitinghell",
+          "year": "2025",
+          "gist": "An ex-copywriter who produced client content for two years describes WebFX as the worst experience of their life; an employee account that speaks to how client deliverables are produced.",
+          "stance": "negative",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/remotework/comments/1ozbzcb/webfx_remote_job_review_toxic_isolating_and/",
+          "subreddit": "r/remotework",
+          "year": "2025",
+          "gist": "A remote worker describes WebFX as toxic and isolating with very low pay for offshore workers; an employee account about the workforce producing client work.",
+          "stance": "negative",
+          "authenticity": "organic"
+        }
+      ]
     }
   },
   {
@@ -1768,6 +1942,35 @@
         "score": 5,
         "evidence": "Dedicated web design & development service with named portfolio clients (Bluefrog, Mosaic Pharmacy)"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/DigitalMarketing/comments/1pzsgy4/i_checked_who_chatgpt_recommends_for_best_digital/",
+          "subreddit": "r/DigitalMarketing",
+          "year": "2026",
+          "gist": "A test of ChatGPT's best-agency answers lists Thrive among the recommendations; a commenter adds that in their experience Thrive's sales team is strong but delivery falls short.",
+          "stance": "mixed",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/SEO/comments/14kqjhh/seo_agencies_recommendations/",
+          "subreddit": "r/SEO",
+          "year": "2023",
+          "gist": "In an agency-recommendation thread, a list-style comment names Thrive as specializing in SEO and digital marketing for increased conversions.",
+          "stance": "positive",
+          "authenticity": "likely-self-promo"
+        },
+        {
+          "url": "https://www.reddit.com/r/topseoagencies/comments/1shb1jp/top_seo_agencies_in_baltimore_md_2026/",
+          "subreddit": "r/topseoagencies",
+          "year": "2026",
+          "gist": "A promotional city listicle features Thrive as one of the most recognized SEO agencies, citing its 5.0 Clutch and UpCity ratings.",
+          "stance": "positive",
+          "authenticity": "likely-self-promo"
+        }
+      ]
     }
   },
   {
@@ -1875,6 +2078,27 @@
         "score": 3,
         "evidence": "Website Design & Development listed under Creative services in navigation"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/AskMarketing/comments/1pps6tw/experiences_working_with_a_digital_agency/",
+          "subreddit": "r/AskMarketing",
+          "year": "2026",
+          "gist": "A buyer with Go Fish Digital as one of two finalists asks for first-hand client experiences.",
+          "stance": "mention-only",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/TechSEO/comments/bw2klm/ask_me_anything_bill_slawski/",
+          "subreddit": "r/TechSEO",
+          "year": "2019",
+          "gist": "AMA by the late Bill Slawski, Go Fish Digital's Director of SEO Research, discussing his search patent analysis work at the agency.",
+          "stance": "positive",
+          "authenticity": "likely-self-promo"
+        }
+      ]
     }
   },
   {
@@ -1973,6 +2197,35 @@
         "score": 2,
         "evidence": "SEO/relevance engineers on staff and self-built tools, but no client web development service offered"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/coachesandconsultants/comments/1nnli1z/who_is_the_best_aeo_seo_expert_right_now/",
+          "subreddit": "r/coachesandconsultants",
+          "year": "2025",
+          "gist": "Asked who the best AEO and SEO expert is right now, a commenter names Mike King of iPullRank as one of the three people they learn the most from.",
+          "stance": "positive",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/SEO/comments/1smg87k/anyone_going_to_seo_week_in_nyc_april_27th/",
+          "subreddit": "r/SEO",
+          "year": "2026",
+          "gist": "A user considering tickets to SEO Week, iPullRank's NYC conference, asks past attendees whether it was worth it.",
+          "stance": "mention-only",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/TechSEO/comments/bl7hnj/i_am_mike_king_founder_of_ipullrank_ama/",
+          "subreddit": "r/TechSEO",
+          "year": "2019",
+          "gist": "AMA by founder Mike King fielding technical SEO questions and discussing the agency's work.",
+          "stance": "positive",
+          "authenticity": "likely-self-promo"
+        }
+      ]
     }
   },
   {
@@ -2079,6 +2332,35 @@
         "score": 1,
         "evidence": "No public evidence"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/DigitalMarketing/comments/1s6jpyh/best_growth_marketing_agency_for_b2b_saas_need/",
+          "subreddit": "r/DigitalMarketing",
+          "year": "2026",
+          "gist": "In a B2B SaaS growth-agency thread, a commenter advises that NoGood and KlientBoost are worth comparing when paid-media efficiency is the main issue.",
+          "stance": "positive",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/advertising/comments/1qm5d0k/do_you_know_any_good_tiktok_agencies_right_now_i/",
+          "subreddit": "r/advertising",
+          "year": "2025",
+          "gist": "A self-disclosed NoGood employee answers a TikTok-agency question by pitching NoGood's TikTok studio and naming TikTok as a past client.",
+          "stance": "positive",
+          "authenticity": "likely-self-promo"
+        },
+        {
+          "url": "https://www.reddit.com/r/SEO_tools_reviews/comments/1ue2a3d/best_geo_agency_guide_what_brands_should_look_for/",
+          "subreddit": "r/SEO_tools_reviews",
+          "year": "2026",
+          "gist": "A best-GEO-agency guide written by a self-disclosed NoGood employee positions the agency's AEO and earned-media work while acknowledging the bias.",
+          "stance": "positive",
+          "authenticity": "likely-self-promo"
+        }
+      ]
     }
   },
   {
@@ -2171,6 +2453,35 @@
         "score": 1,
         "evidence": "No public evidence"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/marketing/comments/18anp2y/ever_worked_with_seer_interactive_or_ironpaper/",
+          "subreddit": "r/marketing",
+          "year": "2023",
+          "gist": "A company with Seer Interactive as a finalist to supplement their in-house team asks for first-hand client experiences.",
+          "stance": "mention-only",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/SEO/comments/1ope8qc/aio_impact_on_google_ctr/",
+          "subreddit": "r/SEO",
+          "year": "2025",
+          "gist": "A user cites Seer Interactive's AI Overview CTR research as a credible data source on continuing click-through decline.",
+          "stance": "positive",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/SEO_for_AI/comments/1n38rtl/ai_optimization_prioritize_your_sites_real_estate/",
+          "subreddit": "r/SEO_for_AI",
+          "year": "2025",
+          "gist": "A post shares a Seer Interactive test on prioritizing site real estate for AI training data, calling it consistent with the poster's own findings.",
+          "stance": "positive",
+          "authenticity": "unclear"
+        }
+      ]
     }
   },
   {
@@ -2278,6 +2589,27 @@
         "score": 1,
         "evidence": "No public evidence"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/SaaS/comments/1fwm8cb/are_performance_marketing_agencies_legit_for_saas/",
+          "subreddit": "r/SaaS",
+          "year": "2024",
+          "gist": "A SaaS founder who came across Single Grain asks skeptically whether its pay-for-performance marketing claims are legitimate.",
+          "stance": "mention-only",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/5pp6h8/the_advanced_guide_to_marketing_like_neil_patel/",
+          "subreddit": "r/Entrepreneur",
+          "year": "2017",
+          "gist": "A discussion of Neil Patel's marketing mentions Eric Siu of Single Grain as his prolific business partner.",
+          "stance": "mention-only",
+          "authenticity": "organic"
+        }
+      ]
     }
   },
   {
@@ -2383,6 +2715,35 @@
         "score": 4,
         "evidence": "Website Design and Website Development services listed, with a website development case study PDF"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/PPC/comments/wuk6e9/who_are_the_top_reputable_ppc_management_company/",
+          "subreddit": "r/PPC",
+          "year": "2022",
+          "gist": "In a thread on reputable PPC management companies, a commenter lists Ignite Visibility among good agencies alongside Wpromote and Tinuiti.",
+          "stance": "positive",
+          "authenticity": "unclear"
+        },
+        {
+          "url": "https://www.reddit.com/r/SEO/comments/158kpgc/best_seo_companies_to_work_with/",
+          "subreddit": "r/SEO",
+          "year": "2023",
+          "gist": "In a best-SEO-companies thread, a comment names Ignite Visibility among agencies worth considering while warning about contract exit terms.",
+          "stance": "positive",
+          "authenticity": "unclear"
+        },
+        {
+          "url": "https://www.reddit.com/r/DigitalMarketing/comments/1pzsgy4/i_checked_who_chatgpt_recommends_for_best_digital/",
+          "subreddit": "r/DigitalMarketing",
+          "year": "2026",
+          "gist": "A user's test of ChatGPT's best-agency answer for small business lists Ignite Visibility among the top recommendations.",
+          "stance": "mention-only",
+          "authenticity": "organic"
+        }
+      ]
     }
   },
   {
@@ -2483,6 +2844,35 @@
         "score": 4,
         "evidence": "Web Development service page; American Montessori Society site replatforming case study"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/SEO/comments/1akf44n/lily_ray_states_on_twitter_if_you_get_hit_by_one/",
+          "subreddit": "r/SEO",
+          "year": "2024",
+          "gist": "In a thread about algorithm-recovery claims, a commenter reports getting an audit from Amsive that was underwhelming for the price.",
+          "stance": "negative",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/Vibe_SEO/comments/1s7r4hf/lily_rays_agency_uses_listicles_auto_promotional/",
+          "subreddit": "r/Vibe_SEO",
+          "year": "2026",
+          "gist": "A poster criticizes Amsive for publishing self-promotional listicle articles on its own site and asks for opinions.",
+          "stance": "negative",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/SEO_for_AI/comments/1slb1vf/ama_i_am_lily_ray_founder_of_algorythmic_and_vp/",
+          "subreddit": "r/SEO_for_AI",
+          "year": "2026",
+          "gist": "AMA by Lily Ray, VP of SEO and AI Search at Amsive, discussing her agency work.",
+          "stance": "positive",
+          "authenticity": "likely-self-promo"
+        }
+      ]
     }
   },
   {
@@ -2578,6 +2968,43 @@
         "score": 1,
         "evidence": "No public evidence"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/Superframeworks/comments/1tyhsop/the_best_saas_seo_agency_list_youre_reading_was/",
+          "subreddit": "r/Superframeworks",
+          "year": "2026",
+          "gist": "A post debunking SaaS SEO agency listicles calls out First Page Sage for having zero Clutch reviews despite loud self-promotion.",
+          "stance": "negative",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/Superframeworks/comments/1tyg4je/most_best_content_marketing_agency_lists_are/",
+          "subreddit": "r/Superframeworks",
+          "year": "2026",
+          "gist": "A post arguing that best-agency lists are self-written names First Page Sage as ranking itself first on its own lists; the poster is a vendor with its own angle.",
+          "stance": "negative",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/b2bmarketing/comments/1pm9urp/looking_for_us_based_seo_agencies_and_consultants/",
+          "subreddit": "r/b2bmarketing",
+          "year": "2026",
+          "gist": "In a thread asking for US-based SEO agencies, a commenter whose username references a competing agency recommends First Page Sage as purely SEO-focused and solid.",
+          "stance": "positive",
+          "authenticity": "unclear"
+        },
+        {
+          "url": "https://www.reddit.com/r/SEO_AEO_GEO/comments/1pqqc4f/first_page_sage_zero_aigenerated_content_702_roi/",
+          "subreddit": "r/SEO_AEO_GEO",
+          "year": "2026",
+          "gist": "A standalone post praising First Page Sage's quality-over-quantity model with promotional tone and almost no engagement.",
+          "stance": "positive",
+          "authenticity": "likely-self-promo"
+        }
+      ]
     }
   },
   {
@@ -2684,6 +3111,43 @@
         "score": 4,
         "evidence": "Dedicated Web Design service page; interactive tools and calculators listed as GEO deliverables"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/marketing/comments/1i26knd/has_anyone_here_worked_for_an_agency_called_siege/",
+          "subreddit": "r/marketing",
+          "year": "2025",
+          "gist": "A user asks whether anyone has worked for Siege Media and whether the agency has unusually high turnover.",
+          "stance": "mixed",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/bigseo/comments/9w8vr0/who_was_siege_media_before_they_got_big/",
+          "subreddit": "r/bigseo",
+          "year": "2018",
+          "gist": "A user vetting content marketing vendors asks about Siege Media's track record before it got big; 11 answers.",
+          "stance": "mention-only",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/fintech/comments/1rvl8hh/best_fintech_seo_agency_to_work_with_in_2026_i/",
+          "subreddit": "r/fintech",
+          "year": "2026",
+          "gist": "A thread shortlisting Omnius, First Page Sage and Siege Media for fintech SEO, with formulaic agency-vs-agency comparison comments typical of seeded threads.",
+          "stance": "positive",
+          "authenticity": "unclear"
+        },
+        {
+          "url": "https://www.reddit.com/r/bigseo/comments/1y9qie/im_ross_hudgens_seo_and_founder_of_siege_media_ama/",
+          "subreddit": "r/bigseo",
+          "year": "2014",
+          "gist": "Founder Ross Hudgens hosted an AMA about building Siege Media, with 70+ comments; openly self-presented.",
+          "stance": "mention-only",
+          "authenticity": "likely-self-promo"
+        }
+      ]
     }
   },
   {
@@ -2789,6 +3253,10 @@
         "score": 4,
         "evidence": "Dedicated Programmatic SEO service page"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -2880,6 +3348,10 @@
         "score": 3,
         "evidence": "Programmatic SEO listed as a service area; page does not say who builds or deploys the pages"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -2976,6 +3448,10 @@
         "score": 2,
         "evidence": "Website redesign referenced only as a package add-on exclusion; free tools built in-house"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -3081,6 +3557,10 @@
         "score": 4,
         "evidence": "Web Design & Creative service page, Managed WordPress Hosting, and CMS-specific SEO services"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -3184,6 +3664,10 @@
         "score": 5,
         "evidence": "Dedicated Web Design and Web Development service pages with a named-client website build case study (GeoPura)"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -3289,6 +3773,10 @@
         "score": 1,
         "evidence": "No public evidence of a web development service"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -3383,6 +3871,10 @@
         "score": 2,
         "evidence": "Hundreds of location pages and landing pages built in case studies; no development service offered"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -3494,6 +3986,10 @@
         "score": 2,
         "evidence": "Builds its own free tools (schema, robots.txt generators); no client development service offered"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -3600,6 +4096,19 @@
         "score": 5,
         "evidence": "Web development service page; AuthoredUp Webflow site case with +64% conversions"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/fintech/comments/1rvl8hh/best_fintech_seo_agency_to_work_with_in_2026_i/",
+          "subreddit": "r/fintech",
+          "year": "2026",
+          "gist": "A thread shortlisting Omnius among three agencies for fintech SEO, where a comparison comment praises each in a seeding-pattern rundown.",
+          "stance": "positive",
+          "authenticity": "unclear"
+        }
+      ]
     }
   },
   {
@@ -3698,6 +4207,10 @@
         "score": 2,
         "evidence": "Web developer on team and free tools built; development not an offered service"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -3790,6 +4303,10 @@
         "score": 1,
         "evidence": "No public evidence"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -3895,6 +4412,27 @@
         "score": 2,
         "evidence": "Builds own free tools (International Search Tool, SERP Overlap Tool); no development service"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/OpenAI/comments/1p5gbkq/what_is_the_impact_of_citations_from_the_us_on/",
+          "subreddit": "r/OpenAI",
+          "year": "2025",
+          "gist": "Post from the agency's own u/Claneo brand account on how US citations shape AI answers in other countries, part of a cross-posting pattern across GEO and AI-SEO subreddits. No client discussion of Claneo turned up anywhere on Reddit.",
+          "stance": "mention-only",
+          "authenticity": "likely-self-promo"
+        },
+        {
+          "url": "https://www.reddit.com/r/seogrowth/comments/1p80j9n/imho_dont_worry_about_geo_generative_engine/",
+          "subreddit": "r/seogrowth",
+          "year": "2025",
+          "gist": "Thought-leadership post from the u/Claneo brand account, cross-posted the same day to two other GEO subreddits. Agency seeding rather than user discussion.",
+          "stance": "mention-only",
+          "authenticity": "likely-self-promo"
+        }
+      ]
     }
   },
   {
@@ -3991,6 +4529,10 @@
         "score": 3,
         "evidence": "Programmatic SEO (coming soon); documented 247-page programmatic cluster case with 60+ leads"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -4097,6 +4639,10 @@
         "score": 1,
         "evidence": "No public evidence"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -4173,6 +4719,27 @@
         "score": 1,
         "evidence": "No public evidence"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/TechSEO/comments/cmk1ie/i_am_aleyda_solis_seo_consultant_founder_at/",
+          "subreddit": "r/TechSEO",
+          "year": "2019",
+          "gist": "AMA by founder Aleyda Solis with around 57 comments of community engagement. Self-posted by nature, but the questions and the reception are real.",
+          "stance": "positive",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/TechSEO/comments/1xcsv7i/tech_seo_connect_2026_november_56_in_durham_nc_50/",
+          "subreddit": "r/TechSEO",
+          "year": "2026",
+          "gist": "Tech SEO Connect 2026 conference announcement, posted by Ahrefs' Patrick Stox, lists Aleyda Solis of Orainti among headline speakers alongside Google DeepMind and Microsoft staff.",
+          "stance": "mention-only",
+          "authenticity": "organic"
+        }
+      ]
     }
   },
   {
@@ -4278,6 +4845,10 @@
         "score": 1,
         "evidence": "No public evidence"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -4384,6 +4955,10 @@
         "score": 4,
         "evidence": "Landing page agency service page; Green Homes case includes landing page development"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -4491,6 +5066,35 @@
         "score": 4,
         "evidence": "Dedicated Web Design & Development service covering Shopify, WooCommerce and custom builds"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/SEO/comments/1m03bfe/paid_for_5_months_of_seo_got_spam_clicks_no_local/",
+          "subreddit": "r/SEO",
+          "year": "2025",
+          "gist": "Client complaint titled 'Paid for 5 Months of SEO, Got Spam Clicks, No Local Traffic, Do Not Use Online Marketing Gurus'. Moderators later removed the body, but the title stands as an explicit warning.",
+          "stance": "negative",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/SEO/comments/1kw1v4s/stay_away_from_online_marketing_gurus/",
+          "subreddit": "r/SEO",
+          "year": "2025",
+          "gist": "Warning thread titled 'Stay Away from Online Marketing Gurus'. The body was removed, and criticism of this kind is unlikely to be seeded.",
+          "stance": "negative",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/SEO/comments/1kw1yj7/has_anyone_else_had_issues_with_online_marketing/",
+          "subreddit": "r/SEO",
+          "year": "2025",
+          "gist": "Companion thread asking whether others had issues with Online Marketing Gurus, posted the same day as the warning thread. The body was removed, but the question stands.",
+          "stance": "negative",
+          "authenticity": "organic"
+        }
+      ]
     }
   },
   {
@@ -4597,6 +5201,10 @@
         "score": 1,
         "evidence": "No public evidence"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -4708,6 +5316,27 @@
         "score": 4,
         "evidence": "Programmatic SEO service builds templates and location, use-case and comparison pages"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/DigitalMarketing/comments/1vpm5nh/how_to_choose_seo_agency_for_your_project_if_you/",
+          "subreddit": "r/DigitalMarketing",
+          "year": "2026",
+          "gist": "A user shortlisting agencies for AI-visibility work names TripleDart in an 11-agency candidate list alongside WebFX, Seer and iPullRank. The listicle-question format is a known seeding pattern, so the mention deserves caution.",
+          "stance": "mention-only",
+          "authenticity": "unclear"
+        },
+        {
+          "url": "https://www.reddit.com/r/SaaS/comments/1xceda6/2_b2b_saas_seo_agencies_for_2026_ranked_by/",
+          "subreddit": "r/SaaS",
+          "year": "2026",
+          "gist": "Unprompted ranked-agencies post leading with TripleDart, complete with pricing and case-study metrics and infographics. Reads as seeded promotion.",
+          "stance": "positive",
+          "authenticity": "likely-self-promo"
+        }
+      ]
     }
   },
   {
@@ -4814,6 +5443,35 @@
         "score": 4,
         "evidence": "Dedicated website design and development service page"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": [
+        {
+          "url": "https://www.reddit.com/r/SEO/comments/1m0qzfj/max_life_insurance_is_not_ranking_organically_on/",
+          "subreddit": "r/SEO",
+          "year": "2025",
+          "gist": "A user flags that Max Life Insurance stopped ranking even for branded terms after its domain migration and asks pointedly whether its SEO agency, Techmagnate, is responsible.",
+          "stance": "negative",
+          "authenticity": "organic"
+        },
+        {
+          "url": "https://www.reddit.com/r/SEO/comments/1deurup/techmagnate_launched_martech_services/",
+          "subreddit": "r/SEO",
+          "year": "2024",
+          "gist": "Press-release style announcement of the agency's new martech services, part of a long pattern of Techmagnate press-releasing into r/SEO going back over a decade.",
+          "stance": "positive",
+          "authenticity": "likely-self-promo"
+        },
+        {
+          "url": "https://www.reddit.com/r/DigitalMarketing/comments/1t9z6fc/top_ai_seo_agencies_in_india_2026_leading_the/",
+          "subreddit": "r/DigitalMarketing",
+          "year": "2026",
+          "gist": "A 'Top AI SEO Agencies in India' listicle ranks Techmagnate third and names its enterprise clients. Unprompted ranking post with a promotional tone.",
+          "stance": "positive",
+          "authenticity": "likely-self-promo"
+        }
+      ]
     }
   },
   {
@@ -4906,6 +5564,10 @@
         "score": 4,
         "evidence": "Dedicated web design and development pages incl. e-commerce and custom development"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -4981,6 +5643,10 @@
         "score": 5,
         "evidence": "Dedicated web design/development services with client portfolio (e.g. AirArabia Cargo, Galadari) and 1,200+ websites claim"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   },
   {
@@ -5075,6 +5741,10 @@
         "score": 2,
         "evidence": "Channel development listed without detail; no web development service page found"
       }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
     }
   }
 ]
