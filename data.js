@@ -1576,5 +1576,30 @@ var AGENCIES = [
     "linkedin": "https://www.linkedin.com/company/81369/",
     "youtube": "https://www.youtube.com/user/elogia",
     "slug": "elogia"
+  },
+  {
+    "name": "Salienz",
+    "website": "https://salienz.co",
+    "city": "Mumbai",
+    "country": "India",
+    "region": "Asia-Pacific",
+    "specialist": true,
+    "priceMonthlyUSD": 5499,
+    "description": "Mumbai agency focused entirely on AI visibility for B2B SaaS in five verticals: cybersecurity, legal tech, regtech, recruiting software and finance ops. Runs AEO, GEO, Reddit marketing, cite-ready content and link building as one program, measured by its own Salienz Score across seven engines.",
+    "services": [
+      "AI visibility tracking",
+      "Content for LLM citation",
+      "Digital PR & mentions",
+      "Listicle placements",
+      "Technical GEO",
+      "Classic SEO"
+    ],
+    "clients": [],
+    "priceNote": "Published in full: free 195-answer audit; Foundation audit $800 one time; Domination $5,499/mo and Expansion $8,499/mo, both on a 3-month minimum.",
+    "contactUrl": "https://salienz.co/contact",
+    "email": "hello@salienz.co",
+    "linkedin": "https://www.linkedin.com/company/salienz_/",
+    "x": "https://x.com/Salienz_co",
+    "slug": "salienz"
   }
 ];

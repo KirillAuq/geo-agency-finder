@@ -5746,5 +5746,103 @@
       "checked": "November 2026",
       "threads": []
     }
+  },
+  {
+    "name": "Salienz",
+    "website": "https://salienz.co",
+    "city": "Mumbai",
+    "country": "India",
+    "region": "Asia-Pacific",
+    "specialist": true,
+    "priceMonthlyUSD": 5499,
+    "description": "Mumbai agency focused entirely on AI visibility for B2B SaaS in five verticals: cybersecurity, legal tech, regtech, recruiting software and finance ops. Runs AEO, GEO, Reddit marketing, cite-ready content and link building as one program, measured by its own Salienz Score across seven engines.",
+    "services": [
+      "AI visibility tracking",
+      "Content for LLM citation",
+      "Digital PR & mentions",
+      "Listicle placements",
+      "Technical GEO",
+      "Classic SEO"
+    ],
+    "clients": [],
+    "priceNote": "Published in full: free 195-answer audit; Foundation audit $800 one time; Domination $5,499/mo and Expansion $8,499/mo, both on a 3-month minimum.",
+    "contactUrl": "https://salienz.co/contact",
+    "email": "hello@salienz.co",
+    "linkedin": "https://www.linkedin.com/company/salienz_/",
+    "x": "https://x.com/Salienz_co",
+    "caseStudies": [
+      {
+        "title": "Herd Security: visibility baseline across 7 engines",
+        "url": "https://salienz.co/case-studies/herd-security",
+        "summary": "Baseline measured October 2026: a 0.5/100 Salienz Score on the 90 unbranded questions, across 7 engines and 10 competitors. Published with the full prompt set and protocol."
+      },
+      {
+        "title": "Malbek: first when named, tenth when not",
+        "url": "https://salienz.co/case-studies/malbek",
+        "summary": "Baseline September 2026: tenth of 11 brands on the 67 questions naming no vendor, from 124 questions across 7 engines."
+      },
+      {
+        "title": "Sequence: 0.9/100 unbranded visibility baseline",
+        "url": "https://salienz.co/case-studies/sequence",
+        "summary": "Baseline September 2026: 0.9/100 average visibility on the 90 unbranded questions, measured across 7 engines against 15 competitors."
+      }
+    ],
+    "strengths": [
+      "Publishes every price, from the free audit to the $8,499 per month Expansion plan, with deliverable counts per tier",
+      "Case studies name the instrument: prompt set, competitor set, engines and a protocol a re-test can be run against",
+      "Original research ships with full data pages, including a 7,385-answer study of AI security shortlists",
+      "Pricing page states who each tier is for by ARR band, a rare piece of self-qualification"
+    ],
+    "weaknesses": [
+      "All five case studies are baselines; no before-and-after client results published yet",
+      "Case-study companies are not explicitly identified as paying clients",
+      "Narrow by design: five B2B SaaS verticals, so fit outside cybersecurity, legal tech, regtech, recruiting and finance ops is untested"
+    ],
+    "scores": {
+      "aiContent": {
+        "score": 5,
+        "evidence": "Cite-ready content is the core productized offer: comparison, vs, alternatives and prompt-led pages, with 30 to 45 assets a month in published plans"
+      },
+      "thoughtLeadership": {
+        "score": 5,
+        "evidence": "Original research with full data pages: a 7,385-answer AI security shortlist study and a 9,327-answer audit-size test"
+      },
+      "linkbuilding": {
+        "score": 5,
+        "evidence": "Dedicated service spanning digital PR, review platforms, guest placement, Wikipedia and unlinked mention recovery; 6 to 12 guest posts a month in published plans"
+      },
+      "mentionBuilding": {
+        "score": 5,
+        "evidence": "Listicle and review-platform placements productized with volumes in public pricing, up to 25 placements a month, targeted by engine citations rather than domain ratings"
+      },
+      "customOutreach": {
+        "score": 4,
+        "evidence": "Digital PR pitched on newsworthy assets and moderator-agreed Reddit AMA programs; process described, outcomes not yet documented"
+      },
+      "technicalGeo": {
+        "score": 5,
+        "evidence": "Search Foundations covers crawling, indexing, page speed and structured data matched to the visible page as the first cycle of every engagement"
+      },
+      "promptAnalytics": {
+        "score": 5,
+        "evidence": "Proprietary Salienz Score across 7 engines; 524 buyer prompts tracked; per-study prompt sets and re-runnable protocols published"
+      },
+      "conversionTracking": {
+        "score": 3,
+        "evidence": "Day-14 forecast and a monthly one-page board summary in retainers; no conversion or revenue attribution described"
+      },
+      "contentDesign": {
+        "score": 4,
+        "evidence": "Cite-ready formatting is a named deliverable: answer-first structure, one idea per passage, claims that commit"
+      },
+      "development": {
+        "score": 4,
+        "evidence": "AEO service rebuilds pages for answer lift with FAQ and comparison architecture; no standalone development offering described"
+      }
+    },
+    "reddit": {
+      "checked": "November 2026",
+      "threads": []
+    }
   }
 ]
